@@ -1,0 +1,37 @@
+name: Sync Breakaway ride data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-breakaway-rides
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch privacy-filtered ride data
+        run: |
+          mkdir -p data
+          curl --fail --silent --show-error --retry 3 \
+            "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/chat/rides/latest" \
+            --output data/latest.json
+          curl --fail --silent --show-error --retry 3 \
+            "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/chat/rides/recent?limit=20" \
+            --output data/recent.json
+          jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/latest.json >/dev/null
+          jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/recent.json >/dev/null
+      - name: Publish updated snapshots
+        run: |
+          git config user.name "breakaway-data-bot"
+          git config user.email "breakaway-data-bot@users.noreply.github.com"
+          git add data/latest.json data/recent.json
+          git diff --cached --quiet || git commit -m "Update Breakaway ride data"
+          git push

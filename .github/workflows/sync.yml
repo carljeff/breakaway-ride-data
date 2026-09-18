@@ -3,7 +3,10 @@ name: Sync Breakaway ride data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # GitHub cron uses UTC. Run at both possible offsets, then continue only
+    # when it is 10:00 a.m. in America/New_York (EDT or EST).
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
 
 permissions:
   contents: write
@@ -16,8 +19,18 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Eastern time
+        id: eastern
+        run: |
+          if [ "$(TZ=America/New_York date +%H)" = "10" ]; then
+            echo "is_ten=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "is_ten=false" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
       - name: Fetch privacy-filtered ride data
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
         run: |
           mkdir -p data
           curl --fail --silent --show-error --retry 3 \
@@ -29,6 +42,7 @@ jobs:
           jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/latest.json >/dev/null
           jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/recent.json >/dev/null
       - name: Publish updated snapshots
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
         run: |
           git config user.name "breakaway-data-bot"
           git config user.email "breakaway-data-bot@users.noreply.github.com"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-01T14:21:24.652Z",
+  "updatedAt": "2026-10-01T14:21:58.977Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -38,7 +38,7 @@
       }
     },
     "targets": {
-      "weeklyRides": 4,
+      "weeklyRides": 3,
       "qualitySessions": 2,
       "additionalRide": "Longer Zone 2 ride when the schedule permits.",
       "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."

@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-01T14:00:00Z",
+  "timezone": "America/Indiana/Indianapolis",
+  "season": {
+    "goal": "Fat & Skinny Tire Fest 2027",
+    "targetEvent": {
+      "name": "Fat & Skinny Tire Fest",
+      "season": "Spring 2027",
+      "category": "Masters 40+ Cat 4/Novice",
+      "format": "Circuit road race"
+    }
+  },
+  "phase": {
+    "name": "Build",
+    "startDate": "2026-08-31",
+    "approximateWeeks": 12
+  },
+  "block": {
+    "name": "Threshold + Repeatability",
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-01",
+    "approximateWeeks": 4,
+    "focus": "Raise sustainable threshold while retaining short-power repeatability and Friday race craft.",
+    "goals": [
+      "Raise sustainable threshold.",
+      "Improve repeatability after accumulated fatigue.",
+      "Preserve strong 1–3 minute power.",
+      "Rebuild 5–30 second snap."
+    ],
+    "ftp": {
+      "currentWatts": 235,
+      "baselineWatts": 235,
+      "baselineDate": "2026-10-05",
+      "springTargetWatts": {
+        "min": 250,
+        "max": 255
+      }
+    },
+    "targets": {
+      "weeklyRides": 3,
+      "qualitySessions": 2,
+      "additionalRide": "Longer Zone 2 ride when the schedule permits.",
+      "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."
+    },
+    "thresholdProgression": [
+      {
+        "step": 1,
+        "prescription": "3×10 min",
+        "intensityPercentFtp": {
+          "min": 90,
+          "max": 95
+        }
+      },
+      {
+        "step": 2,
+        "prescription": "2×15 min",
+        "intensityPercentFtp": {
+          "min": 90,
+          "max": 95
+        }
+      },
+      {
+        "step": 3,
+        "prescription": "2×20 min",
+        "intensityPercentFtp": {
+          "min": 90,
+          "max": 95
+        }
+      },
+      {
+        "step": 4,
+        "prescription": "Progress closer to threshold as tolerated",
+        "intensityPercentFtp": {
+          "min": 95,
+          "max": 100
+        }
+      }
+    ],
+    "friday": {
+      "primary": {
+        "type": "Zwift race",
+        "durationMinutes": {
+          "min": 45,
+          "max": 70
+        },
+        "guidance": "Choose a useful race and let the race dictate the intensity."
+      },
+      "fallback": {
+        "type": "Upper-B RoboPacer durability ride",
+        "durationMinutes": 60,
+        "guidance": "Stay efficiently attached for approximately 60 minutes."
+      }
+    },
+    "raceCraft": {
+      "bunchFinish": {
+        "cue": "Launch earlier than instinct.",
+        "goZoneMilesRemaining": 0.5,
+        "initiateIfWaitingMilesRemaining": 0.3,
+        "emptyTankMilesRemaining": 0.1,
+        "priority": "For now, finishing empty after going slightly early is preferable to finishing with a major match unused."
+      }
+    },
+    "weeks": [
+      {
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-04",
+        "label": "Post-travel re-entry",
+        "emphasis": "Restore rhythm without carrying fatigue",
+        "rideTarget": 2,
+        "qualitySessions": 1,
+        "recovery": true,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Travel recovery",
+            "detail": "Rest, walk, and keep moving gently",
+            "kind": "recovery"
+          },
+          {
+            "day": "TUE",
+            "title": "Return + reset",
+            "detail": "No structured training",
+            "kind": "recovery"
+          },
+          {
+            "day": "WED",
+            "title": "Easy endurance",
+            "detail": "45 min conversational spin",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Optional race openers",
+            "detail": "25–30 min · keep it light",
+            "kind": "easy",
+            "rideExpected": true
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race or RoboPacer",
+            "detail": "Race only if your legs feel normal",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          }
+        ]
+      },
+      {
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-11",
+        "label": "Threshold + Repeatability · Week 1",
+        "emphasis": "3×10 min at 90–95% FTP",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Strength · full body",
+            "detail": "30–40 min · lower-body emphasis",
+            "kind": "hard",
+            "strengthExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold progression",
+            "detail": "3×10 min at 90–95% FTP",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Endurance + strength",
+            "detail": "60 min easy · 15 min upper/core",
+            "kind": "steady",
+            "rideExpected": true,
+            "strengthExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Race openers",
+            "detail": "35 min · keep it light",
+            "kind": "easy",
+            "rideExpected": true
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race or RoboPacer",
+            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          }
+        ]
+      },
+      {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-18",
+        "label": "Threshold + Repeatability · Week 2",
+        "emphasis": "2×15 min at 90–95% FTP",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Strength · full body",
+            "detail": "30–40 min · lower-body emphasis",
+            "kind": "hard",
+            "strengthExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold progression",
+            "detail": "2×15 min at 90–95% FTP",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Endurance + strength",
+            "detail": "60–75 min easy · 15 min upper/core",
+            "kind": "steady",
+            "rideExpected": true,
+            "strengthExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Race openers",
+            "detail": "35 min · keep it light",
+            "kind": "easy",
+            "rideExpected": true
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race or RoboPacer",
+            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          }
+        ]
+      },
+      {
+        "startDate": "2026-10-19",
+        "endDate": "2026-10-25",
+        "label": "Threshold + Repeatability · Week 3",
+        "emphasis": "2×20 min at 90–95% FTP",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Strength · full body",
+            "detail": "30–40 min · lower-body emphasis",
+            "kind": "hard",
+            "strengthExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold progression",
+            "detail": "2×20 min at 90–95% FTP",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Endurance + strength",
+            "detail": "75 min easy · 15 min upper/core",
+            "kind": "steady",
+            "rideExpected": true,
+            "strengthExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Race openers",
+            "detail": "30–35 min · keep it light",
+            "kind": "easy",
+            "rideExpected": true
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race or RoboPacer",
+            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          }
+        ]
+      },
+      {
+        "startDate": "2026-10-26",
+        "endDate": "2026-11-01",
+        "label": "Threshold + Repeatability · Week 4",
+        "emphasis": "Progress closer to threshold as tolerated",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Strength · full body",
+            "detail": "Reduce load if Friday fatigue lingers",
+            "kind": "hard",
+            "strengthExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold progression",
+            "detail": "Progress closer to FTP as tolerated",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Endurance + strength",
+            "detail": "60–75 min easy · 15 min upper/core",
+            "kind": "steady",
+            "rideExpected": true,
+            "strengthExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Race openers",
+            "detail": "25–30 min · finish fresh",
+            "kind": "easy",
+            "rideExpected": true
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race or RoboPacer",
+            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family"
+          }
+        ]
+      }
+    ]
+  }
+}

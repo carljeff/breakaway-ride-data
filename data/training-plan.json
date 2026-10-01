@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-01T14:23:55.903Z",
+  "updatedAt": "2026-10-01T15:44:42.509Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -38,7 +38,7 @@
       }
     },
     "targets": {
-      "weeklyRides": 3,
+      "weeklyRides": 2,
       "qualitySessions": 2,
       "additionalRide": "Longer Zone 2 ride when the schedule permits.",
       "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."
@@ -79,12 +79,12 @@
     ],
     "friday": {
       "primary": {
-        "type": "Zwift race",
+        "type": "Upper-B RoboPacer durability ride",
         "durationMinutes": {
           "min": 45,
           "max": 70
         },
-        "guidance": "Choose a useful race and let the race dictate the intensity."
+        "guidance": "This week, use the upper-B RoboPacer instead of racing; stay efficiently attached and aim for about 60 minutes if the legs cooperate."
       },
       "fallback": {
         "type": "Upper-B RoboPacer durability ride",

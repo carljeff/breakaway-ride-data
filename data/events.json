@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-02T00:00:00Z",
+  "homeBase": "Indianapolis, IN",
+  "preferences": {
+    "includedTypes": [
+      "Road",
+      "Circuit",
+      "Track"
+    ],
+    "excludedFormats": [
+      "Criterium",
+      "Mountain bike",
+      "Gravel",
+      "Running",
+      "Triathlon",
+      "Gran fondo",
+      "Recreational ride"
+    ],
+    "priorityCategories": [
+      "Masters 40+",
+      "Cat 4",
+      "Novice"
+    ]
+  },
+  "refresh": {
+    "recommendedCadence": "Weekly during calendar-release season",
+    "automationConfigured": false
+  },
+  "events": [
+    {
+      "id": "fat-skinny-tire-fest-2027-road",
+      "name": "Fat & Skinny Tire Fest · Zimmer Biomet Road Race",
+      "startDate": "2027-05-21",
+      "endDate": "2027-05-23",
+      "dateLabel": "May 21–23, 2027",
+      "city": "Winona Lake",
+      "state": "IN",
+      "distanceFromIndianapolisMiles": 125,
+      "type": "Circuit",
+      "categories": [
+        "2027 categories not yet published",
+        "Masters and Cat/Novice divisions offered historically"
+      ],
+      "status": "announced",
+      "registrationUrl": null,
+      "officialUrl": "https://www.kcvcycling.org/fat-skinny-tire-fest",
+      "sources": [
+        {
+          "name": "Kosciusko County Velo",
+          "url": "https://www.kcvcycling.org/fat-skinny-tire-fest",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-02",
+      "relevanceTags": [
+        "A-event",
+        "Indiana",
+        "Circuit",
+        "Road",
+        "Midwest Cup"
+      ],
+      "relevanceScore": 99,
+      "notes": "The target festival is announced for 2027. Watch for the road-race category sheet and registration before treating historical categories as confirmed."
+    },
+    {
+      "id": "major-taylor-racing-league-2027",
+      "name": "Major Taylor Racing League",
+      "startDate": null,
+      "dateLabel": "2027 schedule not published",
+      "city": "Indianapolis",
+      "state": "IN",
+      "distanceFromIndianapolisMiles": 6,
+      "type": "Track",
+      "categories": [
+        "Weekly track racing",
+        "2027 categories TBD"
+      ],
+      "status": "watching",
+      "registrationUrl": null,
+      "officialUrl": "https://indycycloplex.com/track",
+      "sources": [
+        {
+          "name": "Indy Cycloplex",
+          "url": "https://indycycloplex.com/track",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-02",
+      "relevanceTags": [
+        "Major Taylor Velodrome",
+        "Local",
+        "Track",
+        "Race craft"
+      ],
+      "relevanceScore": 94,
+      "notes": "Highly relevant local racing. The current program races on Thursday evenings, but the 2027 calendar has not been published.",
+      "historicalBasis": {
+        "year": 2026,
+        "details": "Major Taylor Racing League listed Thursday-evening racing."
+      }
+    },
+    {
+      "id": "parkside-throwdown-2027",
+      "name": "Indy Cycloplex Parkside Throwdown",
+      "startDate": null,
+      "dateLabel": "2027 edition not yet announced",
+      "city": "Indianapolis",
+      "state": "IN",
+      "distanceFromIndianapolisMiles": 6,
+      "type": "Road",
+      "categories": [
+        "Masters 40+ historically",
+        "Cat 4 historically",
+        "2027 categories TBD"
+      ],
+      "status": "watching",
+      "registrationUrl": null,
+      "officialUrl": "https://indycycloplex.com/schedule",
+      "sources": [
+        {
+          "name": "Indy Cycloplex",
+          "url": "https://indycycloplex.com/schedule",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-02",
+      "relevanceTags": [
+        "Local",
+        "Masters 40+",
+        "Cat 4",
+        "Road"
+      ],
+      "relevanceScore": 91,
+      "notes": "A strong local fit if the road-race format and Masters/Cat 4 fields return. Do not treat the date or fields as confirmed yet.",
+      "historicalBasis": {
+        "year": 2026,
+        "details": "Results included a Masters 40+ Cat 1/2/3/4 field."
+      }
+    },
+    {
+      "id": "ohio-state-road-race-2027",
+      "name": "Ohio State Road Race Championship",
+      "startDate": null,
+      "dateLabel": "2027 edition not yet announced",
+      "city": "Litchfield",
+      "state": "OH",
+      "distanceFromIndianapolisMiles": 245,
+      "type": "Road",
+      "categories": [
+        "Masters 35+ historically",
+        "Cat 4/5 historically",
+        "2027 categories TBD"
+      ],
+      "status": "watching",
+      "registrationUrl": null,
+      "officialUrl": "https://www.bikereg.com/ohio-state-road-race-championship",
+      "sources": [
+        {
+          "name": "BikeReg",
+          "url": "https://www.bikereg.com/ohio-state-road-race-championship",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-02",
+      "relevanceTags": [
+        "Road race",
+        "Masters",
+        "Cat 4/5",
+        "Midwest"
+      ],
+      "relevanceScore": 75,
+      "notes": "Farther from Indianapolis, but a useful pure road-race option if the 2027 edition returns with suitable categories.",
+      "historicalBasis": {
+        "year": 2026,
+        "details": "The 2026 event offered Masters 35+ and Cat 4/5 road-race fields."
+      }
+    }
+  ]
+}

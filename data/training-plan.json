@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-01T15:44:42.509Z",
+  "updatedAt": "2026-10-02T14:09:25.229Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -38,7 +38,7 @@
       }
     },
     "targets": {
-      "weeklyRides": 2,
+      "weeklyRides": 3,
       "qualitySessions": 2,
       "additionalRide": "Longer Zone 2 ride when the schedule permits.",
       "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."
@@ -79,12 +79,12 @@
     ],
     "friday": {
       "primary": {
-        "type": "Upper-B RoboPacer durability ride",
+        "type": "Zwift race",
         "durationMinutes": {
           "min": 45,
           "max": 70
         },
-        "guidance": "This week, use the upper-B RoboPacer instead of racing; stay efficiently attached and aim for about 60 minutes if the legs cooperate."
+        "guidance": "Race if HR and legs feel normal; otherwise use the upper-B RoboPacer durability ride."
       },
       "fallback": {
         "type": "Upper-B RoboPacer durability ride",
@@ -162,43 +162,42 @@
         "startDate": "2026-10-05",
         "endDate": "2026-10-11",
         "label": "Threshold + Repeatability · Week 1",
-        "emphasis": "3×10 min at 90–95% FTP",
+        "emphasis": "Re-enter structured work while protecting recovery; Tuesday threshold is the key test.",
         "rideTarget": 3,
         "qualitySessions": 2,
         "workouts": [
           {
             "day": "MON",
-            "title": "Strength · full body",
-            "detail": "30–40 min · lower-body emphasis",
-            "kind": "hard",
-            "strengthExpected": true
+            "title": "Optional light spin",
+            "detail": "20–40 min very easy only if you feel genuinely good; otherwise rest",
+            "kind": "easy",
+            "rideExpected": false
           },
           {
             "day": "TUE",
             "title": "Threshold progression",
-            "detail": "3×10 min at 90–95% FTP",
+            "detail": "3×10 min at 90–95% FTP (212–223 W); back off if HR is unusually elevated",
             "kind": "hard",
             "rideExpected": true
           },
           {
             "day": "WED",
-            "title": "Endurance + strength",
-            "detail": "60 min easy · 15 min upper/core",
+            "title": "Optional easy endurance",
+            "detail": "45–60 min conversational only if recovered from Tuesday",
             "kind": "steady",
-            "rideExpected": true,
-            "strengthExpected": true
+            "rideExpected": false
           },
           {
             "day": "THU",
-            "title": "Race openers",
-            "detail": "35 min · keep it light",
+            "title": "Rest or light openers",
+            "detail": "Rest by default; 20–30 min light spin/openers only if legs feel normal",
             "kind": "easy",
-            "rideExpected": true
+            "rideExpected": false
           },
           {
             "day": "FRI",
-            "title": "Zwift race or RoboPacer",
-            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "title": "Zwift race or Upper-B RoboPacer",
+            "detail": "Race if HR and legs feel normal; otherwise use an upper-B RoboPacer durability ride",
             "kind": "key",
             "rideExpected": true
           },

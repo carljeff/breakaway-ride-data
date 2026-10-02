@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-02T16:21:23.283Z",
+  "updatedAt": "2026-10-02T16:24:41.573Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -25,7 +25,7 @@
   },
   "refresh": {
     "recommendedCadence": "Weekly during calendar-release season",
-    "automationConfigured": false
+    "automationConfigured": true
   },
   "events": [
     {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-02T14:09:25.229Z",
+  "updatedAt": "2026-10-06T14:30:24.770Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -235,7 +235,23 @@
             "title": "Threshold progression",
             "detail": "2×15 min at 90–95% FTP",
             "kind": "hard",
-            "rideExpected": true
+            "rideExpected": true,
+            "zwiftWorkout": {
+              "name": "Threshold Pushing",
+              "source": "What's on Zwift",
+              "sourceUrl": "https://whatsonzwift.com/workouts/best-of-zwift-academy/za-2017-threshold-pushing",
+              "durationMinutes": 85.5,
+              "description": "A progressive warm-up followed by two sustained threshold-pushing efforts.",
+              "matchQuality": "excellent",
+              "matchReason": "Its main set is exactly 2×15 min at 95% FTP, matching the prescribed interval length and the top of the intended 90–95% range.",
+              "mainSet": "2×15 min @ 95% FTP · 10 min recovery",
+              "targetFtpPercent": {
+                "min": 95,
+                "max": 95
+              },
+              "stressPoints": 89,
+              "notes": "Use the prescribed 2×15 structure as the source of truth; the longer Zwift warm-up and cool-down are optional if time is limited."
+            }
           },
           {
             "day": "WED",
@@ -293,7 +309,23 @@
             "title": "Threshold progression",
             "detail": "2×20 min at 90–95% FTP",
             "kind": "hard",
-            "rideExpected": true
+            "rideExpected": true,
+            "zwiftWorkout": {
+              "name": "XX SST 2 x 20min",
+              "source": "What's on Zwift",
+              "sourceUrl": "https://whatsonzwift.com/workouts/sweet-spot/xx-sst-2-x-20min",
+              "durationMinutes": 76,
+              "description": "Two 20-minute sweet-spot blocks with brief controlled surges.",
+              "matchQuality": "good",
+              "matchReason": "It preserves two 20-minute work blocks and averages approximately 95% FTP across each repeating cycle, while the short surges also support this block's repeatability goal.",
+              "mainSet": "2×20 min: 1:30 @ 90% / 0:30 @ 110% · 10 min recovery",
+              "targetFtpPercent": {
+                "min": 90,
+                "max": 110
+              },
+              "stressPoints": 90,
+              "notes": "This is more demanding than steady 90–95% work. If fatigue is elevated, follow the original steady 2×20 prescription instead."
+            }
           },
           {
             "day": "WED",
@@ -351,7 +383,23 @@
             "title": "Threshold progression",
             "detail": "Progress closer to FTP as tolerated",
             "kind": "hard",
-            "rideExpected": true
+            "rideExpected": true,
+            "zwiftWorkout": {
+              "name": "2x15 FTP Intervals",
+              "source": "What's on Zwift",
+              "sourceUrl": "https://whatsonzwift.com/workouts/30-60-minutes-to-burn/2x15-ftp-intervals",
+              "durationMinutes": 55,
+              "description": "Two controlled 15-minute efforts at FTP with generous recovery.",
+              "matchQuality": "good",
+              "matchReason": "It moves the work to 100% FTP as intended for the block's final progression, while keeping total threshold time manageable ahead of Friday.",
+              "mainSet": "2×15 min @ 100% FTP · 10 min recovery",
+              "targetFtpPercent": {
+                "min": 100,
+                "max": 100
+              },
+              "stressPoints": 72,
+              "notes": "Choose this only if Tuesday legs and heart rate feel normal. Otherwise repeat the prior week's 90–95% prescription rather than forcing 100% FTP."
+            }
           },
           {
             "day": "WED",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0",
-  "updatedAt": "2026-10-06T14:30:24.770Z",
+  "schemaVersion": "1.1",
+  "updatedAt": "2026-10-06T14:33:12.845Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -240,17 +240,17 @@
               "name": "Threshold Pushing",
               "source": "What's on Zwift",
               "sourceUrl": "https://whatsonzwift.com/workouts/best-of-zwift-academy/za-2017-threshold-pushing",
-              "durationMinutes": 85.5,
-              "description": "A progressive warm-up followed by two sustained threshold-pushing efforts.",
+              "durationMinutes": 86,
+              "description": "A threshold workout built around two sustained 15-minute efforts.",
               "matchQuality": "excellent",
-              "matchReason": "Its main set is exactly 2×15 min at 95% FTP, matching the prescribed interval length and the top of the intended 90–95% range.",
+              "matchReason": "Contains 2×15 minutes at 95% FTP with 10 minutes recovery, closely matching the prescribed 2×15 minutes at 90–95% FTP.",
               "mainSet": "2×15 min @ 95% FTP · 10 min recovery",
               "targetFtpPercent": {
                 "min": 95,
                 "max": 95
               },
               "stressPoints": 89,
-              "notes": "Use the prescribed 2×15 structure as the source of truth; the longer Zwift warm-up and cool-down are optional if time is limited."
+              "notes": "Use the prescribed 90–95% range as the authority; reduce intensity if fatigue warrants it."
             }
           },
           {

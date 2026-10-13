@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "year": 2018,
+  "generatedAt": "2026-10-13T22:46:54.838Z",
+  "rides": [
+    {
+      "id": "ride_05eb03096ab3fe48449d",
+      "date": "2018-04-21",
+      "startTime": "2018-04-21T13:12:24Z",
+      "startTimeLocal": "2018-04-21T09:12:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3124,
+      "elapsedSeconds": 4793,
+      "distanceMeters": 20190,
+      "elevationGainMeters": 93,
+      "power": {
+        "averageWatts": 105,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": 133,
+        "maxBpm": 180
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ab298e493c926affdc5c",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_05eb03096ab3fe48449d"
+    }
+  ],
+  "count": 1,
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

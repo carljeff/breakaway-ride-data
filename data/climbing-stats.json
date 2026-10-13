@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0",
+  "refreshedAt": "2026-10-13T22:46:57.131Z",
+  "climbPortal": {
+    "totalCompletions": 20,
+    "firstCompletion": "2024-05-03",
+    "mostRecentCompletion": "2026-10-01",
+    "byClimb": {
+      "Cheddar Gorge": {
+        "completions": 1,
+        "activityIds": [
+          "ride_dde01dde6ca693e47426"
+        ]
+      },
+      "Cote de Pike": {
+        "completions": 2,
+        "activityIds": [
+          "ride_2fb6bbb4718ce99867b6",
+          "ride_03c8ab026b676c3a9423"
+        ]
+      },
+      "Col du Platzerwasel": {
+        "completions": 2,
+        "activityIds": [
+          "ride_9bc9cd859c3f5dbdf2a1",
+          "ride_ccedeab95dbdfa621498"
+        ]
+      },
+      "Côte des Forche": {
+        "completions": 1,
+        "activityIds": [
+          "ride_be3b351e798a4fbb7fc2"
+        ]
+      },
+      "Col du Galibier (Lautaret)": {
+        "completions": 1,
+        "activityIds": [
+          "ride_4f4235d2e29344ff807e"
+        ]
+      },
+      "Côte de la Redoute": {
+        "completions": 2,
+        "activityIds": [
+          "ride_514a162afceae83a2703",
+          "ride_d4e451fe650866a8dbf9"
+        ]
+      },
+      "Col de Peyresourde (Avajan)": {
+        "completions": 2,
+        "activityIds": [
+          "ride_bdf1edde3903d3f70e39",
+          "ride_821646cc91a4f587f02d"
+        ]
+      },
+      "Col de la Croix Saint-Robert": {
+        "completions": 1,
+        "activityIds": [
+          "ride_32157c8ed9b47fc41a82"
+        ]
+      },
+      "Old La Honda": {
+        "completions": 1,
+        "activityIds": [
+          "ride_90f27fa55b5e1e4e4283"
+        ]
+      },
+      "Bealach na Ba": {
+        "completions": 1,
+        "activityIds": [
+          "ride_75aa83c50cc9c36b325d"
+        ]
+      },
+      "Hardknott Pass": {
+        "completions": 1,
+        "activityIds": [
+          "ride_2729172f3fd5eba2fc84"
+        ]
+      },
+      "Coll d'Ordino": {
+        "completions": 1,
+        "activityIds": [
+          "ride_9bdfd2d873f2767d01ab"
+        ]
+      },
+      "Pas de Peyrol/Puy Mary": {
+        "completions": 1,
+        "activityIds": [
+          "ride_c7bc6f1ee9b4531dc64f"
+        ]
+      },
+      "Poggio": {
+        "completions": 1,
+        "activityIds": [
+          "ride_d3ab850949e508590863"
+        ]
+      },
+      "Cote de Domancy": {
+        "completions": 1,
+        "activityIds": [
+          "ride_5c010d691a5c4d4c0f41"
+        ]
+      },
+      "Col du Rosier": {
+        "completions": 1,
+        "activityIds": [
+          "ride_e9951be72f65bb5869f9"
+        ]
+      }
+    },
+    "byElevationScaling": {
+      "100%": {
+        "completions": 18,
+        "activityIds": [
+          "ride_dde01dde6ca693e47426",
+          "ride_2fb6bbb4718ce99867b6",
+          "ride_9bc9cd859c3f5dbdf2a1",
+          "ride_be3b351e798a4fbb7fc2",
+          "ride_4f4235d2e29344ff807e",
+          "ride_514a162afceae83a2703",
+          "ride_bdf1edde3903d3f70e39",
+          "ride_ccedeab95dbdfa621498",
+          "ride_821646cc91a4f587f02d",
+          "ride_32157c8ed9b47fc41a82",
+          "ride_90f27fa55b5e1e4e4283",
+          "ride_75aa83c50cc9c36b325d",
+          "ride_2729172f3fd5eba2fc84",
+          "ride_9bdfd2d873f2767d01ab",
+          "ride_c7bc6f1ee9b4531dc64f",
+          "ride_d3ab850949e508590863",
+          "ride_5c010d691a5c4d4c0f41",
+          "ride_e9951be72f65bb5869f9"
+        ]
+      },
+      "125%": {
+        "completions": 2,
+        "activityIds": [
+          "ride_03c8ab026b676c3a9423",
+          "ride_d4e451fe650866a8dbf9"
+        ]
+      }
+    },
+    "activityIds": [
+      "ride_dde01dde6ca693e47426",
+      "ride_2fb6bbb4718ce99867b6",
+      "ride_9bc9cd859c3f5dbdf2a1",
+      "ride_be3b351e798a4fbb7fc2",
+      "ride_4f4235d2e29344ff807e",
+      "ride_514a162afceae83a2703",
+      "ride_bdf1edde3903d3f70e39",
+      "ride_ccedeab95dbdfa621498",
+      "ride_821646cc91a4f587f02d",
+      "ride_32157c8ed9b47fc41a82",
+      "ride_90f27fa55b5e1e4e4283",
+      "ride_03c8ab026b676c3a9423",
+      "ride_75aa83c50cc9c36b325d",
+      "ride_2729172f3fd5eba2fc84",
+      "ride_9bdfd2d873f2767d01ab",
+      "ride_c7bc6f1ee9b4531dc64f",
+      "ride_d3ab850949e508590863",
+      "ride_5c010d691a5c4d4c0f41",
+      "ride_d4e451fe650866a8dbf9",
+      "ride_e9951be72f65bb5869f9"
+    ],
+    "countingRule": "Every identified Climb Portal attempt is counted as a completed ascent; one ascent per qualifying activity unless multiple ascents are explicit."
+  },
+  "alpeDuZwift": {
+    "totalAscents": 3,
+    "verified": 0,
+    "likely": 3,
+    "activities": [
+      {
+        "activityId": "ride_16b53ac2518b62259aef",
+        "date": "2024-02-11",
+        "name": "Zwift - Road to Sky in Watopia",
+        "confidence": "likely"
+      },
+      {
+        "activityId": "ride_8b603ce8d780e32d9430",
+        "date": "2024-11-15",
+        "name": "Zwift - Road to Sky in Watopia",
+        "confidence": "likely"
+      },
+      {
+        "activityId": "ride_2414768e50cac984adc4",
+        "date": "2026-07-21",
+        "name": "Zwift - Road to Sky in Watopia",
+        "confidence": "likely"
+      }
+    ]
+  },
+  "achievementProgress": {
+    "climbPortalDistinctClimbs": 16,
+    "alpeDuZwiftAscents": 3
+  },
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

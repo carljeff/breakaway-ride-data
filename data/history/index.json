@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-10-13T22:46:46.573Z",
+  "totalActivities": 348,
+  "earliestRideDate": "2016-07-23",
+  "latestRideDate": "2026-10-13",
+  "availableYears": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2018,
+    2016
+  ],
+  "files": [
+    {
+      "year": 2026,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2026.json"
+    },
+    {
+      "year": 2025,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2025.json"
+    },
+    {
+      "year": 2024,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2024.json"
+    },
+    {
+      "year": 2023,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2023.json"
+    },
+    {
+      "year": 2022,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2022.json"
+    },
+    {
+      "year": 2018,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2018.json"
+    },
+    {
+      "year": 2016,
+      "url": "https://carljeff.github.io/breakaway-ride-data/data/history/2016.json"
+    }
+  ],
+  "climbingStatsUrl": "https://carljeff.github.io/breakaway-ride-data/data/climbing-stats.json",
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

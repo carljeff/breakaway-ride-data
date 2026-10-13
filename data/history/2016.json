@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "year": 2016,
+  "generatedAt": "2026-10-13T22:46:56.055Z",
+  "rides": [
+    {
+      "id": "ride_56e99b4eb71cb64b7259",
+      "date": "2016-07-26",
+      "startTime": "2016-07-26T21:35:13Z",
+      "startTimeLocal": "2016-07-26T17:35:13Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3573,
+      "elapsedSeconds": 3630,
+      "distanceMeters": 25444,
+      "elevationGainMeters": 46,
+      "power": {
+        "averageWatts": 143,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ddaa8d0b56541aca60d0",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_56e99b4eb71cb64b7259"
+    },
+    {
+      "id": "ride_ba69acb699c1f84f7e45",
+      "date": "2016-07-23",
+      "startTime": "2016-07-23T17:03:46Z",
+      "startTimeLocal": "2016-07-23T13:03:46Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "10 mile",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 1810,
+      "elapsedSeconds": 1815,
+      "distanceMeters": 16238,
+      "elevationGainMeters": 67,
+      "power": {
+        "averageWatts": 196,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_388d01d3abe283008aae",
+        "name": "10 mile"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ba69acb699c1f84f7e45"
+    },
+    {
+      "id": "ride_f1260a5f7b4054acb05e",
+      "date": "2016-07-23",
+      "startTime": "2016-07-23T16:42:23Z",
+      "startTimeLocal": "2016-07-23T12:42:23Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 1045,
+      "elapsedSeconds": 1149,
+      "distanceMeters": 7527,
+      "elevationGainMeters": 39,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_20281cfc641d9f042d5f",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f1260a5f7b4054acb05e"
+    },
+    {
+      "id": "ride_538bab6af353fedef194",
+      "date": "2016-07-23",
+      "startTime": "2016-07-23T16:29:10Z",
+      "startTimeLocal": "2016-07-23T12:29:10Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 629,
+      "elapsedSeconds": 709,
+      "distanceMeters": 4076,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_941e8d02ca9ff38bda02",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_538bab6af353fedef194"
+    }
+  ],
+  "count": 4,
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

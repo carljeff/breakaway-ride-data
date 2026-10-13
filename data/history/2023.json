@@ -1,0 +1,1380 @@
+{
+  "schemaVersion": "1.0",
+  "year": 2023,
+  "generatedAt": "2026-10-13T22:46:52.281Z",
+  "rides": [
+    {
+      "id": "ride_431f691eb1f9f185b7b0",
+      "date": "2023-09-11",
+      "startTime": "2023-09-11T12:14:48Z",
+      "startTimeLocal": "2023-09-11T08:14:48Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3774,
+      "elapsedSeconds": 3774,
+      "distanceMeters": 30623,
+      "elevationGainMeters": 84,
+      "power": {
+        "averageWatts": 178,
+        "maxWatts": 602,
+        "normalizedWatts": 190,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_431f691eb1f9f185b7b0"
+    },
+    {
+      "id": "ride_33ee06edcfe29ae7263d",
+      "date": "2023-09-09",
+      "startTime": "2023-09-09T17:47:29Z",
+      "startTimeLocal": "2023-09-09T13:47:29Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 7575,
+      "elapsedSeconds": 7690,
+      "distanceMeters": 60437,
+      "elevationGainMeters": 179,
+      "power": {
+        "averageWatts": 160,
+        "maxWatts": 529,
+        "normalizedWatts": 165,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_c50b718e8887a0f1d8ac",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_33ee06edcfe29ae7263d"
+    },
+    {
+      "id": "ride_164bbb9cb29ee589d882",
+      "date": "2023-09-05",
+      "startTime": "2023-09-05T12:01:27Z",
+      "startTimeLocal": "2023-09-05T08:01:27Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3710,
+      "elapsedSeconds": 3730,
+      "distanceMeters": 30605,
+      "elevationGainMeters": 82,
+      "power": {
+        "averageWatts": 183,
+        "maxWatts": 591,
+        "normalizedWatts": 191,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_164bbb9cb29ee589d882"
+    },
+    {
+      "id": "ride_1b938d105d66d1b98958",
+      "date": "2023-09-02",
+      "startTime": "2023-09-02T16:19:33Z",
+      "startTimeLocal": "2023-09-02T12:19:33Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 8616,
+      "elapsedSeconds": 8631,
+      "distanceMeters": 72980,
+      "elevationGainMeters": 206,
+      "power": {
+        "averageWatts": 183,
+        "maxWatts": 636,
+        "normalizedWatts": 194,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ca70cbd86703738cec6a",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_1b938d105d66d1b98958"
+    },
+    {
+      "id": "ride_121642d44187ffedeb10",
+      "date": "2023-09-01",
+      "startTime": "2023-09-01T12:07:09Z",
+      "startTimeLocal": "2023-09-01T08:07:09Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3713,
+      "elapsedSeconds": 3888,
+      "distanceMeters": 30563,
+      "elevationGainMeters": 86,
+      "power": {
+        "averageWatts": 183,
+        "maxWatts": 697,
+        "normalizedWatts": 193,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_121642d44187ffedeb10"
+    },
+    {
+      "id": "ride_eb6d90d54491005ab102",
+      "date": "2023-08-31",
+      "startTime": "2023-08-31T18:26:54Z",
+      "startTimeLocal": "2023-08-31T14:26:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3991,
+      "elapsedSeconds": 4048,
+      "distanceMeters": 31231,
+      "elevationGainMeters": 101,
+      "power": {
+        "averageWatts": 162,
+        "maxWatts": 630,
+        "normalizedWatts": 177,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69ccfec0f5ce21977e05",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_eb6d90d54491005ab102"
+    },
+    {
+      "id": "ride_061ffbb6c27d642fa19b",
+      "date": "2023-08-30",
+      "startTime": "2023-08-30T12:21:24Z",
+      "startTimeLocal": "2023-08-30T08:21:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3749,
+      "elapsedSeconds": 3827,
+      "distanceMeters": 30670,
+      "elevationGainMeters": 92,
+      "power": {
+        "averageWatts": 183,
+        "maxWatts": 758,
+        "normalizedWatts": 196,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_061ffbb6c27d642fa19b"
+    },
+    {
+      "id": "ride_40f53782ed7b486397fe",
+      "date": "2023-08-28",
+      "startTime": "2023-08-28T12:31:35Z",
+      "startTimeLocal": "2023-08-28T08:31:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3813,
+      "elapsedSeconds": 3878,
+      "distanceMeters": 30647,
+      "elevationGainMeters": 85,
+      "power": {
+        "averageWatts": 169,
+        "maxWatts": 626,
+        "normalizedWatts": 187,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 72,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_40f53782ed7b486397fe"
+    },
+    {
+      "id": "ride_a7a5a1592deacc1f8026",
+      "date": "2023-08-27",
+      "startTime": "2023-08-27T16:34:31Z",
+      "startTimeLocal": "2023-08-27T12:34:31Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 8982,
+      "elapsedSeconds": 9070,
+      "distanceMeters": 73089,
+      "elevationGainMeters": 220,
+      "power": {
+        "averageWatts": 158,
+        "maxWatts": 760,
+        "normalizedWatts": 167,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ca70cbd86703738cec6a",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a7a5a1592deacc1f8026"
+    },
+    {
+      "id": "ride_0f20a83468bba78d6350",
+      "date": "2023-08-25",
+      "startTime": "2023-08-25T12:21:27Z",
+      "startTimeLocal": "2023-08-25T08:21:27Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3745,
+      "elapsedSeconds": 3745,
+      "distanceMeters": 30693,
+      "elevationGainMeters": 83,
+      "power": {
+        "averageWatts": 174,
+        "maxWatts": 778,
+        "normalizedWatts": 202,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0f20a83468bba78d6350"
+    },
+    {
+      "id": "ride_b6ae62c09ad64df0b5ee",
+      "date": "2023-08-24",
+      "startTime": "2023-08-24T17:44:12Z",
+      "startTimeLocal": "2023-08-24T13:44:12Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3447,
+      "elapsedSeconds": 3536,
+      "distanceMeters": 27605,
+      "elevationGainMeters": 73,
+      "power": {
+        "averageWatts": 161,
+        "maxWatts": 658,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dc8d5d94a38efcefc555",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b6ae62c09ad64df0b5ee"
+    },
+    {
+      "id": "ride_36e4f8d02b62910dec78",
+      "date": "2023-08-22",
+      "startTime": "2023-08-22T12:12:32Z",
+      "startTimeLocal": "2023-08-22T08:12:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3552,
+      "elapsedSeconds": 3576,
+      "distanceMeters": 27945,
+      "elevationGainMeters": 78,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 610,
+        "normalizedWatts": 192,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0b2e765b31f473351725",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_36e4f8d02b62910dec78"
+    },
+    {
+      "id": "ride_8ce26f65190a5179b800",
+      "date": "2023-08-21",
+      "startTime": "2023-08-21T12:06:13Z",
+      "startTimeLocal": "2023-08-21T08:06:13Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3590,
+      "elapsedSeconds": 3664,
+      "distanceMeters": 27437,
+      "elevationGainMeters": 68,
+      "power": {
+        "averageWatts": 151,
+        "maxWatts": 689,
+        "normalizedWatts": 179,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f8ce418520b9b06d4b21",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8ce26f65190a5179b800"
+    },
+    {
+      "id": "ride_c689ad05acccef8ba741",
+      "date": "2023-08-19",
+      "startTime": "2023-08-19T17:00:18Z",
+      "startTimeLocal": "2023-08-19T13:00:18Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 9138,
+      "elapsedSeconds": 9205,
+      "distanceMeters": 74077,
+      "elevationGainMeters": 211,
+      "power": {
+        "averageWatts": 164,
+        "maxWatts": 693,
+        "normalizedWatts": 178,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3576b3a6d256e95d846e",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c689ad05acccef8ba741"
+    },
+    {
+      "id": "ride_706b02dc9b894e6c9ba6",
+      "date": "2023-08-18",
+      "startTime": "2023-08-18T12:08:35Z",
+      "startTimeLocal": "2023-08-18T08:08:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3542,
+      "elapsedSeconds": 3607,
+      "distanceMeters": 28345,
+      "elevationGainMeters": 69,
+      "power": {
+        "averageWatts": 173,
+        "maxWatts": 636,
+        "normalizedWatts": 191,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0b2e765b31f473351725",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_706b02dc9b894e6c9ba6"
+    },
+    {
+      "id": "ride_f30c508a1164beb10ab3",
+      "date": "2023-08-17",
+      "startTime": "2023-08-17T12:11:24Z",
+      "startTimeLocal": "2023-08-17T08:11:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3311,
+      "elapsedSeconds": 3328,
+      "distanceMeters": 24510,
+      "elevationGainMeters": 48,
+      "power": {
+        "averageWatts": 117,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f30c508a1164beb10ab3"
+    },
+    {
+      "id": "ride_0d099401a62f59db6c3f",
+      "date": "2023-08-16",
+      "startTime": "2023-08-16T12:07:00Z",
+      "startTimeLocal": "2023-08-16T08:07:00Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3203,
+      "elapsedSeconds": 3203,
+      "distanceMeters": 24668,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 138,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0d099401a62f59db6c3f"
+    },
+    {
+      "id": "ride_8a96c6083e43a9a63d7b",
+      "date": "2023-08-15",
+      "startTime": "2023-08-15T12:23:34Z",
+      "startTimeLocal": "2023-08-15T08:23:34Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 2999,
+      "elapsedSeconds": 2999,
+      "distanceMeters": 24587,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 147,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8a96c6083e43a9a63d7b"
+    },
+    {
+      "id": "ride_75bcb5bcad89c57a79d6",
+      "date": "2023-08-13",
+      "startTime": "2023-08-13T14:52:55Z",
+      "startTimeLocal": "2023-08-13T10:52:55Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 4347,
+      "elapsedSeconds": 4347,
+      "distanceMeters": 34086,
+      "elevationGainMeters": 101,
+      "power": {
+        "averageWatts": 130,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_800b079cd55fa6c87d59",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_75bcb5bcad89c57a79d6"
+    },
+    {
+      "id": "ride_02cfd66ea2c1599a7fd0",
+      "date": "2023-08-12",
+      "startTime": "2023-08-12T16:48:24Z",
+      "startTimeLocal": "2023-08-12T12:48:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 7620,
+      "elapsedSeconds": 7637,
+      "distanceMeters": 53894,
+      "elevationGainMeters": 188,
+      "power": {
+        "averageWatts": 115,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dc595d4e7aeeaf81b556",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_02cfd66ea2c1599a7fd0"
+    },
+    {
+      "id": "ride_aed340cf98a25285397c",
+      "date": "2023-08-10",
+      "startTime": "2023-08-10T12:06:29Z",
+      "startTimeLocal": "2023-08-10T08:06:29Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3266,
+      "elapsedSeconds": 3314,
+      "distanceMeters": 24497,
+      "elevationGainMeters": 45,
+      "power": {
+        "averageWatts": 117,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a1c6f30bbcfad15f9cd7",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_aed340cf98a25285397c"
+    },
+    {
+      "id": "ride_d40ef55d1b7467ebab2d",
+      "date": "2023-08-09",
+      "startTime": "2023-08-09T11:59:59Z",
+      "startTimeLocal": "2023-08-09T07:59:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 2988,
+      "elapsedSeconds": 2988,
+      "distanceMeters": 24722,
+      "elevationGainMeters": 45,
+      "power": {
+        "averageWatts": 151,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d40ef55d1b7467ebab2d"
+    },
+    {
+      "id": "ride_d7ca2e0dfd8ec16b5e71",
+      "date": "2023-08-05",
+      "startTime": "2023-08-05T17:00:41Z",
+      "startTimeLocal": "2023-08-05T13:00:41Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 8359,
+      "elapsedSeconds": 8446,
+      "distanceMeters": 64096,
+      "elevationGainMeters": 167,
+      "power": {
+        "averageWatts": 124,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_5886ceb4da3d78418c7d",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d7ca2e0dfd8ec16b5e71"
+    },
+    {
+      "id": "ride_f0dcbed48acc92adcee7",
+      "date": "2023-08-04",
+      "startTime": "2023-08-04T12:27:25Z",
+      "startTimeLocal": "2023-08-04T08:27:25Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3415,
+      "elapsedSeconds": 3415,
+      "distanceMeters": 24799,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 110,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f0dcbed48acc92adcee7"
+    },
+    {
+      "id": "ride_5b3993789b914deacb1d",
+      "date": "2023-08-03",
+      "startTime": "2023-08-03T19:42:04Z",
+      "startTimeLocal": "2023-08-03T15:42:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3042,
+      "elapsedSeconds": 3042,
+      "distanceMeters": 24633,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 150,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ddaa8d0b56541aca60d0",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5b3993789b914deacb1d"
+    },
+    {
+      "id": "ride_87d96d3e66091bf988d7",
+      "date": "2023-08-01",
+      "startTime": "2023-08-01T12:18:19Z",
+      "startTimeLocal": "2023-08-01T08:18:19Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3102,
+      "elapsedSeconds": 3102,
+      "distanceMeters": 24870,
+      "elevationGainMeters": 49,
+      "power": {
+        "averageWatts": 140,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd8b9756d04e7934fe66",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_87d96d3e66091bf988d7"
+    },
+    {
+      "id": "ride_0afe32cf412c52c48745",
+      "date": "2023-07-29",
+      "startTime": "2023-07-29T16:29:21Z",
+      "startTimeLocal": "2023-07-29T12:29:21Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 7753,
+      "elapsedSeconds": 7772,
+      "distanceMeters": 61262,
+      "elevationGainMeters": 155,
+      "power": {
+        "averageWatts": 130,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1103415c1bc540948d14",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0afe32cf412c52c48745"
+    },
+    {
+      "id": "ride_f0773ae3cabb08f50539",
+      "date": "2023-07-27",
+      "startTime": "2023-07-27T23:33:24Z",
+      "startTimeLocal": "2023-07-27T19:33:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Evening Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3295,
+      "elapsedSeconds": 3399,
+      "distanceMeters": 24754,
+      "elevationGainMeters": 49,
+      "power": {
+        "averageWatts": 133,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6684ee6b86b574ad4cde",
+        "name": "Evening Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f0773ae3cabb08f50539"
+    },
+    {
+      "id": "ride_e80fa204659df7cae608",
+      "date": "2023-07-25",
+      "startTime": "2023-07-25T17:34:35Z",
+      "startTimeLocal": "2023-07-25T13:34:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3184,
+      "elapsedSeconds": 3184,
+      "distanceMeters": 24778,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 134,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ddaa8d0b56541aca60d0",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_e80fa204659df7cae608"
+    },
+    {
+      "id": "ride_516d8e653c50afc7f69f",
+      "date": "2023-07-22",
+      "startTime": "2023-07-22T16:30:32Z",
+      "startTimeLocal": "2023-07-22T12:30:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 7216,
+      "elapsedSeconds": 7216,
+      "distanceMeters": 57836,
+      "elevationGainMeters": 131,
+      "power": {
+        "averageWatts": 133,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d7ad1f846af2fc5ad0fe",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_516d8e653c50afc7f69f"
+    },
+    {
+      "id": "ride_0d74f022be772eeee499",
+      "date": "2023-07-20",
+      "startTime": "2023-07-20T20:16:58Z",
+      "startTimeLocal": "2023-07-20T16:16:58Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3074,
+      "elapsedSeconds": 3074,
+      "distanceMeters": 24398,
+      "elevationGainMeters": 49,
+      "power": {
+        "averageWatts": 133,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_e6e81e20dfd8587c50cb",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0d74f022be772eeee499"
+    },
+    {
+      "id": "ride_53d45b412dd08352f544",
+      "date": "2023-07-18",
+      "startTime": "2023-07-18T20:51:35Z",
+      "startTimeLocal": "2023-07-18T16:51:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3360,
+      "elapsedSeconds": 3385,
+      "distanceMeters": 23613,
+      "elevationGainMeters": 44,
+      "power": {
+        "averageWatts": 118,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_e6e81e20dfd8587c50cb",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_53d45b412dd08352f544"
+    },
+    {
+      "id": "ride_e7436dd1ed1b19049b4f",
+      "date": "2023-07-16",
+      "startTime": "2023-07-16T16:34:37Z",
+      "startTimeLocal": "2023-07-16T12:34:37Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 6718,
+      "elapsedSeconds": 6718,
+      "distanceMeters": 51310,
+      "elevationGainMeters": 106,
+      "power": {
+        "averageWatts": 123,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4862f05f18a7981b1fee",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_e7436dd1ed1b19049b4f"
+    },
+    {
+      "id": "ride_d1916db69a9a66332a65",
+      "date": "2023-07-14",
+      "startTime": "2023-07-14T12:39:09Z",
+      "startTimeLocal": "2023-07-14T08:39:09Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3296,
+      "elapsedSeconds": 3312,
+      "distanceMeters": 20609,
+      "elevationGainMeters": 41,
+      "power": {
+        "averageWatts": 89,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_5d3bd7e085783c3263b5",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d1916db69a9a66332a65"
+    },
+    {
+      "id": "ride_24c135ec1b8cdcdd22c8",
+      "date": "2023-07-13",
+      "startTime": "2023-07-13T16:04:32Z",
+      "startTimeLocal": "2023-07-13T12:04:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3425,
+      "elapsedSeconds": 3425,
+      "distanceMeters": 26081,
+      "elevationGainMeters": 51,
+      "power": {
+        "averageWatts": 124,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a677f165ac0914f9cf26",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_24c135ec1b8cdcdd22c8"
+    },
+    {
+      "id": "ride_7fe3604431c7f87fbb6e",
+      "date": "2023-07-11",
+      "startTime": "2023-07-11T17:03:21Z",
+      "startTimeLocal": "2023-07-11T13:03:21Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3663,
+      "elapsedSeconds": 3678,
+      "distanceMeters": 27513,
+      "elevationGainMeters": 59,
+      "power": {
+        "averageWatts": 122,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dc8d5d94a38efcefc555",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_7fe3604431c7f87fbb6e"
+    },
+    {
+      "id": "ride_425b106457a5019b7322",
+      "date": "2023-07-10",
+      "startTime": "2023-07-10T22:23:25Z",
+      "startTimeLocal": "2023-07-10T18:23:25Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Evening Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3619,
+      "elapsedSeconds": 3645,
+      "distanceMeters": 26461,
+      "elevationGainMeters": 55,
+      "power": {
+        "averageWatts": 119,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_568a71f04ce2b002f866",
+        "name": "Evening Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_425b106457a5019b7322"
+    },
+    {
+      "id": "ride_36ad03f930b4c8f2c0d1",
+      "date": "2023-06-30",
+      "startTime": "2023-06-30T15:41:51Z",
+      "startTimeLocal": "2023-06-30T11:41:51Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3635,
+      "elapsedSeconds": 3635,
+      "distanceMeters": 26128,
+      "elevationGainMeters": 49,
+      "power": {
+        "averageWatts": 111,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a677f165ac0914f9cf26",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_36ad03f930b4c8f2c0d1"
+    },
+    {
+      "id": "ride_c71cdae570de5b61f169",
+      "date": "2023-06-24",
+      "startTime": "2023-06-24T17:43:22Z",
+      "startTimeLocal": "2023-06-24T13:43:22Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3841,
+      "elapsedSeconds": 3841,
+      "distanceMeters": 24918,
+      "elevationGainMeters": 45,
+      "power": {
+        "averageWatts": 93,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ddaa8d0b56541aca60d0",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c71cdae570de5b61f169"
+    }
+  ],
+  "count": 39,
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

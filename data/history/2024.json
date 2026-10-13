@@ -1,0 +1,3863 @@
+{
+  "schemaVersion": "1.0",
+  "year": 2024,
+  "generatedAt": "2026-10-13T22:46:50.961Z",
+  "rides": [
+    {
+      "id": "ride_b56a1ae7a2235ba36f6e",
+      "date": "2024-12-16",
+      "startTime": "2024-12-16T13:52:56Z",
+      "startTimeLocal": "2024-12-16T08:52:56Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Volcano Circuit in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2433,
+      "elapsedSeconds": 2455,
+      "distanceMeters": 22746,
+      "elevationGainMeters": 110,
+      "power": {
+        "averageWatts": 160,
+        "maxWatts": 513,
+        "normalizedWatts": 175,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dab264842147e016b6fe",
+        "name": "Volcano Circuit"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b56a1ae7a2235ba36f6e"
+    },
+    {
+      "id": "ride_8680199535338b9581e1",
+      "date": "2024-12-10",
+      "startTime": "2024-12-10T13:58:22Z",
+      "startTimeLocal": "2024-12-10T08:58:22Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Zwift Camp: Baseline | Sprint Test in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2908,
+      "elapsedSeconds": 2908,
+      "distanceMeters": 21041,
+      "elevationGainMeters": 267,
+      "power": {
+        "averageWatts": 147,
+        "maxWatts": 730,
+        "normalizedWatts": 164,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d465cf97aee0409d578b",
+        "name": "Zwift Camp: Baseline | Sprint Test"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8680199535338b9581e1"
+    },
+    {
+      "id": "ride_f367847476b7bcc2c8da",
+      "date": "2024-12-09",
+      "startTime": "2024-12-09T13:54:28Z",
+      "startTimeLocal": "2024-12-09T08:54:28Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Rolling Highlands in Scotland with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1818,
+      "elapsedSeconds": 1818,
+      "distanceMeters": 14740,
+      "elevationGainMeters": 124,
+      "power": {
+        "averageWatts": 116,
+        "maxWatts": 464,
+        "normalizedWatts": 132,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 66,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9b9941c589b7dd859062",
+        "name": "Pacer Group Ride: Rolling Highlands"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f367847476b7bcc2c8da"
+    },
+    {
+      "id": "ride_f8e8e8b432bd8495c65d",
+      "date": "2024-11-25",
+      "startTime": "2024-11-25T14:32:07Z",
+      "startTimeLocal": "2024-11-25T09:32:07Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Zwift Camp: Baseline | Sprint Booster [Lite] in New York",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2456,
+      "elapsedSeconds": 2456,
+      "distanceMeters": 17904,
+      "elevationGainMeters": 316,
+      "power": {
+        "averageWatts": 157,
+        "maxWatts": 481,
+        "normalizedWatts": 180,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_2e5257510ad7c692c701",
+        "name": "Zwift Camp: Baseline | Sprint Booster [Lite]"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f8e8e8b432bd8495c65d"
+    },
+    {
+      "id": "ride_b7e09af7456c1937e27e",
+      "date": "2024-11-22",
+      "startTime": "2024-11-22T14:04:58Z",
+      "startTimeLocal": "2024-11-22T09:04:58Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Tempus Fugit in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2120,
+      "elapsedSeconds": 2120,
+      "distanceMeters": 21330,
+      "elevationGainMeters": 32,
+      "power": {
+        "averageWatts": 176,
+        "maxWatts": 327,
+        "normalizedWatts": 185,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69825d2504a6891a3256",
+        "name": "Tempus Fugit"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b7e09af7456c1937e27e"
+    },
+    {
+      "id": "ride_8b603ce8d780e32d9430",
+      "date": "2024-11-15",
+      "startTime": "2024-11-15T13:06:50Z",
+      "startTimeLocal": "2024-11-15T08:06:50Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Road to Sky in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 6701,
+      "elapsedSeconds": 6701,
+      "distanceMeters": 32274,
+      "elevationGainMeters": 1061,
+      "power": {
+        "averageWatts": 144,
+        "maxWatts": 310,
+        "normalizedWatts": 152,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 67,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9c6782f637bb8cd94ba6",
+        "name": "Road to Sky"
+      },
+      "classification": {
+        "type": "alpe-du-zwift",
+        "confidence": "likely",
+        "basis": "Alpe-containing route plus ascent-scale elevation gain; route name alone is not counted"
+      },
+      "sourceActivityIdHash": "activity_8b603ce8d780e32d9430"
+    },
+    {
+      "id": "ride_9c66ffdcc7fd3811f53d",
+      "date": "2024-11-13",
+      "startTime": "2024-11-13T13:03:36Z",
+      "startTimeLocal": "2024-11-13T08:03:36Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Whole Lotta Lava in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1885,
+      "elapsedSeconds": 1885,
+      "distanceMeters": 16247,
+      "elevationGainMeters": 178,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 325,
+        "normalizedWatts": 176,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1437f9ba591d2a979c45",
+        "name": "Whole Lotta Lava"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_9c66ffdcc7fd3811f53d"
+    },
+    {
+      "id": "ride_c21897e31e1756ee5325",
+      "date": "2024-11-11",
+      "startTime": "2024-11-11T13:24:18Z",
+      "startTimeLocal": "2024-11-11T08:24:18Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Going Coastal in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1906,
+      "elapsedSeconds": 1906,
+      "distanceMeters": 17034,
+      "elevationGainMeters": 66,
+      "power": {
+        "averageWatts": 147,
+        "maxWatts": 612,
+        "normalizedWatts": 160,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6b6c46eaa9d983c9ad31",
+        "name": "Going Coastal"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c21897e31e1756ee5325"
+    },
+    {
+      "id": "ride_c88d2121bcefec335151",
+      "date": "2024-09-30",
+      "startTime": "2024-09-30T12:51:21Z",
+      "startTimeLocal": "2024-09-30T08:51:21Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Volcano Flat in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1228,
+      "elapsedSeconds": 1228,
+      "distanceMeters": 12080,
+      "elevationGainMeters": 50,
+      "power": {
+        "averageWatts": 180,
+        "maxWatts": 387,
+        "normalizedWatts": 191,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 82,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_c3dbb7267e8eb4f06320",
+        "name": "Pacer Group Ride: Volcano Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c88d2121bcefec335151"
+    },
+    {
+      "id": "ride_fe106739074cede094fd",
+      "date": "2024-09-19",
+      "startTime": "2024-09-19T12:17:50Z",
+      "startTimeLocal": "2024-09-19T08:17:50Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3470,
+      "elapsedSeconds": 3488,
+      "distanceMeters": 30479,
+      "elevationGainMeters": 80,
+      "power": {
+        "averageWatts": 203,
+        "maxWatts": 734,
+        "normalizedWatts": 207,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0bbdd219faee2f88d5f5",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fe106739074cede094fd"
+    },
+    {
+      "id": "ride_722a137bc6f077d6b818",
+      "date": "2024-09-14",
+      "startTime": "2024-09-14T16:36:31Z",
+      "startTimeLocal": "2024-09-14T12:36:31Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3718,
+      "elapsedSeconds": 3758,
+      "distanceMeters": 30666,
+      "elevationGainMeters": 90,
+      "power": {
+        "averageWatts": 175,
+        "maxWatts": 771,
+        "normalizedWatts": 181,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9a0e5d7cfee090b7a1fc",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_722a137bc6f077d6b818"
+    },
+    {
+      "id": "ride_25f1f7a5031126c3cae9",
+      "date": "2024-09-12",
+      "startTime": "2024-09-12T12:31:00Z",
+      "startTimeLocal": "2024-09-12T08:31:00Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Ignite in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2300,
+      "elapsedSeconds": 2559,
+      "distanceMeters": 21486,
+      "elevationGainMeters": 33,
+      "power": {
+        "averageWatts": 157,
+        "maxWatts": 423,
+        "normalizedWatts": 179,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_554bbfcc8b528cf4958c",
+        "name": "Ignite"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_25f1f7a5031126c3cae9"
+    },
+    {
+      "id": "ride_b309b3ce5cf7140a7f14",
+      "date": "2024-09-10",
+      "startTime": "2024-09-10T12:43:26Z",
+      "startTimeLocal": "2024-09-10T08:43:26Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Make It Sting in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1403,
+      "elapsedSeconds": 1403,
+      "distanceMeters": 13170,
+      "elevationGainMeters": 65,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 398,
+        "normalizedWatts": 186,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f8aca8fdc5d8e1746440",
+        "name": "Make It Sting"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b309b3ce5cf7140a7f14"
+    },
+    {
+      "id": "ride_875c8e71bf01162197ec",
+      "date": "2024-08-15",
+      "startTime": "2024-08-15T12:42:34Z",
+      "startTimeLocal": "2024-08-15T08:42:34Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3581,
+      "elapsedSeconds": 3604,
+      "distanceMeters": 30793,
+      "elevationGainMeters": 83,
+      "power": {
+        "averageWatts": 201,
+        "maxWatts": 701,
+        "normalizedWatts": 207,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_875c8e71bf01162197ec"
+    },
+    {
+      "id": "ride_a31163b4173da014d46e",
+      "date": "2024-08-12",
+      "startTime": "2024-08-12T12:12:30Z",
+      "startTimeLocal": "2024-08-12T08:12:30Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Lutece Express in Paris with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1828,
+      "elapsedSeconds": 1828,
+      "distanceMeters": 17168,
+      "elevationGainMeters": 95,
+      "power": {
+        "averageWatts": 172,
+        "maxWatts": 844,
+        "normalizedWatts": 202,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b22176095deee23e99d5",
+        "name": "Pacer Group Ride: Lutece Express in Paris with Maria"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a31163b4173da014d46e"
+    },
+    {
+      "id": "ride_b241ac98b94ac700b19d",
+      "date": "2024-08-04",
+      "startTime": "2024-08-04T16:53:08Z",
+      "startTimeLocal": "2024-08-04T12:53:08Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 9458,
+      "elapsedSeconds": 9547,
+      "distanceMeters": 74025,
+      "elevationGainMeters": 224,
+      "power": {
+        "averageWatts": 144,
+        "maxWatts": 681,
+        "normalizedWatts": 157,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_30cca2aeda5df23a2eca",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b241ac98b94ac700b19d"
+    },
+    {
+      "id": "ride_93483df81e169eef752b",
+      "date": "2024-07-28",
+      "startTime": "2024-07-28T16:54:32Z",
+      "startTimeLocal": "2024-07-28T12:54:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: R.G.V. in France with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 4810,
+      "elapsedSeconds": 4810,
+      "distanceMeters": 43606,
+      "elevationGainMeters": 259,
+      "power": {
+        "averageWatts": 134,
+        "maxWatts": 645,
+        "normalizedWatts": 159,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 66,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dda363862a6138ae5f44",
+        "name": "Pacer Group Ride: R.G.V."
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_93483df81e169eef752b"
+    },
+    {
+      "id": "ride_b07e3860d67b88fbf6a7",
+      "date": "2024-07-17",
+      "startTime": "2024-07-17T13:10:59Z",
+      "startTimeLocal": "2024-07-17T09:10:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3842,
+      "elapsedSeconds": 3954,
+      "distanceMeters": 30591,
+      "elevationGainMeters": 85,
+      "power": {
+        "averageWatts": 170,
+        "maxWatts": 569,
+        "normalizedWatts": 175,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b07e3860d67b88fbf6a7"
+    },
+    {
+      "id": "ride_2b09531415d3984d8e1d",
+      "date": "2024-07-15",
+      "startTime": "2024-07-15T13:07:55Z",
+      "startTimeLocal": "2024-07-15T09:07:55Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1815,
+      "elapsedSeconds": 1815,
+      "distanceMeters": 16423,
+      "elevationGainMeters": 108,
+      "power": {
+        "averageWatts": 152,
+        "maxWatts": 876,
+        "normalizedWatts": 180,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a2c416db51eb7f7614ac",
+        "name": "Pacer Group Ride: Triple Flat Loops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_2b09531415d3984d8e1d"
+    },
+    {
+      "id": "ride_4f4235d2e29344ff807e",
+      "date": "2024-07-13",
+      "startTime": "2024-07-13T17:13:45Z",
+      "startTimeLocal": "2024-07-13T13:13:45Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Col du Galibier (Lautaret) at 100% Elevation in France",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2832,
+      "elapsedSeconds": 2832,
+      "distanceMeters": 15861,
+      "elevationGainMeters": 548,
+      "power": {
+        "averageWatts": 190,
+        "maxWatts": 341,
+        "normalizedWatts": 205,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 67,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f590a3dc40722c4b921c",
+        "name": "Climb Portal: Col du Galibier (Lautaret) at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Col du Galibier (Lautaret)",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_4f4235d2e29344ff807e"
+    },
+    {
+      "id": "ride_be3b351e798a4fbb7fc2",
+      "date": "2024-07-12",
+      "startTime": "2024-07-12T13:00:08Z",
+      "startTimeLocal": "2024-07-12T09:00:08Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Côte des Forche at 100% Elevation in France",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1242,
+      "elapsedSeconds": 1242,
+      "distanceMeters": 9861,
+      "elevationGainMeters": 162,
+      "power": {
+        "averageWatts": 185,
+        "maxWatts": 337,
+        "normalizedWatts": 213,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 69,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6ba9220a8753fdfdd300",
+        "name": "Climb Portal: Côte des Forche at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Côte des Forche",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_be3b351e798a4fbb7fc2"
+    },
+    {
+      "id": "ride_a676fbd1bf21772e7d25",
+      "date": "2024-06-28",
+      "startTime": "2024-06-28T20:19:27Z",
+      "startTimeLocal": "2024-06-28T16:19:27Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3638,
+      "elapsedSeconds": 3653,
+      "distanceMeters": 30719,
+      "elevationGainMeters": 91,
+      "power": {
+        "averageWatts": 190,
+        "maxWatts": 800,
+        "normalizedWatts": 198,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69ccfec0f5ce21977e05",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a676fbd1bf21772e7d25"
+    },
+    {
+      "id": "ride_2f4f81a805d231dddb60",
+      "date": "2024-06-16",
+      "startTime": "2024-06-16T19:39:14Z",
+      "startTimeLocal": "2024-06-16T15:39:14Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3750,
+      "elapsedSeconds": 3750,
+      "distanceMeters": 30554,
+      "elevationGainMeters": 93,
+      "power": {
+        "averageWatts": 169,
+        "maxWatts": 817,
+        "normalizedWatts": 177,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69ccfec0f5ce21977e05",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_2f4f81a805d231dddb60"
+    },
+    {
+      "id": "ride_ce205279bb13be1d0bf3",
+      "date": "2024-06-14",
+      "startTime": "2024-06-14T19:14:04Z",
+      "startTimeLocal": "2024-06-14T15:14:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3871,
+      "elapsedSeconds": 4077,
+      "distanceMeters": 31246,
+      "elevationGainMeters": 88,
+      "power": {
+        "averageWatts": 163,
+        "maxWatts": 673,
+        "normalizedWatts": 170,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69ccfec0f5ce21977e05",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ce205279bb13be1d0bf3"
+    },
+    {
+      "id": "ride_6ba9da7b7e31528b1351",
+      "date": "2024-06-01",
+      "startTime": "2024-06-01T15:34:51Z",
+      "startTimeLocal": "2024-06-01T11:34:51Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3723,
+      "elapsedSeconds": 3813,
+      "distanceMeters": 30656,
+      "elevationGainMeters": 86,
+      "power": {
+        "averageWatts": 176,
+        "maxWatts": 599,
+        "normalizedWatts": 182,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9a0e5d7cfee090b7a1fc",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6ba9da7b7e31528b1351"
+    },
+    {
+      "id": "ride_86ea376917be2111b520",
+      "date": "2024-05-31",
+      "startTime": "2024-05-31T19:09:15Z",
+      "startTimeLocal": "2024-05-31T15:09:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 4430,
+      "elapsedSeconds": 4471,
+      "distanceMeters": 33448,
+      "elevationGainMeters": 112,
+      "power": {
+        "averageWatts": 158,
+        "maxWatts": 560,
+        "normalizedWatts": 164,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0078ccf8e47f62ed9db5",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_86ea376917be2111b520"
+    },
+    {
+      "id": "ride_ec4ea6da5e92c3c54b91",
+      "date": "2024-05-28",
+      "startTime": "2024-05-28T12:23:21Z",
+      "startTimeLocal": "2024-05-28T08:23:21Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3690,
+      "elapsedSeconds": 3736,
+      "distanceMeters": 30521,
+      "elevationGainMeters": 86,
+      "power": {
+        "averageWatts": 185,
+        "maxWatts": 592,
+        "normalizedWatts": 190,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ec4ea6da5e92c3c54b91"
+    },
+    {
+      "id": "ride_81f75c5a22dcc1602c30",
+      "date": "2024-05-23",
+      "startTime": "2024-05-23T12:03:48Z",
+      "startTimeLocal": "2024-05-23T08:03:48Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3735,
+      "elapsedSeconds": 3775,
+      "distanceMeters": 30743,
+      "elevationGainMeters": 81,
+      "power": {
+        "averageWatts": 189,
+        "maxWatts": 704,
+        "normalizedWatts": 194,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_81f75c5a22dcc1602c30"
+    },
+    {
+      "id": "ride_58055d885e1987ed5495",
+      "date": "2024-05-21",
+      "startTime": "2024-05-21T12:03:45Z",
+      "startTimeLocal": "2024-05-21T08:03:45Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3582,
+      "elapsedSeconds": 3615,
+      "distanceMeters": 30937,
+      "elevationGainMeters": 84,
+      "power": {
+        "averageWatts": 196,
+        "maxWatts": 821,
+        "normalizedWatts": 202,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_58055d885e1987ed5495"
+    },
+    {
+      "id": "ride_5f2f204c61123c9bdfc2",
+      "date": "2024-05-20",
+      "startTime": "2024-05-20T12:07:36Z",
+      "startTimeLocal": "2024-05-20T08:07:36Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3665,
+      "elapsedSeconds": 3732,
+      "distanceMeters": 30836,
+      "elevationGainMeters": 77,
+      "power": {
+        "averageWatts": 193,
+        "maxWatts": 643,
+        "normalizedWatts": 198,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5f2f204c61123c9bdfc2"
+    },
+    {
+      "id": "ride_ed6997e7db3aa46dabff",
+      "date": "2024-05-17",
+      "startTime": "2024-05-17T12:47:32Z",
+      "startTimeLocal": "2024-05-17T08:47:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Calorie Crush in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2062,
+      "elapsedSeconds": 2062,
+      "distanceMeters": 17803,
+      "elevationGainMeters": 182,
+      "power": {
+        "averageWatts": 171,
+        "maxWatts": 275,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9172c72c26f5f8d4e3a1",
+        "name": "Calorie Crush"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ed6997e7db3aa46dabff"
+    },
+    {
+      "id": "ride_ec69fd0954dc170bb6d1",
+      "date": "2024-05-16",
+      "startTime": "2024-05-16T12:24:39Z",
+      "startTimeLocal": "2024-05-16T08:24:39Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1879,
+      "elapsedSeconds": 1879,
+      "distanceMeters": 19974,
+      "elevationGainMeters": 61,
+      "power": {
+        "averageWatts": 174,
+        "maxWatts": 316,
+        "normalizedWatts": 179,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_85b5359fc3f88e48267e",
+        "name": "Pacer Group Ride: Triple Flat Loops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ec69fd0954dc170bb6d1"
+    },
+    {
+      "id": "ride_c340d07d2191142c3eff",
+      "date": "2024-05-13",
+      "startTime": "2024-05-13T18:24:03Z",
+      "startTimeLocal": "2024-05-13T14:24:03Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 3808,
+      "elapsedSeconds": 3808,
+      "distanceMeters": 31943,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ad9f21425a7c516d8ba6",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c340d07d2191142c3eff"
+    },
+    {
+      "id": "ride_fb39a42e542eccc9718c",
+      "date": "2024-05-13",
+      "startTime": "2024-05-13T12:24:03Z",
+      "startTimeLocal": "2024-05-13T08:24:03Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3748,
+      "elapsedSeconds": 3809,
+      "distanceMeters": 30874,
+      "elevationGainMeters": 81,
+      "power": {
+        "averageWatts": 180,
+        "maxWatts": 683,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_1eb3952ced5184216237",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fb39a42e542eccc9718c"
+    },
+    {
+      "id": "ride_509c34bf6debbf8cf510",
+      "date": "2024-05-10",
+      "startTime": "2024-05-10T20:14:14Z",
+      "startTimeLocal": "2024-05-10T16:14:14Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 867,
+      "elapsedSeconds": 867,
+      "distanceMeters": 3266,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_c795a1ddb9ae13263a38",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_509c34bf6debbf8cf510"
+    },
+    {
+      "id": "ride_f7ad57f39a7383624b62",
+      "date": "2024-05-10",
+      "startTime": "2024-05-10T15:27:21Z",
+      "startTimeLocal": "2024-05-10T11:27:21Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Lunch Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 385,
+      "elapsedSeconds": 407,
+      "distanceMeters": 2168,
+      "elevationGainMeters": 4,
+      "power": {
+        "averageWatts": 99,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9784b6bb4f8f7d037f76",
+        "name": "Lunch Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f7ad57f39a7383624b62"
+    },
+    {
+      "id": "ride_a7b7d4891c9b3c89b487",
+      "date": "2024-05-10",
+      "startTime": "2024-05-10T14:14:13Z",
+      "startTimeLocal": "2024-05-10T10:14:13Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 761,
+      "elapsedSeconds": 867,
+      "distanceMeters": 3254,
+      "elevationGainMeters": 5,
+      "power": {
+        "averageWatts": 72,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6475a2e691f100cacda6",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a7b7d4891c9b3c89b487"
+    },
+    {
+      "id": "ride_9bc9cd859c3f5dbdf2a1",
+      "date": "2024-05-10",
+      "startTime": "2024-05-10T12:17:01Z",
+      "startTimeLocal": "2024-05-10T08:17:01Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Col du Platzerwasel at 100% Elevation in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3121,
+      "elapsedSeconds": 3121,
+      "distanceMeters": 17760,
+      "elevationGainMeters": 630,
+      "power": {
+        "averageWatts": 171,
+        "maxWatts": 455,
+        "normalizedWatts": 196,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9d50c8bcc56f6ae0efc5",
+        "name": "Climb Portal: Col du Platzerwasel at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Col du Platzerwasel",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_9bc9cd859c3f5dbdf2a1"
+    },
+    {
+      "id": "ride_2fb6bbb4718ce99867b6",
+      "date": "2024-05-08",
+      "startTime": "2024-05-08T12:26:44Z",
+      "startTimeLocal": "2024-05-08T08:26:44Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Cote de Pike at 100% Elevation in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1877,
+      "elapsedSeconds": 1877,
+      "distanceMeters": 11381,
+      "elevationGainMeters": 252,
+      "power": {
+        "averageWatts": 136,
+        "maxWatts": 361,
+        "normalizedWatts": 161,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 64,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4a1277c7c244265ec2a4",
+        "name": "Climb Portal: Cote de Pike at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Cote de Pike",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_2fb6bbb4718ce99867b6"
+    },
+    {
+      "id": "ride_dde01dde6ca693e47426",
+      "date": "2024-05-03",
+      "startTime": "2024-05-03T12:31:45Z",
+      "startTimeLocal": "2024-05-03T08:31:45Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Cheddar Gorge at 100% Elevation in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2191,
+      "elapsedSeconds": 2191,
+      "distanceMeters": 17850,
+      "elevationGainMeters": 209,
+      "power": {
+        "averageWatts": 154,
+        "maxWatts": 582,
+        "normalizedWatts": 178,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_2c73c93785a2cc3a4dee",
+        "name": "Climb Portal: Cheddar Gorge at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Cheddar Gorge",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_dde01dde6ca693e47426"
+    },
+    {
+      "id": "ride_5326acef84c650254eec",
+      "date": "2024-04-27",
+      "startTime": "2024-04-27T16:52:56Z",
+      "startTimeLocal": "2024-04-27T12:52:56Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Tick Tock in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2884,
+      "elapsedSeconds": 2884,
+      "distanceMeters": 19802,
+      "elevationGainMeters": 59,
+      "power": {
+        "averageWatts": 77,
+        "maxWatts": 159,
+        "normalizedWatts": 81,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 58,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_423cce376eb1f3e3ce12",
+        "name": "Tick Tock"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5326acef84c650254eec"
+    },
+    {
+      "id": "ride_fbd818f1afa67c28f110",
+      "date": "2024-04-18",
+      "startTime": "2024-04-18T12:22:04Z",
+      "startTimeLocal": "2024-04-18T08:22:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Volcano Flat in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1826,
+      "elapsedSeconds": 1826,
+      "distanceMeters": 19511,
+      "elevationGainMeters": 76,
+      "power": {
+        "averageWatts": 178,
+        "maxWatts": 398,
+        "normalizedWatts": 182,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_22377a01afe74cb58bc4",
+        "name": "Pacer Group Ride: Volcano Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fbd818f1afa67c28f110"
+    },
+    {
+      "id": "ride_b670a68c85afdfa9405a",
+      "date": "2024-04-15",
+      "startTime": "2024-04-15T12:10:51Z",
+      "startTimeLocal": "2024-04-15T08:10:51Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Morning Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 3005,
+      "elapsedSeconds": 3086,
+      "distanceMeters": 24285,
+      "elevationGainMeters": 56,
+      "power": {
+        "averageWatts": 186,
+        "maxWatts": 795,
+        "normalizedWatts": 196,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a1c6f30bbcfad15f9cd7",
+        "name": "Morning Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b670a68c85afdfa9405a"
+    },
+    {
+      "id": "ride_b51f94facc86232dca4d",
+      "date": "2024-04-14",
+      "startTime": "2024-04-14T02:47:28Z",
+      "startTimeLocal": "2024-04-13T22:47:28Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 1997,
+      "elapsedSeconds": 1997,
+      "distanceMeters": 7155,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_872e33639a61d96f2526",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b51f94facc86232dca4d"
+    },
+    {
+      "id": "ride_36cfe5e71334f2fdeda3",
+      "date": "2024-04-13",
+      "startTime": "2024-04-13T23:00:02Z",
+      "startTimeLocal": "2024-04-13T19:00:02Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 1597,
+      "elapsedSeconds": 1597,
+      "distanceMeters": 6168,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_67e3cb46a1c46328c5a2",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_36cfe5e71334f2fdeda3"
+    },
+    {
+      "id": "ride_4aa4f9d77d61a8080505",
+      "date": "2024-04-13",
+      "startTime": "2024-04-13T21:39:15Z",
+      "startTimeLocal": "2024-04-13T17:39:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 959,
+      "elapsedSeconds": 959,
+      "distanceMeters": 4111,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9a7b7f75c5d97055a1ed",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_4aa4f9d77d61a8080505"
+    },
+    {
+      "id": "ride_f5564a0d4baab0db5aac",
+      "date": "2024-04-13",
+      "startTime": "2024-04-13T20:47:28Z",
+      "startTimeLocal": "2024-04-13T16:47:28Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Strava",
+      "durationSeconds": 1997,
+      "elapsedSeconds": 1997,
+      "distanceMeters": 6223,
+      "elevationGainMeters": 0,
+      "power": {
+        "averageWatts": null,
+        "maxWatts": null,
+        "normalizedWatts": null,
+        "normalizedWattsSource": null
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": null,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_67e3cb46a1c46328c5a2",
+        "name": "Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f5564a0d4baab0db5aac"
+    },
+    {
+      "id": "ride_263c3018b35872356da6",
+      "date": "2024-04-11",
+      "startTime": "2024-04-11T12:18:59Z",
+      "startTimeLocal": "2024-04-11T08:18:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Gotham Grind in New York",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1680,
+      "elapsedSeconds": 1680,
+      "distanceMeters": 11438,
+      "elevationGainMeters": 122,
+      "power": {
+        "averageWatts": 94,
+        "maxWatts": 790,
+        "normalizedWatts": 122,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 57,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_695a0636487cb15e261f",
+        "name": "Gotham Grind"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_263c3018b35872356da6"
+    },
+    {
+      "id": "ride_0d71e6fc03d5b23acd95",
+      "date": "2024-04-06",
+      "startTime": "2024-04-06T16:00:58Z",
+      "startTimeLocal": "2024-04-06T12:00:58Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Two Bridges Loop in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 4425,
+      "elapsedSeconds": 4445,
+      "distanceMeters": 38688,
+      "elevationGainMeters": 333,
+      "power": {
+        "averageWatts": 152,
+        "maxWatts": 386,
+        "normalizedWatts": 175,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 72,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_cc0165344f12205957aa",
+        "name": "Two Bridges Loop"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0d71e6fc03d5b23acd95"
+    },
+    {
+      "id": "ride_9eabea4d1e213ffabbaa",
+      "date": "2024-04-04",
+      "startTime": "2024-04-04T12:09:49Z",
+      "startTimeLocal": "2024-04-04T08:09:49Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Flat Route in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2167,
+      "elapsedSeconds": 2167,
+      "distanceMeters": 22663,
+      "elevationGainMeters": 136,
+      "power": {
+        "averageWatts": 182,
+        "maxWatts": 553,
+        "normalizedWatts": 186,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d8f9d27bd5fdb1e71e96",
+        "name": "Pacer Group Ride: Flat Route"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_9eabea4d1e213ffabbaa"
+    },
+    {
+      "id": "ride_af505e0a65f652aca9d7",
+      "date": "2024-04-02",
+      "startTime": "2024-04-02T12:09:32Z",
+      "startTimeLocal": "2024-04-02T08:09:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Flat Route in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1890,
+      "elapsedSeconds": 1890,
+      "distanceMeters": 19616,
+      "elevationGainMeters": 118,
+      "power": {
+        "averageWatts": 174,
+        "maxWatts": 414,
+        "normalizedWatts": 180,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_728a1075e54ad1b0659a",
+        "name": "Pacer Group Ride: Flat Route"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_af505e0a65f652aca9d7"
+    },
+    {
+      "id": "ride_f93686d89c95a0dc2991",
+      "date": "2024-03-29",
+      "startTime": "2024-03-29T15:49:29Z",
+      "startTimeLocal": "2024-03-29T11:49:29Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Going Coastal in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5057,
+      "elapsedSeconds": 5149,
+      "distanceMeters": 43553,
+      "elevationGainMeters": 190,
+      "power": {
+        "averageWatts": 130,
+        "maxWatts": 403,
+        "normalizedWatts": 155,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 66,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_25ddc1e7332de1cce138",
+        "name": "Going Coastal"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_f93686d89c95a0dc2991"
+    },
+    {
+      "id": "ride_d18fb17f9c9410f4dce7",
+      "date": "2024-03-23",
+      "startTime": "2024-03-23T16:51:59Z",
+      "startTimeLocal": "2024-03-23T12:51:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: The Big Ring in Watopia with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 4313,
+      "elapsedSeconds": 4313,
+      "distanceMeters": 41976,
+      "elevationGainMeters": 255,
+      "power": {
+        "averageWatts": 173,
+        "maxWatts": 369,
+        "normalizedWatts": 181,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6d7b5a7dac9dca398b80",
+        "name": "Pacer Group Ride: The Big Ring"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d18fb17f9c9410f4dce7"
+    },
+    {
+      "id": "ride_6ec848d68dadfef4c292",
+      "date": "2024-03-22",
+      "startTime": "2024-03-22T12:08:38Z",
+      "startTimeLocal": "2024-03-22T08:08:38Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Railways and Rooftops in Makuri Islands with Coco",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1961,
+      "elapsedSeconds": 2036,
+      "distanceMeters": 17947,
+      "elevationGainMeters": 192,
+      "power": {
+        "averageWatts": 169,
+        "maxWatts": 352,
+        "normalizedWatts": 173,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4a16463703303355f583",
+        "name": "Pacer Group Ride: Railways and Rooftops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6ec848d68dadfef4c292"
+    },
+    {
+      "id": "ride_865df0ba78a6f25ccb55",
+      "date": "2024-03-20",
+      "startTime": "2024-03-20T12:08:40Z",
+      "startTimeLocal": "2024-03-20T08:08:40Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1964,
+      "elapsedSeconds": 1964,
+      "distanceMeters": 19611,
+      "elevationGainMeters": 122,
+      "power": {
+        "averageWatts": 154,
+        "maxWatts": 867,
+        "normalizedWatts": 164,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 75,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_85b5359fc3f88e48267e",
+        "name": "Pacer Group Ride: Triple Flat Loops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_865df0ba78a6f25ccb55"
+    },
+    {
+      "id": "ride_0d7e29d530f18ecbdead",
+      "date": "2024-03-19",
+      "startTime": "2024-03-19T12:16:17Z",
+      "startTimeLocal": "2024-03-19T08:16:17Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Ride: Standard | Stage 2 | The Zwift Big Spin 2024 on Greater London Flat in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1844,
+      "elapsedSeconds": 1844,
+      "distanceMeters": 19552,
+      "elevationGainMeters": 104,
+      "power": {
+        "averageWatts": 187,
+        "maxWatts": 519,
+        "normalizedWatts": 192,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b81403b211b6d48c8b80",
+        "name": "Group Ride: Standard | Stage 2 | The Zwift Big Spin 2024 on Greater London Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0d7e29d530f18ecbdead"
+    },
+    {
+      "id": "ride_76a155216d7ef7b25c15",
+      "date": "2024-03-18",
+      "startTime": "2024-03-18T12:15:13Z",
+      "startTimeLocal": "2024-03-18T08:15:13Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Ride: Long | Stage 2 | The Zwift Big Spin 2024 on Keith Hill After Party in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 4794,
+      "elapsedSeconds": 4794,
+      "distanceMeters": 40833,
+      "elevationGainMeters": 440,
+      "power": {
+        "averageWatts": 175,
+        "maxWatts": 403,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_854ab0141de3f4a9abb0",
+        "name": "Group Ride: Long | Stage 2 | The Zwift Big Spin 2024 on Keith Hill After Party"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_76a155216d7ef7b25c15"
+    },
+    {
+      "id": "ride_02e00c01cf98cf8f850e",
+      "date": "2024-03-16",
+      "startTime": "2024-03-16T17:47:46Z",
+      "startTimeLocal": "2024-03-16T13:47:46Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": false,
+      "sportType": "Ride",
+      "source": "Garmin",
+      "durationSeconds": 4171,
+      "elapsedSeconds": 4218,
+      "distanceMeters": 31432,
+      "elevationGainMeters": 125,
+      "power": {
+        "averageWatts": 159,
+        "maxWatts": 508,
+        "normalizedWatts": 166,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_69ccfec0f5ce21977e05",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_02e00c01cf98cf8f850e"
+    },
+    {
+      "id": "ride_45d20b775587e549730d",
+      "date": "2024-03-15",
+      "startTime": "2024-03-15T12:15:32Z",
+      "startTimeLocal": "2024-03-15T08:15:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Ride: Long | Stage 1 | The Zwift Big Spin 2024 on Country to Coastal in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3707,
+      "elapsedSeconds": 3707,
+      "distanceMeters": 35399,
+      "elevationGainMeters": 297,
+      "power": {
+        "averageWatts": 183,
+        "maxWatts": 433,
+        "normalizedWatts": 194,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 81,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3d7edeb4979366fc81ba",
+        "name": "Group Ride: Long | Stage 1 | The Zwift Big Spin 2024 on Country to Coastal"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_45d20b775587e549730d"
+    },
+    {
+      "id": "ride_e82d1d74ca7715872e95",
+      "date": "2024-03-14",
+      "startTime": "2024-03-14T12:16:33Z",
+      "startTimeLocal": "2024-03-14T08:16:33Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Ride: Standard | Stage 1 | The Zwift Big Spin 2024 on Suki's Playground in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1934,
+      "elapsedSeconds": 1934,
+      "distanceMeters": 19898,
+      "elevationGainMeters": 153,
+      "power": {
+        "averageWatts": 199,
+        "maxWatts": 709,
+        "normalizedWatts": 208,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 82,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_28c567ebf7a19057d008",
+        "name": "Group Ride: Standard | Stage 1 | The Zwift Big Spin 2024 on Suki's Playground"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_e82d1d74ca7715872e95"
+    },
+    {
+      "id": "ride_7a3a6a89d10d72c1708e",
+      "date": "2024-03-11",
+      "startTime": "2024-03-11T12:08:54Z",
+      "startTimeLocal": "2024-03-11T08:08:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Watopia's Waistband in Watopia with Bernie",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2145,
+      "elapsedSeconds": 2145,
+      "distanceMeters": 19366,
+      "elevationGainMeters": 95,
+      "power": {
+        "averageWatts": 134,
+        "maxWatts": 786,
+        "normalizedWatts": 161,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b968523e31f44fe69543",
+        "name": "Pacer Group Ride: Watopia's Waistband"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_7a3a6a89d10d72c1708e"
+    },
+    {
+      "id": "ride_fa70cdf1635ff80cfebd",
+      "date": "2024-03-08",
+      "startTime": "2024-03-08T13:13:51Z",
+      "startTimeLocal": "2024-03-08T08:13:51Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Neon Flats in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2001,
+      "elapsedSeconds": 2001,
+      "distanceMeters": 16226,
+      "elevationGainMeters": 78,
+      "power": {
+        "averageWatts": 121,
+        "maxWatts": 321,
+        "normalizedWatts": 126,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_5821cc5c5ff4c359a0d3",
+        "name": "Neon Flats"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fa70cdf1635ff80cfebd"
+    },
+    {
+      "id": "ride_25c2383b9774abe25ae9",
+      "date": "2024-03-07",
+      "startTime": "2024-03-07T13:40:40Z",
+      "startTimeLocal": "2024-03-07T08:40:40Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - At/Overs in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2186,
+      "elapsedSeconds": 2186,
+      "distanceMeters": 15043,
+      "elevationGainMeters": 256,
+      "power": {
+        "averageWatts": 182,
+        "maxWatts": 341,
+        "normalizedWatts": 209,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 85,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_21daa32dc6fbf4487a76",
+        "name": "At/Overs"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_25c2383b9774abe25ae9"
+    },
+    {
+      "id": "ride_a6b3f981f42d33021905",
+      "date": "2024-03-06",
+      "startTime": "2024-03-06T13:20:52Z",
+      "startTimeLocal": "2024-03-06T08:20:52Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Tour Of Tewit Well in Yorkshire",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1876,
+      "elapsedSeconds": 1876,
+      "distanceMeters": 13318,
+      "elevationGainMeters": 240,
+      "power": {
+        "averageWatts": 142,
+        "maxWatts": 384,
+        "normalizedWatts": 166,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 61,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a256854d10679bf59488",
+        "name": "Tour Of Tewit Well"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a6b3f981f42d33021905"
+    },
+    {
+      "id": "ride_39e336a6480648d1fad7",
+      "date": "2024-03-05",
+      "startTime": "2024-03-05T13:26:31Z",
+      "startTimeLocal": "2024-03-05T08:26:31Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Emily's Short Mix in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2203,
+      "elapsedSeconds": 2203,
+      "distanceMeters": 19661,
+      "elevationGainMeters": 156,
+      "power": {
+        "averageWatts": 190,
+        "maxWatts": 291,
+        "normalizedWatts": 207,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_be7202b0f0baca9f623d",
+        "name": "Emily's Short Mix"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_39e336a6480648d1fad7"
+    },
+    {
+      "id": "ride_7d2e2d73fd4fe2e56a11",
+      "date": "2024-03-04",
+      "startTime": "2024-03-04T13:09:41Z",
+      "startTimeLocal": "2024-03-04T08:09:41Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - The Muckle Yin in Scotland",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2898,
+      "elapsedSeconds": 2898,
+      "distanceMeters": 24417,
+      "elevationGainMeters": 285,
+      "power": {
+        "averageWatts": 163,
+        "maxWatts": 827,
+        "normalizedWatts": 185,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a4b778c57a78379c5716",
+        "name": "The Muckle Yin"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_7d2e2d73fd4fe2e56a11"
+    },
+    {
+      "id": "ride_b1915f7b71ffeae67e85",
+      "date": "2024-02-26",
+      "startTime": "2024-02-26T12:55:59Z",
+      "startTimeLocal": "2024-02-26T07:55:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Ramp Test in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3646,
+      "elapsedSeconds": 3646,
+      "distanceMeters": 30611,
+      "elevationGainMeters": 254,
+      "power": {
+        "averageWatts": 149,
+        "maxWatts": 742,
+        "normalizedWatts": 180,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3a6465c64812e78dce40",
+        "name": "Ramp Test"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_b1915f7b71ffeae67e85"
+    },
+    {
+      "id": "ride_19cc29e9528929e4e4cf",
+      "date": "2024-02-23",
+      "startTime": "2024-02-23T21:26:54Z",
+      "startTimeLocal": "2024-02-23T16:26:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Calorie Crush in New York",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1565,
+      "elapsedSeconds": 1565,
+      "distanceMeters": 11398,
+      "elevationGainMeters": 185,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 226,
+        "normalizedWatts": 171,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 86,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d63dfe400e8a32fee594",
+        "name": "Calorie Crush"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_19cc29e9528929e4e4cf"
+    },
+    {
+      "id": "ride_fa0255e5e98d25ee7694",
+      "date": "2024-02-22",
+      "startTime": "2024-02-22T13:29:59Z",
+      "startTimeLocal": "2024-02-22T08:29:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Workout: AP Racing | And you thought work was stressful! (E) on Wandering Flats in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2356,
+      "elapsedSeconds": 2356,
+      "distanceMeters": 17536,
+      "elevationGainMeters": 59,
+      "power": {
+        "averageWatts": 131,
+        "maxWatts": 202,
+        "normalizedWatts": 144,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 91,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_5676c9a2a51b5f376790",
+        "name": "Group Workout: AP Racing | And you thought work was stressful! (E) on Wandering Flats"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fa0255e5e98d25ee7694"
+    },
+    {
+      "id": "ride_624c3470139e357ace73",
+      "date": "2024-02-21",
+      "startTime": "2024-02-21T12:56:16Z",
+      "startTimeLocal": "2024-02-21T07:56:16Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Rolling Highlands in Scotland",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1859,
+      "elapsedSeconds": 1859,
+      "distanceMeters": 16237,
+      "elevationGainMeters": 115,
+      "power": {
+        "averageWatts": 143,
+        "maxWatts": 485,
+        "normalizedWatts": 169,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 69,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0311b3a88002ae152b24",
+        "name": "Rolling Highlands"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_624c3470139e357ace73"
+    },
+    {
+      "id": "ride_d39f903ee07439810089",
+      "date": "2024-02-16",
+      "startTime": "2024-02-16T13:10:18Z",
+      "startTimeLocal": "2024-02-16T08:10:18Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Casse-Pattes in France",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2841,
+      "elapsedSeconds": 2841,
+      "distanceMeters": 24304,
+      "elevationGainMeters": 154,
+      "power": {
+        "averageWatts": 158,
+        "maxWatts": 806,
+        "normalizedWatts": 183,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 72,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d7cc137cf585999420a9",
+        "name": "Casse-Pattes"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d39f903ee07439810089"
+    },
+    {
+      "id": "ride_e95b12fb672f98ee59c4",
+      "date": "2024-02-15",
+      "startTime": "2024-02-15T13:15:16Z",
+      "startTimeLocal": "2024-02-15T08:15:16Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Flat Route in Watopia with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3231,
+      "elapsedSeconds": 3231,
+      "distanceMeters": 29154,
+      "elevationGainMeters": 168,
+      "power": {
+        "averageWatts": 130,
+        "maxWatts": 581,
+        "normalizedWatts": 134,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_2ca67a408a1b94b21d3a",
+        "name": "Pacer Group Ride: Flat Route"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_e95b12fb672f98ee59c4"
+    },
+    {
+      "id": "ride_431eab6c06b63a9b0ae0",
+      "date": "2024-02-14",
+      "startTime": "2024-02-14T13:11:31Z",
+      "startTimeLocal": "2024-02-14T08:11:31Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Flat Route in Watopia with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2503,
+      "elapsedSeconds": 2503,
+      "distanceMeters": 22742,
+      "elevationGainMeters": 123,
+      "power": {
+        "averageWatts": 135,
+        "maxWatts": 753,
+        "normalizedWatts": 152,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 67,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d8f9d27bd5fdb1e71e96",
+        "name": "Pacer Group Ride: Flat Route"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_431eab6c06b63a9b0ae0"
+    },
+    {
+      "id": "ride_1cb712f34a81ff3d4e8a",
+      "date": "2024-02-12",
+      "startTime": "2024-02-12T13:11:04Z",
+      "startTimeLocal": "2024-02-12T08:11:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Sugar Cookie in Watopia with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3222,
+      "elapsedSeconds": 3250,
+      "distanceMeters": 29170,
+      "elevationGainMeters": 241,
+      "power": {
+        "averageWatts": 161,
+        "maxWatts": 348,
+        "normalizedWatts": 163,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d65679680819796ad42f",
+        "name": "Pacer Group Ride: Sugar Cookie"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_1cb712f34a81ff3d4e8a"
+    },
+    {
+      "id": "ride_16b53ac2518b62259aef",
+      "date": "2024-02-11",
+      "startTime": "2024-02-11T18:48:08Z",
+      "startTimeLocal": "2024-02-11T13:48:08Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Road to Sky in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 6682,
+      "elapsedSeconds": 6792,
+      "distanceMeters": 31446,
+      "elevationGainMeters": 1060,
+      "power": {
+        "averageWatts": 151,
+        "maxWatts": 386,
+        "normalizedWatts": 165,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 65,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9129c7506200f12c8850",
+        "name": "Road to Sky"
+      },
+      "classification": {
+        "type": "alpe-du-zwift",
+        "confidence": "likely",
+        "basis": "Alpe-containing route plus ascent-scale elevation gain; route name alone is not counted"
+      },
+      "sourceActivityIdHash": "activity_16b53ac2518b62259aef"
+    },
+    {
+      "id": "ride_0fd225150671f982d54b",
+      "date": "2024-02-11",
+      "startTime": "2024-02-11T18:05:46Z",
+      "startTimeLocal": "2024-02-11T13:05:46Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Island Hopper in Makuri Islands with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2449,
+      "elapsedSeconds": 2449,
+      "distanceMeters": 22636,
+      "elevationGainMeters": 150,
+      "power": {
+        "averageWatts": 165,
+        "maxWatts": 521,
+        "normalizedWatts": 174,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_24e48c091382b647079d",
+        "name": "Pacer Group Ride: Island Hopper"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0fd225150671f982d54b"
+    },
+    {
+      "id": "ride_ead62039a6b88b2c81c3",
+      "date": "2024-02-08",
+      "startTime": "2024-02-08T13:07:19Z",
+      "startTimeLocal": "2024-02-08T08:07:19Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Flat Route in Watopia with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3490,
+      "elapsedSeconds": 3490,
+      "distanceMeters": 33592,
+      "elevationGainMeters": 200,
+      "power": {
+        "averageWatts": 159,
+        "maxWatts": 491,
+        "normalizedWatts": 164,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 85,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f46bb05fe11c099d597d",
+        "name": "Pacer Group Ride: Flat Route"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ead62039a6b88b2c81c3"
+    },
+    {
+      "id": "ride_5c0d65dfde094985e753",
+      "date": "2024-02-07",
+      "startTime": "2024-02-07T12:57:15Z",
+      "startTimeLocal": "2024-02-07T07:57:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Castle to Castle in Makuri Islands with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5221,
+      "elapsedSeconds": 5221,
+      "distanceMeters": 44435,
+      "elevationGainMeters": 279,
+      "power": {
+        "averageWatts": 135,
+        "maxWatts": 824,
+        "normalizedWatts": 162,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 72,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_27daecfb4907726113f1",
+        "name": "Pacer Group Ride: Castle to Castle"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5c0d65dfde094985e753"
+    },
+    {
+      "id": "ride_773d7b1fb729c2efd7d7",
+      "date": "2024-02-05",
+      "startTime": "2024-02-05T13:03:18Z",
+      "startTimeLocal": "2024-02-05T08:03:18Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Volcano Flat in Watopia with Yumi",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2881,
+      "elapsedSeconds": 2881,
+      "distanceMeters": 26240,
+      "elevationGainMeters": 104,
+      "power": {
+        "averageWatts": 156,
+        "maxWatts": 372,
+        "normalizedWatts": 165,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 71,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d6e4893639c537e2a111",
+        "name": "Pacer Group Ride: Volcano Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_773d7b1fb729c2efd7d7"
+    },
+    {
+      "id": "ride_694fc93402962f9bfceb",
+      "date": "2024-02-04",
+      "startTime": "2024-02-04T02:04:46Z",
+      "startTimeLocal": "2024-02-03T21:04:46Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Sugar Cookie in Watopia with Yumi",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2654,
+      "elapsedSeconds": 2654,
+      "distanceMeters": 21064,
+      "elevationGainMeters": 250,
+      "power": {
+        "averageWatts": 147,
+        "maxWatts": 384,
+        "normalizedWatts": 182,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 65,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_8d932980ac120a0e2c54",
+        "name": "Pacer Group Ride: Sugar Cookie"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_694fc93402962f9bfceb"
+    },
+    {
+      "id": "ride_3c7c47b7c03a699f2d98",
+      "date": "2024-02-04",
+      "startTime": "2024-02-04T01:11:35Z",
+      "startTimeLocal": "2024-02-03T20:11:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Bernie",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3092,
+      "elapsedSeconds": 3092,
+      "distanceMeters": 25967,
+      "elevationGainMeters": 94,
+      "power": {
+        "averageWatts": 103,
+        "maxWatts": 230,
+        "normalizedWatts": 106,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 61,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_29d880cbb7dce5f8e218",
+        "name": "Pacer Group Ride: Triple Flat Loops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_3c7c47b7c03a699f2d98"
+    },
+    {
+      "id": "ride_0b2100a472a7f6d6b7fd",
+      "date": "2024-02-02",
+      "startTime": "2024-02-02T12:59:04Z",
+      "startTimeLocal": "2024-02-02T07:59:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Neokyo All-Nighter in Makuri Islands with Bernie",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3533,
+      "elapsedSeconds": 3533,
+      "distanceMeters": 29079,
+      "elevationGainMeters": 203,
+      "power": {
+        "averageWatts": 119,
+        "maxWatts": 864,
+        "normalizedWatts": 177,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 64,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_7abf251849453cfbf3ac",
+        "name": "Pacer Group Ride: Neokyo All-Nighter"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_0b2100a472a7f6d6b7fd"
+    },
+    {
+      "id": "ride_5552888f12ca898b7be7",
+      "date": "2024-02-01",
+      "startTime": "2024-02-01T13:02:37Z",
+      "startTimeLocal": "2024-02-01T08:02:37Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Group Ride: Stage 6 | Ride | Tour de Zwift 2024 (C) on Legends and Lava in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3459,
+      "elapsedSeconds": 3459,
+      "distanceMeters": 30592,
+      "elevationGainMeters": 365,
+      "power": {
+        "averageWatts": 165,
+        "maxWatts": 419,
+        "normalizedWatts": 189,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_fda57a9c4bb70f9b0f95",
+        "name": "Group Ride: Stage 6 | Ride | Tour de Zwift 2024 (C) on Legends and Lava"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5552888f12ca898b7be7"
+    },
+    {
+      "id": "ride_8a46ed503a06f70b3b86",
+      "date": "2024-02-01",
+      "startTime": "2024-02-01T12:44:39Z",
+      "startTimeLocal": "2024-02-01T07:44:39Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Mech Isle Loop in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 743,
+      "elapsedSeconds": 743,
+      "distanceMeters": 4142,
+      "elevationGainMeters": 40,
+      "power": {
+        "averageWatts": 111,
+        "maxWatts": 256,
+        "normalizedWatts": 127,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0e7f4c81ddcc431ad0d7",
+        "name": "Mech Isle Loop"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8a46ed503a06f70b3b86"
+    },
+    {
+      "id": "ride_73f79ca1f8d42e0e193b",
+      "date": "2024-01-30",
+      "startTime": "2024-01-30T13:12:13Z",
+      "startTimeLocal": "2024-01-30T08:12:13Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 5: Flat is Fast - Greater London Flat (C) on Greater London Flat in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1702,
+      "elapsedSeconds": 1702,
+      "distanceMeters": 18274,
+      "elevationGainMeters": 99,
+      "power": {
+        "averageWatts": 210,
+        "maxWatts": 395,
+        "normalizedWatts": 217,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 85,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b44388aaa8adc75baf79",
+        "name": "Race: Stage 5: Flat is Fast - Greater London Flat (C) on Greater London Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_73f79ca1f8d42e0e193b"
+    },
+    {
+      "id": "ride_8be0a33dd7454ac7c880",
+      "date": "2024-01-30",
+      "startTime": "2024-01-30T12:43:35Z",
+      "startTimeLocal": "2024-01-30T07:43:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Sea to Tree in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1279,
+      "elapsedSeconds": 1279,
+      "distanceMeters": 3337,
+      "elevationGainMeters": 108,
+      "power": {
+        "averageWatts": 108,
+        "maxWatts": 245,
+        "normalizedWatts": 120,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 47,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_42e3214318f7e42e1259",
+        "name": "Sea to Tree"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8be0a33dd7454ac7c880"
+    },
+    {
+      "id": "ride_58b2a79928467c225fcd",
+      "date": "2024-01-29",
+      "startTime": "2024-01-29T13:10:15Z",
+      "startTimeLocal": "2024-01-29T08:10:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Micro Wave in Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2201,
+      "elapsedSeconds": 2201,
+      "distanceMeters": 19446,
+      "elevationGainMeters": 150,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 329,
+        "normalizedWatts": 175,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_dd85580b0ed6c83a799c",
+        "name": "Micro Wave"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_58b2a79928467c225fcd"
+    },
+    {
+      "id": "ride_fd2b79cbd6198ead82e1",
+      "date": "2024-01-29",
+      "startTime": "2024-01-29T12:42:50Z",
+      "startTimeLocal": "2024-01-29T07:42:50Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Lutece Express in Paris",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1535,
+      "elapsedSeconds": 1535,
+      "distanceMeters": 11352,
+      "elevationGainMeters": 68,
+      "power": {
+        "averageWatts": 130,
+        "maxWatts": 750,
+        "normalizedWatts": 159,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 69,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9f24eedb8573a79d9c35",
+        "name": "Lutece Express in Paris"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fd2b79cbd6198ead82e1"
+    },
+    {
+      "id": "ride_23c2ced37acd0235a206",
+      "date": "2024-01-27",
+      "startTime": "2024-01-27T18:32:15Z",
+      "startTimeLocal": "2024-01-27T13:32:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Bigger Loop in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 7606,
+      "elapsedSeconds": 7715,
+      "distanceMeters": 53543,
+      "elevationGainMeters": 692,
+      "power": {
+        "averageWatts": 137,
+        "maxWatts": 628,
+        "normalizedWatts": 155,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3e8bb53beca2a138f9b7",
+        "name": "Bigger Loop"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_23c2ced37acd0235a206"
+    },
+    {
+      "id": "ride_77f6e12b761ed147b352",
+      "date": "2024-01-26",
+      "startTime": "2024-01-26T12:33:25Z",
+      "startTimeLocal": "2024-01-26T07:33:25Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - 2015 Worlds Course in Richmond",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2353,
+      "elapsedSeconds": 2353,
+      "distanceMeters": 17915,
+      "elevationGainMeters": 169,
+      "power": {
+        "averageWatts": 134,
+        "maxWatts": 386,
+        "normalizedWatts": 154,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 66,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_11df3b61b4a04e086116",
+        "name": "2015 Worlds Course"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_77f6e12b761ed147b352"
+    },
+    {
+      "id": "ride_320f2effd677029aa998",
+      "date": "2024-01-24",
+      "startTime": "2024-01-24T13:12:51Z",
+      "startTimeLocal": "2024-01-24T08:12:51Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Instant Inferno in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1484,
+      "elapsedSeconds": 1484,
+      "distanceMeters": 13277,
+      "elevationGainMeters": 57,
+      "power": {
+        "averageWatts": 157,
+        "maxWatts": 696,
+        "normalizedWatts": 170,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4eac561cca86963ce39a",
+        "name": "Instant Inferno"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_320f2effd677029aa998"
+    },
+    {
+      "id": "ride_5771d4465e8b61afa67d",
+      "date": "2024-01-24",
+      "startTime": "2024-01-24T12:58:29Z",
+      "startTimeLocal": "2024-01-24T07:58:29Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Duchy Estate in Yorkshire",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 747,
+      "elapsedSeconds": 747,
+      "distanceMeters": 5336,
+      "elevationGainMeters": 70,
+      "power": {
+        "averageWatts": 118,
+        "maxWatts": 230,
+        "normalizedWatts": 130,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 61,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_7303607d93b26a635e9f",
+        "name": "Duchy Estate"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5771d4465e8b61afa67d"
+    },
+    {
+      "id": "ride_8fa35d21d81e41dde3bd",
+      "date": "2024-01-22",
+      "startTime": "2024-01-22T13:18:59Z",
+      "startTimeLocal": "2024-01-22T08:18:59Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2843,
+      "elapsedSeconds": 2843,
+      "distanceMeters": 25917,
+      "elevationGainMeters": 95,
+      "power": {
+        "averageWatts": 136,
+        "maxWatts": 647,
+        "normalizedWatts": 161,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_29d880cbb7dce5f8e218",
+        "name": "Pacer Group Ride: Triple Flat Loops"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8fa35d21d81e41dde3bd"
+    },
+    {
+      "id": "ride_c20d64f906dfaacb5857",
+      "date": "2024-01-20",
+      "startTime": "2024-01-20T18:12:28Z",
+      "startTimeLocal": "2024-01-20T13:12:28Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 3: Flat is Fast - Volcano Flat (C) on Volcano Flat in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2954,
+      "elapsedSeconds": 2954,
+      "distanceMeters": 26090,
+      "elevationGainMeters": 104,
+      "power": {
+        "averageWatts": 155,
+        "maxWatts": 433,
+        "normalizedWatts": 179,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9cbb17fd52facbf594cc",
+        "name": "Race: Stage 3: Flat is Fast - Volcano Flat (C) on Volcano Flat"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_c20d64f906dfaacb5857"
+    },
+    {
+      "id": "ride_be813c54666334991bfd",
+      "date": "2024-01-20",
+      "startTime": "2024-01-20T17:42:42Z",
+      "startTimeLocal": "2024-01-20T12:42:42Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Loch Loop in Scotland",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1101,
+      "elapsedSeconds": 1101,
+      "distanceMeters": 9087,
+      "elevationGainMeters": 71,
+      "power": {
+        "averageWatts": 123,
+        "maxWatts": 381,
+        "normalizedWatts": 158,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 73,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a89ac22b356443c747f3",
+        "name": "Loch Loop"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_be813c54666334991bfd"
+    },
+    {
+      "id": "ride_8c74836e0bf8720d8758",
+      "date": "2024-01-19",
+      "startTime": "2024-01-19T13:34:00Z",
+      "startTimeLocal": "2024-01-19T08:34:00Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - At/Overs in New York",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3503,
+      "elapsedSeconds": 3503,
+      "distanceMeters": 24701,
+      "elevationGainMeters": 390,
+      "power": {
+        "averageWatts": 151,
+        "maxWatts": 625,
+        "normalizedWatts": 172,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_476cfa4e00515869a67e",
+        "name": "At/Overs"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8c74836e0bf8720d8758"
+    },
+    {
+      "id": "ride_be241668f9b3de10314c",
+      "date": "2024-01-19",
+      "startTime": "2024-01-19T13:22:11Z",
+      "startTimeLocal": "2024-01-19T08:22:11Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Glasgow Crit Circuit in Scotland",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 592,
+      "elapsedSeconds": 592,
+      "distanceMeters": 3605,
+      "elevationGainMeters": 34,
+      "power": {
+        "averageWatts": 68,
+        "maxWatts": 219,
+        "normalizedWatts": 81,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_26a353e9b7f25ad90aeb",
+        "name": "Glasgow Crit Circuit"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_be241668f9b3de10314c"
+    },
+    {
+      "id": "ride_91afeff713372733e2e4",
+      "date": "2024-01-18",
+      "startTime": "2024-01-18T13:23:45Z",
+      "startTimeLocal": "2024-01-18T08:23:45Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Tempus Fugit in Watopia with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3082,
+      "elapsedSeconds": 3082,
+      "distanceMeters": 29420,
+      "elevationGainMeters": 45,
+      "power": {
+        "averageWatts": 149,
+        "maxWatts": 511,
+        "normalizedWatts": 169,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 75,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9f0e99c50b089b16b1f9",
+        "name": "Pacer Group Ride: Tempus Fugit"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_91afeff713372733e2e4"
+    },
+    {
+      "id": "ride_6bb742188c674c0f83b8",
+      "date": "2024-01-17",
+      "startTime": "2024-01-17T13:38:57Z",
+      "startTimeLocal": "2024-01-17T08:38:57Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Control The Burn in London",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 979,
+      "elapsedSeconds": 979,
+      "distanceMeters": 8705,
+      "elevationGainMeters": 36,
+      "power": {
+        "averageWatts": 151,
+        "maxWatts": 220,
+        "normalizedWatts": 157,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f48c35ef105c258a6ace",
+        "name": "Control The Burn"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6bb742188c674c0f83b8"
+    },
+    {
+      "id": "ride_07854f999ccdeb62cfe7",
+      "date": "2024-01-17",
+      "startTime": "2024-01-17T13:12:25Z",
+      "startTimeLocal": "2024-01-17T08:12:25Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Champs-Élysées in Paris",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1388,
+      "elapsedSeconds": 1405,
+      "distanceMeters": 10289,
+      "elevationGainMeters": 53,
+      "power": {
+        "averageWatts": 116,
+        "maxWatts": 325,
+        "normalizedWatts": 139,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 84,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_0509f9b225441f49e38b",
+        "name": "Champs-Élysées in Paris"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_07854f999ccdeb62cfe7"
+    },
+    {
+      "id": "ride_fad80619c3341e120b44",
+      "date": "2024-01-13",
+      "startTime": "2024-01-13T18:07:04Z",
+      "startTimeLocal": "2024-01-13T13:07:04Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: The Big Ring in Watopia with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 6010,
+      "elapsedSeconds": 6010,
+      "distanceMeters": 51500,
+      "elevationGainMeters": 270,
+      "power": {
+        "averageWatts": 139,
+        "maxWatts": 491,
+        "normalizedWatts": 149,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 81,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4566ef09bc5bdbfa4dc1",
+        "name": "Pacer Group Ride: The Big Ring"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_fad80619c3341e120b44"
+    },
+    {
+      "id": "ride_7a5ea37242fc718cd1d4",
+      "date": "2024-01-13",
+      "startTime": "2024-01-13T17:44:22Z",
+      "startTimeLocal": "2024-01-13T12:44:22Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Innsbruckring in Innsbruck",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1252,
+      "elapsedSeconds": 1252,
+      "distanceMeters": 9946,
+      "elevationGainMeters": 80,
+      "power": {
+        "averageWatts": 124,
+        "maxWatts": 383,
+        "normalizedWatts": 163,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 82,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_c42d6a782e960a2e59a8",
+        "name": "Innsbruckring"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_7a5ea37242fc718cd1d4"
+    },
+    {
+      "id": "ride_a33966f15b60c9383c66",
+      "date": "2024-01-12",
+      "startTime": "2024-01-12T13:26:17Z",
+      "startTimeLocal": "2024-01-12T08:26:17Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Sprinter's Playground in Makuri Islands with Miguel",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2995,
+      "elapsedSeconds": 3015,
+      "distanceMeters": 26449,
+      "elevationGainMeters": 144,
+      "power": {
+        "averageWatts": 132,
+        "maxWatts": 725,
+        "normalizedWatts": 171,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 70,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_06d1fe965f0011eb9165",
+        "name": "Pacer Group Ride: Sprinter's Playground"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_a33966f15b60c9383c66"
+    },
+    {
+      "id": "ride_733f9bbc1c0d0502eb4a",
+      "date": "2024-01-11",
+      "startTime": "2024-01-11T12:48:47Z",
+      "startTimeLocal": "2024-01-11T07:48:47Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: The Big Ring in Watopia with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3609,
+      "elapsedSeconds": 3609,
+      "distanceMeters": 33067,
+      "elevationGainMeters": 222,
+      "power": {
+        "averageWatts": 159,
+        "maxWatts": 468,
+        "normalizedWatts": 163,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 86,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d1cffc2173fd5e0da6b2",
+        "name": "Pacer Group Ride: The Big Ring"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_733f9bbc1c0d0502eb4a"
+    },
+    {
+      "id": "ride_8db8d72d5c861660e3e0",
+      "date": "2024-01-09",
+      "startTime": "2024-01-09T12:43:54Z",
+      "startTimeLocal": "2024-01-09T07:43:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride: Neokyo All-Nighter in Makuri Islands with Yumi",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3150,
+      "elapsedSeconds": 3165,
+      "distanceMeters": 27586,
+      "elevationGainMeters": 188,
+      "power": {
+        "averageWatts": 146,
+        "maxWatts": 491,
+        "normalizedWatts": 156,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_99265ba97186ff78ebd9",
+        "name": "Pacer Group Ride: Neokyo All-Nighter"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8db8d72d5c861660e3e0"
+    },
+    {
+      "id": "ride_2a665201827c21bf8044",
+      "date": "2024-01-08",
+      "startTime": "2024-01-08T13:13:55Z",
+      "startTimeLocal": "2024-01-08T08:13:55Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 2: Flat is Fast - The Fan Flats (D) on The Fan Flats in Richmond",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2425,
+      "elapsedSeconds": 2464,
+      "distanceMeters": 22084,
+      "elevationGainMeters": 86,
+      "power": {
+        "averageWatts": 161,
+        "maxWatts": 532,
+        "normalizedWatts": 180,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_a6ea54266b5de3b5d222",
+        "name": "Race: Stage 2: Flat is Fast - The Fan Flats (D) on The Fan Flats"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_2a665201827c21bf8044"
+    },
+    {
+      "id": "ride_87d8b6779e8186ff331d",
+      "date": "2024-01-06",
+      "startTime": "2024-01-06T19:02:45Z",
+      "startTimeLocal": "2024-01-06T14:02:45Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Makuri Islands",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2687,
+      "elapsedSeconds": 2687,
+      "distanceMeters": 19392,
+      "elevationGainMeters": 194,
+      "power": {
+        "averageWatts": 136,
+        "maxWatts": 564,
+        "normalizedWatts": 156,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 76,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_6fca2aa8730a9b369cd7",
+        "name": "Makuri Islands"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_87d8b6779e8186ff331d"
+    },
+    {
+      "id": "ride_eca88b9c2021605745a5",
+      "date": "2024-01-05",
+      "startTime": "2024-01-05T13:01:06Z",
+      "startTimeLocal": "2024-01-05T08:01:06Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Your First Workout in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2568,
+      "elapsedSeconds": 2568,
+      "distanceMeters": 21321,
+      "elevationGainMeters": 33,
+      "power": {
+        "averageWatts": 116,
+        "maxWatts": 226,
+        "normalizedWatts": 126,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 87,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_66770809132a80fdd82d",
+        "name": "Your First Workout"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_eca88b9c2021605745a5"
+    },
+    {
+      "id": "ride_74b9cc0473b292363ec1",
+      "date": "2024-01-04",
+      "startTime": "2024-01-04T19:12:06Z",
+      "startTimeLocal": "2024-01-04T14:12:06Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Afternoon Ride",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1619,
+      "elapsedSeconds": 1619,
+      "distanceMeters": 13284,
+      "elevationGainMeters": 50,
+      "power": {
+        "averageWatts": 128,
+        "maxWatts": 471,
+        "normalizedWatts": 143,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": null,
+        "maxBpm": null
+      },
+      "cadence": {
+        "averageRpm": 92,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_80d1455661e894957681",
+        "name": "Afternoon Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_74b9cc0473b292363ec1"
+    }
+  ],
+  "count": 109,
+  "privacy": {
+    "gpsCoordinatesIncluded": false,
+    "routeTraceIncluded": false,
+    "homeLocationIncluded": false,
+    "credentialsIncluded": false,
+    "privateAccountIdentifiersIncluded": false
+  }
+}

@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-13T22:46:48.003Z",
+  "generatedAt": "2026-10-14T15:09:05.578Z",
   "rides": [
+    {
+      "id": "ride_5ab954eb29fbad9aa31b",
+      "date": "2026-10-14",
+      "startTime": "2026-10-14T12:06:32Z",
+      "startTimeLocal": "2026-10-14T08:06:32Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride with Betty",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 10227,
+      "elapsedSeconds": 10227,
+      "distanceMeters": 103542,
+      "elevationGainMeters": 514,
+      "power": {
+        "averageWatts": 153,
+        "maxWatts": 514,
+        "normalizedWatts": 159,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 143,
+        "maxBpm": 161
+      },
+      "cadence": {
+        "averageRpm": 85,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_bf79837c58ca66f1ab1c",
+        "name": "Pacer Group Ride with Betty"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5ab954eb29fbad9aa31b"
+    },
     {
       "id": "ride_0427c71edd72e5a42f54",
       "date": "2026-10-13",
@@ -3988,7 +4023,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 112,
+  "count": 113,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

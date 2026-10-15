@@ -1,8 +1,48 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-14T15:09:05.578Z",
+  "generatedAt": "2026-10-15T13:24:56.310Z",
   "rides": [
+    {
+      "id": "ride_b63bbcc76b0eab2c640a",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T12:12:56Z",
+      "startTimeLocal": "2026-10-15T08:12:56Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Côte des Forche at 100% Elevation in France",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3720,
+      "elapsedSeconds": 3720,
+      "distanceMeters": 25938,
+      "elevationGainMeters": 277,
+      "power": {
+        "averageWatts": 103,
+        "maxWatts": 283,
+        "normalizedWatts": 116,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 112,
+        "maxBpm": 139
+      },
+      "cadence": {
+        "averageRpm": 86,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_d9072e80cdcfdb1e1fe4",
+        "name": "Climb Portal: Côte des Forche at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Côte des Forche",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_b63bbcc76b0eab2c640a"
+    },
     {
       "id": "ride_5ab954eb29fbad9aa31b",
       "date": "2026-10-14",
@@ -4023,7 +4063,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 113,
+  "count": 114,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

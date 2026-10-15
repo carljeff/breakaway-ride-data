@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "refreshedAt": "2026-10-13T22:46:57.131Z",
+  "refreshedAt": "2026-10-15T13:27:32.491Z",
   "climbPortal": {
-    "totalCompletions": 20,
+    "totalCompletions": 21,
     "firstCompletion": "2024-05-03",
-    "mostRecentCompletion": "2026-10-01",
+    "mostRecentCompletion": "2026-10-15",
     "byClimb": {
       "Cheddar Gorge": {
         "completions": 1,
@@ -27,9 +27,10 @@
         ]
       },
       "Côte des Forche": {
-        "completions": 1,
+        "completions": 2,
         "activityIds": [
-          "ride_be3b351e798a4fbb7fc2"
+          "ride_be3b351e798a4fbb7fc2",
+          "ride_b63bbcc76b0eab2c640a"
         ]
       },
       "Col du Galibier (Lautaret)": {
@@ -109,7 +110,7 @@
     },
     "byElevationScaling": {
       "100%": {
-        "completions": 18,
+        "completions": 19,
         "activityIds": [
           "ride_dde01dde6ca693e47426",
           "ride_2fb6bbb4718ce99867b6",
@@ -128,7 +129,8 @@
           "ride_c7bc6f1ee9b4531dc64f",
           "ride_d3ab850949e508590863",
           "ride_5c010d691a5c4d4c0f41",
-          "ride_e9951be72f65bb5869f9"
+          "ride_e9951be72f65bb5869f9",
+          "ride_b63bbcc76b0eab2c640a"
         ]
       },
       "125%": {
@@ -159,7 +161,8 @@
       "ride_d3ab850949e508590863",
       "ride_5c010d691a5c4d4c0f41",
       "ride_d4e451fe650866a8dbf9",
-      "ride_e9951be72f65bb5869f9"
+      "ride_e9951be72f65bb5869f9",
+      "ride_b63bbcc76b0eab2c640a"
     ],
     "countingRule": "Every identified Climb Portal attempt is counted as a completed ascent; one ascent per qualifying activity unless multiple ascents are explicit."
   },

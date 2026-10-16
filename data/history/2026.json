@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-15T13:24:56.310Z",
+  "generatedAt": "2026-10-16T13:23:30.333Z",
   "rides": [
+    {
+      "id": "ride_8db40aec2bffc01ef038",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T12:11:24Z",
+      "startTimeLocal": "2026-10-16T08:11:24Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 2 - Race - Tour of Watopia 2026 (B)",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3594,
+      "elapsedSeconds": 3594,
+      "distanceMeters": 32366,
+      "elevationGainMeters": 359,
+      "power": {
+        "averageWatts": 168,
+        "maxWatts": 466,
+        "normalizedWatts": 209,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 148,
+        "maxBpm": 178
+      },
+      "cadence": {
+        "averageRpm": 74,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_f3ea9cbe54582542f055",
+        "name": "Race: Stage 2 - Race - Tour of Watopia 2026 (B)"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_8db40aec2bffc01ef038"
+    },
     {
       "id": "ride_b63bbcc76b0eab2c640a",
       "date": "2026-10-15",
@@ -4063,7 +4098,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 114,
+  "count": 115,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

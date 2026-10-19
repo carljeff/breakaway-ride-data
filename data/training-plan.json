@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "updatedAt": "2026-10-06T14:33:12.845Z",
+  "updatedAt": "2026-10-19T14:23:26.400Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -293,21 +293,21 @@
         "startDate": "2026-10-19",
         "endDate": "2026-10-25",
         "label": "Threshold + Repeatability · Week 3",
-        "emphasis": "2×20 min at 90–95% FTP",
+        "emphasis": "Progress to controlled 2×20 threshold work after a high-volume week; keep Wednesday easy and arrive fresh for Friday race craft.",
         "rideTarget": 3,
         "qualitySessions": 2,
         "workouts": [
           {
             "day": "MON",
-            "title": "Strength · full body",
-            "detail": "30–40 min · lower-body emphasis",
+            "title": "Strength · controlled full body",
+            "detail": "30–40 min · moderate lower-body volume only; stop well short of failure so Tuesday quality is protected",
             "kind": "hard",
             "strengthExpected": true
           },
           {
             "day": "TUE",
-            "title": "Threshold progression",
-            "detail": "2×20 min at 90–95% FTP",
+            "title": "Threshold progression · 2×20",
+            "detail": "60 min · 10 min progressive warm-up; 2×20 min at 214–221 W (91–94% FTP) with 5 min easy at 115–140 W; 5 min cool-down. Hold even power and finish capable of one more interval.",
             "kind": "hard",
             "rideExpected": true,
             "zwiftWorkout": {
@@ -316,36 +316,37 @@
               "sourceUrl": "https://whatsonzwift.com/workouts/sweet-spot/xx-sst-2-x-20min",
               "durationMinutes": 76,
               "description": "Two 20-minute sweet-spot blocks with brief controlled surges.",
-              "matchQuality": "good",
-              "matchReason": "It preserves two 20-minute work blocks and averages approximately 95% FTP across each repeating cycle, while the short surges also support this block's repeatability goal.",
+              "matchQuality": "acceptable",
+              "matchReason": "It supplies two 20-minute work blocks but its repeated 110% surges make it harder than this week's controlled 91–94% prescription after a high-volume week.",
               "mainSet": "2×20 min: 1:30 @ 90% / 0:30 @ 110% · 10 min recovery",
               "targetFtpPercent": {
                 "min": 90,
                 "max": 110
               },
               "stressPoints": 90,
-              "notes": "This is more demanding than steady 90–95% work. If fatigue is elevated, follow the original steady 2×20 prescription instead."
+              "notes": "The steady prescription is preferred this week. Use this Zwift workout only if fully recovered, or lower workout intensity so the work blocks average within 214–221 W."
             }
           },
           {
             "day": "WED",
-            "title": "Endurance + strength",
-            "detail": "75 min easy · 15 min upper/core",
+            "title": "Easy endurance",
+            "detail": "60 min · 10 min easy warm-up; 40 min at 140–165 W conversational Z2; 5 min relaxed high-cadence spinning; 5 min cool-down. Optional upper-body/core later, but no heavy legs.",
             "kind": "steady",
             "rideExpected": true,
-            "strengthExpected": true
+            "strengthExpected": false
           },
           {
             "day": "THU",
-            "title": "Race openers",
-            "detail": "30–35 min · keep it light",
-            "kind": "easy",
-            "rideExpected": true
+            "title": "Rest · optional upper/core",
+            "detail": "No ride. Mobility or 15–20 min upper-body/core only; protect fresh legs for Friday.",
+            "kind": "recovery",
+            "rideExpected": false,
+            "strengthExpected": false
           },
           {
             "day": "FRI",
-            "title": "Zwift race or RoboPacer",
-            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "title": "Zwift race simulation",
+            "detail": "About 60 min total · 10 min progressive warm-up with 3×10 sec openers; choose a 45–50 min useful race when possible; 5 min cool-down. Race craft: stay economical, then launch earlier than instinct—go-zone opens near 0.5 mi. Upper-B RoboPacer for 60 min is the fallback.",
             "kind": "key",
             "rideExpected": true
           },

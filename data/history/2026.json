@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-16T13:23:30.333Z",
+  "generatedAt": "2026-10-20T13:57:07.030Z",
   "rides": [
+    {
+      "id": "ride_ffa41d5dbfd60b3d4a50",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T12:10:41Z",
+      "startTimeLocal": "2026-10-20T08:10:41Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - XX SST 2 x 20min",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5552,
+      "elapsedSeconds": 5552,
+      "distanceMeters": 47766,
+      "elevationGainMeters": 567,
+      "power": {
+        "averageWatts": 172,
+        "maxWatts": 275,
+        "normalizedWatts": 190,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 146,
+        "maxBpm": 171
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4ef16b91cc4e54e09f7c",
+        "name": "XX SST 2 x 20min"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_ffa41d5dbfd60b3d4a50"
+    },
     {
       "id": "ride_8db40aec2bffc01ef038",
       "date": "2026-10-16",
@@ -4098,7 +4133,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 115,
+  "count": 116,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

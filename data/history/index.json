@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-16T13:23:29.135Z",
-  "totalActivities": 351,
+  "generatedAt": "2026-10-20T13:57:05.543Z",
+  "totalActivities": 352,
   "earliestRideDate": "2016-07-23",
-  "latestRideDate": "2026-10-16",
+  "latestRideDate": "2026-10-20",
   "availableYears": [
     2026,
     2025,

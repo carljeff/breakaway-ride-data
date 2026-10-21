@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "refreshedAt": "2026-10-15T13:27:32.491Z",
+  "refreshedAt": "2026-10-21T15:22:40.742Z",
   "climbPortal": {
-    "totalCompletions": 21,
+    "totalCompletions": 22,
     "firstCompletion": "2024-05-03",
-    "mostRecentCompletion": "2026-10-15",
+    "mostRecentCompletion": "2026-10-21",
     "byClimb": {
       "Cheddar Gorge": {
         "completions": 1,
@@ -13,10 +13,11 @@
         ]
       },
       "Cote de Pike": {
-        "completions": 2,
+        "completions": 3,
         "activityIds": [
           "ride_2fb6bbb4718ce99867b6",
-          "ride_03c8ab026b676c3a9423"
+          "ride_03c8ab026b676c3a9423",
+          "ride_ef75b799100e05459f4c"
         ]
       },
       "Col du Platzerwasel": {
@@ -110,7 +111,7 @@
     },
     "byElevationScaling": {
       "100%": {
-        "completions": 19,
+        "completions": 20,
         "activityIds": [
           "ride_dde01dde6ca693e47426",
           "ride_2fb6bbb4718ce99867b6",
@@ -130,7 +131,8 @@
           "ride_d3ab850949e508590863",
           "ride_5c010d691a5c4d4c0f41",
           "ride_e9951be72f65bb5869f9",
-          "ride_b63bbcc76b0eab2c640a"
+          "ride_b63bbcc76b0eab2c640a",
+          "ride_ef75b799100e05459f4c"
         ]
       },
       "125%": {
@@ -162,7 +164,8 @@
       "ride_5c010d691a5c4d4c0f41",
       "ride_d4e451fe650866a8dbf9",
       "ride_e9951be72f65bb5869f9",
-      "ride_b63bbcc76b0eab2c640a"
+      "ride_b63bbcc76b0eab2c640a",
+      "ride_ef75b799100e05459f4c"
     ],
     "countingRule": "Every identified Climb Portal attempt is counted as a completed ascent; one ascent per qualifying activity unless multiple ascents are explicit."
   },

@@ -1,8 +1,83 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-20T13:57:07.030Z",
+  "generatedAt": "2026-10-21T15:22:36.198Z",
   "rides": [
+    {
+      "id": "ride_21ee54667bcb4f0da5d1",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T12:35:58Z",
+      "startTimeLocal": "2026-10-21T08:35:58Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Coastal Crown Loop in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3529,
+      "elapsedSeconds": 3529,
+      "distanceMeters": 30775,
+      "elevationGainMeters": 360,
+      "power": {
+        "averageWatts": 160,
+        "maxWatts": 441,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 141,
+        "maxBpm": 176
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_27d34152dd92be13e58c",
+        "name": "Coastal Crown Loop"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_21ee54667bcb4f0da5d1"
+    },
+    {
+      "id": "ride_ef75b799100e05459f4c",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T12:15:36Z",
+      "startTimeLocal": "2026-10-21T08:15:36Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Climb Portal: Cote de Pike at 100% Elevation in France",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1090,
+      "elapsedSeconds": 1090,
+      "distanceMeters": 6815,
+      "elevationGainMeters": 247,
+      "power": {
+        "averageWatts": 162,
+        "maxWatts": 414,
+        "normalizedWatts": 207,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 133,
+        "maxBpm": 161
+      },
+      "cadence": {
+        "averageRpm": 87,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b2398066b8e24d9fde1a",
+        "name": "Climb Portal: Cote de Pike at 100% Elevation"
+      },
+      "classification": {
+        "type": "climb-portal",
+        "climbName": "Cote de Pike",
+        "elevationScalingPercent": 100,
+        "completionAssumption": "started portal attempts are counted as completed"
+      },
+      "sourceActivityIdHash": "activity_ef75b799100e05459f4c"
+    },
     {
       "id": "ride_ffa41d5dbfd60b3d4a50",
       "date": "2026-10-20",
@@ -4133,7 +4208,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 116,
+  "count": 118,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

@@ -1,8 +1,78 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-21T15:22:36.198Z",
+  "generatedAt": "2026-10-23T13:15:32.996Z",
   "rides": [
+    {
+      "id": "ride_2e4d7336560fa9f119e2",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T12:11:28Z",
+      "startTimeLocal": "2026-10-23T08:11:28Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 3 - Race - Tour of Watopia 2026 (B)",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3282,
+      "elapsedSeconds": 3282,
+      "distanceMeters": 30850,
+      "elevationGainMeters": 373,
+      "power": {
+        "averageWatts": 199,
+        "maxWatts": 444,
+        "normalizedWatts": 218,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 162,
+        "maxBpm": 184
+      },
+      "cadence": {
+        "averageRpm": 86,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_43425f3e151e4c1d2848",
+        "name": "Race: Stage 3 - Race - Tour of Watopia 2026 (B)"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_2e4d7336560fa9f119e2"
+    },
+    {
+      "id": "ride_086b0e693bd7320ed4d7",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T11:54:17Z",
+      "startTimeLocal": "2026-10-23T07:54:17Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride with Betty",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 625,
+      "elapsedSeconds": 625,
+      "distanceMeters": 6361,
+      "elevationGainMeters": 26,
+      "power": {
+        "averageWatts": 143,
+        "maxWatts": 275,
+        "normalizedWatts": 147,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 137,
+        "maxBpm": 152
+      },
+      "cadence": {
+        "averageRpm": 99,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_9c6ac3030a321a4dbec0",
+        "name": "Pacer Group Ride with Betty"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_086b0e693bd7320ed4d7"
+    },
     {
       "id": "ride_21ee54667bcb4f0da5d1",
       "date": "2026-10-21",
@@ -4208,7 +4278,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 118,
+  "count": 120,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

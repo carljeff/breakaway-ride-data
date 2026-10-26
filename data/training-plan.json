@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "updatedAt": "2026-10-19T14:23:26.400Z",
+  "updatedAt": "2026-10-26T14:29:37.412Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -368,59 +368,44 @@
         "startDate": "2026-10-26",
         "endDate": "2026-11-01",
         "label": "Threshold + Repeatability · Week 4",
-        "emphasis": "Progress closer to threshold as tolerated",
+        "emphasis": "Consolidate the block near threshold while using Road to Sky for climbing durability; accept manageable residual fatigue for Friday race craft.",
         "rideTarget": 3,
         "qualitySessions": 2,
         "workouts": [
           {
             "day": "MON",
-            "title": "Strength · full body",
-            "detail": "Reduce load if Friday fatigue lingers",
+            "title": "Sweet Spot Ramps · completed",
+            "detail": "71 min completed · 188 W normalized power · 223 W for 10 min. Controlled sweet-spot work that felt easy with reserve, so it counts as this week's first ride without adding extra volume.",
             "kind": "hard",
-            "strengthExpected": true
-          },
-          {
-            "day": "TUE",
-            "title": "Threshold progression",
-            "detail": "Progress closer to FTP as tolerated",
-            "kind": "hard",
-            "rideExpected": true,
-            "zwiftWorkout": {
-              "name": "2x15 FTP Intervals",
-              "source": "What's on Zwift",
-              "sourceUrl": "https://whatsonzwift.com/workouts/30-60-minutes-to-burn/2x15-ftp-intervals",
-              "durationMinutes": 55,
-              "description": "Two controlled 15-minute efforts at FTP with generous recovery.",
-              "matchQuality": "good",
-              "matchReason": "It moves the work to 100% FTP as intended for the block's final progression, while keeping total threshold time manageable ahead of Friday.",
-              "mainSet": "2×15 min @ 100% FTP · 10 min recovery",
-              "targetFtpPercent": {
-                "min": 100,
-                "max": 100
-              },
-              "stressPoints": 72,
-              "notes": "Choose this only if Tuesday legs and heart rate feel normal. Otherwise repeat the prior week's 90–95% prescription rather than forcing 100% FTP."
-            }
-          },
-          {
-            "day": "WED",
-            "title": "Endurance + strength",
-            "detail": "60–75 min easy · 15 min upper/core",
-            "kind": "steady",
-            "rideExpected": true,
-            "strengthExpected": true
-          },
-          {
-            "day": "THU",
-            "title": "Race openers",
-            "detail": "25–30 min · finish fresh",
-            "kind": "easy",
             "rideExpected": true
           },
           {
+            "day": "TUE",
+            "title": "Strength · controlled full body",
+            "detail": "30–40 min · moderate lower-body volume, stop with about 2 reps in reserve; no ride. This is the final lower-body strength work before Friday.",
+            "kind": "hard",
+            "rideExpected": false,
+            "strengthExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Road to Sky · near-threshold climbing",
+            "detail": "About 65–75 min: 10 min progressive warm-up at 130–175 W; 3×10 min at 223–228 W (95–97% FTP), with 4 min easy at 120–145 W; continue toward the Alpe summit at 165–190 W, then 5 min easy. If the badge attempt runs longer, prioritize steady completion over forcing extra intensity.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Recovery · optional upper/core",
+            "detail": "No ride and no heavy legs. Mobility or 15–20 min upper-body/core only.",
+            "kind": "recovery",
+            "rideExpected": false,
+            "strengthExpected": false
+          },
+          {
             "day": "FRI",
-            "title": "Zwift race or RoboPacer",
-            "detail": "45–70 min race · upper-B RoboPacer fallback",
+            "title": "Zwift race simulation · under training load",
+            "detail": "About 60 min: 10 min progressive warm-up with 3×10 sec high-cadence openers; 45–55 min race; 5 min cool-down. Stay economical, make one committed move, and launch earlier than instinct—the go-zone opens near 0.5 mi. Upper-B RoboPacer for 60 min is the fallback.",
             "kind": "key",
             "rideExpected": true
           },
@@ -428,13 +413,15 @@
             "day": "SAT",
             "title": "Family day",
             "detail": "No scheduled training",
-            "kind": "family"
+            "kind": "family",
+            "rideExpected": false
           },
           {
             "day": "SUN",
             "title": "Family day",
             "detail": "No scheduled training",
-            "kind": "family"
+            "kind": "family",
+            "rideExpected": false
           }
         ]
       }

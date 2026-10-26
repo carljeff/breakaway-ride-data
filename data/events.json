@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-19T14:23:29.639Z",
+  "updatedAt": "2026-10-26T14:29:33.737Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -49,10 +49,10 @@
         {
           "name": "Kosciusko County Velo",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "A-event",
         "Indiana",
@@ -84,10 +84,10 @@
         {
           "name": "Indy Cycloplex",
           "url": "https://indycycloplex.com/track",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Major Taylor Velodrome",
         "Local",
@@ -123,15 +123,15 @@
         {
           "name": "Momentum Indy",
           "url": "https://www.momentumindy.org/schedule",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "Indy Cycloplex",
           "url": "https://indycycloplex.com/schedule",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Local",
         "Masters 40+",
@@ -170,15 +170,15 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/inkyroad",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "USA Cycling",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Regional championship",
         "Road race",
@@ -215,15 +215,15 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "Visit Kankakee County",
           "url": "https://www.visitkankakeecounty.com/event?eventid=3456",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Road race",
         "State championship",
@@ -259,20 +259,20 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/76599/",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "USA Cycling",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Road race",
         "Cat 4",
@@ -309,15 +309,15 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/ohio-state-road-race-championship",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         },
         {
           "name": "USA Cycling",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-19"
+          "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-19",
+      "lastVerifiedAt": "2026-10-26",
       "relevanceTags": [
         "Road race",
         "Masters",

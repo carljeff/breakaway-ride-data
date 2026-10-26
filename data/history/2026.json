@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-23T13:15:32.996Z",
+  "generatedAt": "2026-10-26T13:41:06.688Z",
   "rides": [
+    {
+      "id": "ride_6e31c5e9173604e75960",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T12:15:47Z",
+      "startTimeLocal": "2026-10-26T08:15:47Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Sweet Spot Ramps - 30min",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 4275,
+      "elapsedSeconds": 4275,
+      "distanceMeters": 42044,
+      "elevationGainMeters": 151,
+      "power": {
+        "averageWatts": 175,
+        "maxWatts": 309,
+        "normalizedWatts": 188,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 140,
+        "maxBpm": 161
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4f29c3a1acd624e61c9b",
+        "name": "Sweet Spot Ramps - 30min"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6e31c5e9173604e75960"
+    },
     {
       "id": "ride_2e4d7336560fa9f119e2",
       "date": "2026-10-23",
@@ -4278,7 +4313,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 120,
+  "count": 121,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

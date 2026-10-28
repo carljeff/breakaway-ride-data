@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-10-27T13:42:09.657Z",
+  "generatedAt": "2026-10-28T13:48:11.200Z",
   "rides": [
+    {
+      "id": "ride_5aa55e6cf2de9385c344",
+      "date": "2026-10-28",
+      "startTime": "2026-10-28T12:13:11Z",
+      "startTimeLocal": "2026-10-28T08:13:11Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - 5 x 6 Threshold",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5019,
+      "elapsedSeconds": 5019,
+      "distanceMeters": 32369,
+      "elevationGainMeters": 1061,
+      "power": {
+        "averageWatts": 192,
+        "maxWatts": 265,
+        "normalizedWatts": 209,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 150,
+        "maxBpm": 172
+      },
+      "cadence": {
+        "averageRpm": 83,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_66d7e972321815a7fa6a",
+        "name": "5 x 6 Threshold"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5aa55e6cf2de9385c344"
+    },
     {
       "id": "ride_6ff89bb4dfcda6728066",
       "date": "2026-10-27",
@@ -4348,7 +4383,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 122,
+  "count": 123,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.1",
-  "updatedAt": "2026-10-30T20:07:34.843Z",
+  "schemaVersion": "1.2",
+  "updatedAt": "2026-10-30T20:10:25.048Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -50,7 +50,7 @@
         {
           "date": "2026-10-30",
           "watts": 241,
-          "source": "Zwift · Tour of Watopia Stage 4"
+          "source": "Breakaway training-plan integration"
         }
       ]
     },

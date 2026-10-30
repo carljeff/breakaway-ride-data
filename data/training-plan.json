@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "updatedAt": "2026-10-26T14:29:37.412Z",
+  "updatedAt": "2026-10-30T15:00:14.408Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -29,7 +29,7 @@
       "Rebuild 5–30 second snap."
     ],
     "ftp": {
-      "currentWatts": 235,
+      "currentWatts": 241,
       "baselineWatts": 235,
       "baselineDate": "2026-10-05",
       "springTargetWatts": {

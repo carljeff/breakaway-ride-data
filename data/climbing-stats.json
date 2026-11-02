@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "refreshedAt": "2026-10-21T15:22:40.742Z",
+  "refreshedAt": "2026-11-02T15:28:20.810Z",
   "climbPortal": {
     "totalCompletions": 22,
     "firstCompletion": "2024-05-03",
@@ -170,9 +170,9 @@
     "countingRule": "Every identified Climb Portal attempt is counted as a completed ascent; one ascent per qualifying activity unless multiple ascents are explicit."
   },
   "alpeDuZwift": {
-    "totalAscents": 3,
+    "totalAscents": 4,
     "verified": 0,
-    "likely": 3,
+    "likely": 4,
     "activities": [
       {
         "activityId": "ride_16b53ac2518b62259aef",
@@ -191,12 +191,18 @@
         "date": "2026-07-21",
         "name": "Zwift - Road to Sky in Watopia",
         "confidence": "likely"
+      },
+      {
+        "activityId": "ride_19946dbf1894283f40a5",
+        "date": "2026-11-02",
+        "name": "Zwift - Road to Sky in Watopia",
+        "confidence": "likely"
       }
     ]
   },
   "achievementProgress": {
     "climbPortalDistinctClimbs": 16,
-    "alpeDuZwiftAscents": 3
+    "alpeDuZwiftAscents": 4
   },
   "privacy": {
     "gpsCoordinatesIncluded": false,

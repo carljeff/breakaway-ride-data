@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-10-31T19:56:06.653Z",
+    "generatedAt": "2026-11-02T15:27:22.609Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-10-30T12:11:37Z",
+    "asOfRideDate": "2026-11-02T13:05:20Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_19946dbf1894283f40a5",
+          "date": "2026-11-02",
+          "name": "Zwift - Road to Sky in Watopia",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_21239b137113a0682baf",
           "date": "2026-10-30",
@@ -374,24 +392,6 @@
             "confidence": "high",
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_7159a28e86c097d35df2",
-          "date": "2026-10-05",
-          "name": "Zwift - Mayan 8 in Watopia",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,16 +403,16 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 551,
-            "medianRideBestWatts": 301
+            "medianRideBestWatts": 273
           },
           "previous": {
-            "rideCount": 10,
-            "bestWatts": 515,
-            "medianRideBestWatts": 312
+            "rideCount": 9,
+            "bestWatts": 433,
+            "medianRideBestWatts": 289
           },
-          "bestChangePercent": 7,
+          "bestChangePercent": 27.3,
           "direction": "improving",
           "quality": "good"
         },
@@ -421,14 +421,14 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 309,
-            "medianRideBestWatts": 251
+            "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 288,
-            "medianRideBestWatts": 237
+            "medianRideBestWatts": 235
           },
           "bestChangePercent": 7.3,
           "direction": "improving",
@@ -439,14 +439,14 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 257,
-            "medianRideBestWatts": 225
+            "medianRideBestWatts": 223
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 260,
-            "medianRideBestWatts": 210
+            "medianRideBestWatts": 219
           },
           "bestChangePercent": -1.2,
           "direction": "stable",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 140,
+      "averageRideHeartRateBpm": 141,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {

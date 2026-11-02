@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-10-30T20:10:31.536Z",
+  "updatedAt": "2026-11-02T02:36:48.944Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -57,7 +57,7 @@
     "targets": {
       "weeklyRides": 3,
       "qualitySessions": 2,
-      "additionalRide": "Longer Zone 2 ride when the schedule permits.",
+      "additionalRide": "Weekly Road to Sky / Alpe du Zwift endurance ascent toward 25x badge, ideally Monday, at 155–175 W (FTP 241 W), allow 75–100+ min as needed; keep aerobic and adjust/skip if fatigue compromises key quality workouts. Count completed ascents, starting from at least 5 earned; do not assume exact current count.",
       "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."
     },
     "thresholdProgression": [

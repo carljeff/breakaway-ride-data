@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-02T02:36:48.944Z",
+  "updatedAt": "2026-11-02T15:21:40.284Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -19,8 +19,8 @@
   "block": {
     "name": "Threshold + Repeatability",
     "startDate": "2026-10-05",
-    "endDate": "2026-11-01",
-    "approximateWeeks": 4,
+    "endDate": "2026-11-08",
+    "approximateWeeks": 5,
     "focus": "Raise sustainable threshold while retaining short-power repeatability and Friday race craft.",
     "goals": [
       "Raise sustainable threshold.",
@@ -423,6 +423,67 @@
             "day": "FRI",
             "title": "Zwift race simulation · under training load",
             "detail": "About 60 min: 10 min progressive warm-up with 3×10 sec high-cadence openers; 45–55 min race; 5 min cool-down. Stay economical, make one committed move, and launch earlier than instinct—the go-zone opens near 0.5 mi. Upper-B RoboPacer for 60 min is the fallback.",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          }
+        ]
+      },
+      {
+        "startDate": "2026-11-02",
+        "endDate": "2026-11-08",
+        "label": "Threshold + Repeatability · Week 5",
+        "emphasis": "Consolidate the new 241 W FTP with controlled threshold work, preserve short-power snap without adding a third hard day, and arrive fresh enough to execute Friday race craft.",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Recovery + optional upper/core",
+            "detail": "No ride. Mobility or 15–20 min upper-body/core only. Skip heavy lower-body lifting so Tuesday’s threshold work reflects cycling fitness rather than gym fatigue.",
+            "kind": "recovery",
+            "rideExpected": false,
+            "strengthExpected": false
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold consolidation · 3×10",
+            "detail": "About 60 min: 10 min progressive warm-up at 130–180 W with 3×10 sec high-cadence spin-ups; 3×10 min at 222–229 W (92–95% of 241 W FTP) with 4 min easy at 120–145 W between; 12 min easy cool-down. Hold the first and third intervals within about 3 W. If HR is unusually high or legs remain flat from last week, use 217–222 W instead.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Aerobic durability + 30 sec snap",
+            "detail": "About 60 min: 12 min easy warm-up; 4×30 sec at 350–400 W with 4:30 very easy at 115–145 W after each; 23 min steady Z2 at 145–170 W; 5 min cool-down. The 30 sec efforts should be crisp, not all-out. This preserves snap while keeping the day aerobic.",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Rest · protect Friday",
+            "detail": "No ride and no heavy legs. Easy walking, mobility, or 15–20 min upper-body/core only.",
+            "kind": "recovery",
+            "rideExpected": false,
+            "strengthExpected": false
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race simulation",
+            "detail": "About 60 min total: 10 min progressive warm-up at 130–190 W with 3×10 sec openers; choose a useful 45–50 min race; 5 min easy cool-down. Race craft: stay economical, close dangerous gaps early, and make one committed 1–2 min move only when it can change position or selection. For the finish, launch earlier than instinct—the go-zone opens near 0.5 mi. If no suitable race or fatigue is abnormal, ride 60 min efficiently attached to an upper-B RoboPacer.",
             "kind": "key",
             "rideExpected": true
           },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T14:29:33.737Z",
+  "updatedAt": "2026-11-02T15:20:59.461Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -40,7 +40,8 @@
       "type": "Circuit",
       "categories": [
         "2027 categories not yet published",
-        "Multiple USA Cycling classes expected; historical Masters and Cat/Novice divisions"
+        "Historical Men’s Cat 4/Novice",
+        "Historical Men’s Masters 40+ Cat 4/Novice"
       ],
       "status": "announced",
       "registrationUrl": null,
@@ -49,57 +50,75 @@
         {
           "name": "Kosciusko County Velo",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Kosciusko County Velo · preliminary schedule",
+          "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/fstf-weekend/schedule/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "A-event",
         "Indiana",
         "Circuit",
         "Road",
-        "Midwest Cup"
+        "Midwest Cup",
+        "Masters 40+",
+        "Cat 4/Novice"
       ],
       "relevanceScore": 99,
-      "notes": "The target festival and road-race omnium are announced for 2027. Watch for the category sheet and registration before treating historical fields as confirmed."
+      "notes": "The 2027 festival dates and Zimmer Biomet road-race omnium are announced. The detailed 2027 race schedule and registration are not yet posted; historical circuit categories remain context only.",
+      "historicalBasis": {
+        "year": 2026,
+        "details": "The Saturday circuit offered Men’s Cat 4/Novice and Men’s Masters 40+ Cat 4/Novice on an approximately eight-mile lap."
+      }
     },
     {
       "id": "major-taylor-racing-league-2027",
-      "name": "Major Taylor Racing League",
-      "startDate": null,
-      "endDate": null,
-      "dateLabel": "2027 schedule not published",
+      "name": "Major Taylor Racing League 2027",
+      "startDate": "2027-06-04",
+      "endDate": "2027-08-27",
+      "dateLabel": "Selected Thursdays · June 4–August 27, 2027",
       "city": "Indianapolis",
       "state": "IN",
       "distanceFromIndianapolisMiles": 6,
       "type": "Track",
       "categories": [
-        "Weekly track racing",
-        "2027 categories TBD"
+        "Men Cat 4/Novice",
+        "Masters 35+ Open on selected nights",
+        "Men Cat 3",
+        "Women Cat 4/Novice",
+        "Open track categories vary by night"
       ],
-      "status": "watching",
-      "registrationUrl": null,
+      "status": "registration-open",
+      "registrationUrl": "https://www.bikereg.com/75318?orc=1",
       "officialUrl": "https://indycycloplex.com/track",
       "sources": [
         {
-          "name": "Indy Cycloplex",
+          "name": "BikeReg · Major Taylor Race League",
+          "url": "https://www.bikereg.com/75318?orc=1",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Indy Cycloplex · Track",
           "url": "https://indycycloplex.com/track",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Major Taylor Velodrome",
         "Local",
         "Track",
-        "Race craft"
+        "Race craft",
+        "Cat 4/Novice",
+        "Masters"
       ],
-      "relevanceScore": 94,
-      "notes": "Highly relevant local racing. The current program identifies Thursday Major Taylor Racing League events, but the 2027 schedule has not been published.",
-      "historicalBasis": {
-        "year": 2026,
-        "details": "Major Taylor Racing League operated as Thursday-evening racing during the April–September track season."
-      }
+      "relevanceScore": 96,
+      "notes": "Live 2027 BikeReg options list Thursday race nights including June 4, 11, 18 and 25; July 16, 23 and 30; and August 6, 13, 20 and 27. Categories vary by night, so verify the selected date before registering.",
+      "historicalBasis": null
     },
     {
       "id": "parkside-throwdown-2027",
@@ -110,7 +129,7 @@
       "city": "Indianapolis",
       "state": "IN",
       "distanceFromIndianapolisMiles": 6,
-      "type": "Road",
+      "type": "Circuit",
       "categories": [
         "2027 categories not yet published",
         "Masters 40+ historically",
@@ -118,32 +137,33 @@
       ],
       "status": "announced",
       "registrationUrl": null,
-      "officialUrl": "https://www.momentumindy.org/schedule",
+      "officialUrl": "https://www.momentumindy.org/parkside-throwdown",
       "sources": [
         {
-          "name": "Momentum Indy",
+          "name": "Momentum Indy · 2027 schedule",
           "url": "https://www.momentumindy.org/schedule",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Indy Cycloplex",
-          "url": "https://indycycloplex.com/schedule",
-          "checkedAt": "2026-10-26"
+          "name": "Momentum Indy · Parkside Throwdown",
+          "url": "https://www.momentumindy.org/parkside-throwdown",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Local",
+        "Circuit",
         "Masters 40+",
         "Cat 4",
-        "Road",
-        "Momentum Indy"
+        "Momentum Indy",
+        "Punchy course"
       ],
       "relevanceScore": 93,
-      "notes": "Momentum Indy has announced July 16–18, 2027 and identifies Parkside Throwdown as the Sunday race at Indy Cycloplex. Categories and registration are still pending.",
+      "notes": "Momentum Indy is announced for July 16–18, 2027, with Parkside on Sunday. The organizer describes a fast, punchy park-style circuit with a climb and descent; 2027 categories and registration are still pending.",
       "historicalBasis": {
         "year": 2026,
-        "details": "Results included a Masters 40+ Cat 1/2/3/4 field."
+        "details": "The Parkside circuit used the Indy Cycloplex grounds and included Masters/Cat racing; 2027 fields are not yet confirmed."
       }
     },
     {
@@ -170,15 +190,20 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/inkyroad",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "USA Cycling",
+          "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Kentucky ORRS",
+          "url": "https://kentuckyroadracing.com/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Regional championship",
         "Road race",
@@ -188,10 +213,10 @@
         "INKY"
       ],
       "relevanceScore": 88,
-      "notes": "One of the strongest category fits in the region if it returns. The 2026 edition had separate Cat 4, Cat 5, Masters 40+, and 35+ 4/5 fields; no 2027 date is published.",
+      "notes": "A strong category fit if it returns. Current official and registration pages still describe the 2026 edition; no 2027 date or registration is published.",
       "historicalBasis": {
         "year": 2026,
-        "details": "The Ewing road championship offered Men’s Cat 4, Cat 5, Masters 40+, and Men’s 35+ 4/5 fields."
+        "details": "The Ewing championship offered Cat 4, Cat 5, Masters 40+, and 35+ 4/5 fields."
       }
     },
     {
@@ -215,15 +240,10 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-10-26"
-        },
-        {
-          "name": "Visit Kankakee County",
-          "url": "https://www.visitkankakeecounty.com/event?eventid=3456",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Road race",
         "State championship",
@@ -231,10 +251,10 @@
         "August"
       ],
       "relevanceScore": 83,
-      "notes": "A relatively close pure road-race option. The current 2027 index lists only an August placeholder, so the exact date, categories, and registration remain unconfirmed.",
+      "notes": "The current 2027 regional index still lists an August placeholder only. Keep watching for an official date, promoter page, category sheet, and registration.",
       "historicalBasis": {
         "year": 2025,
-        "details": "The Illinois championship used a 10.9-mile road-race loop in the Kankakee County area."
+        "details": "The Illinois championship used a road-race loop in the Kankakee County area; this does not confirm a 2027 edition."
       }
     },
     {
@@ -259,20 +279,20 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "BikeReg",
-          "url": "https://www.bikereg.com/76599/",
-          "checkedAt": "2026-10-26"
+          "name": "2026 organizer page",
+          "url": "https://runscore.runsignup.com/Race/IL/Belvidere/BooneCountyRoadRace",
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "USA Cycling",
+          "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Road race",
         "Cat 4",
@@ -281,10 +301,10 @@
         "State championship"
       ],
       "relevanceScore": 84,
-      "notes": "A strong late-summer road-race option if the 2027 edition is confirmed. The current 2027 index gives only an August placeholder, so the exact date and fields remain watching.",
+      "notes": "The 2027 regional index carries an August listing, but no exact date or registration is published. The 2026 organizer explicitly tied a possible 2027 continuation to turnout, so this remains watching.",
       "historicalBasis": {
         "year": 2026,
-        "details": "The 2026 IL/WI state road race offered separate Cat 4 and Masters 40+ fields."
+        "details": "The 2026 IL/WI road championship offered separate Cat 4 and Masters 40+ fields on a 21.5-mile rural circuit."
       }
     },
     {
@@ -309,15 +329,15 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/ohio-state-road-race-championship",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "USA Cycling",
+          "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-10-26"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-11-02",
       "relevanceTags": [
         "Road race",
         "Masters",
@@ -325,7 +345,7 @@
         "Midwest"
       ],
       "relevanceScore": 75,
-      "notes": "Farther from Indianapolis, but a useful pure road-race option if the 2027 edition returns with suitable categories.",
+      "notes": "A farther but useful pure road race if it returns. Current pages remain tied to the 2026 event; no 2027 date or registration is published.",
       "historicalBasis": {
         "year": 2026,
         "details": "The 2026 event offered Masters 35+ and Cat 4/5 road-race fields."

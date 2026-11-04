@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-03T15:12:21.080Z",
+    "generatedAt": "2026-11-04T14:14:56.003Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-03T13:23:58Z",
+    "asOfRideDate": "2026-11-04T13:15:30Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_6f0a7d7bfb4e05d882d6",
+          "date": "2026-11-04",
+          "name": "Zwift - Molten Momentum in Watopia",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_5f91f50c7ecb666a5e3f",
           "date": "2026-11-03",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_e50ca16aa2c50d07b43a",
-          "date": "2026-10-07",
-          "name": "Zwift - Pacer Group Ride with Yumi",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,14 +403,14 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 10,
             "bestWatts": 551,
             "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 9,
+            "rideCount": 10,
             "bestWatts": 433,
-            "medianRideBestWatts": 289
+            "medianRideBestWatts": 309
           },
           "bestChangePercent": 27.3,
           "direction": "improving",
@@ -421,14 +421,14 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 10,
             "bestWatts": 309,
-            "medianRideBestWatts": 245
+            "medianRideBestWatts": 238
           },
           "previous": {
-            "rideCount": 9,
+            "rideCount": 10,
             "bestWatts": 288,
-            "medianRideBestWatts": 235
+            "medianRideBestWatts": 237
           },
           "bestChangePercent": 7.3,
           "direction": "improving",
@@ -439,14 +439,14 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 10,
             "bestWatts": 257,
-            "medianRideBestWatts": 223
+            "medianRideBestWatts": 212
           },
           "previous": {
-            "rideCount": 9,
+            "rideCount": 10,
             "bestWatts": 260,
-            "medianRideBestWatts": 226
+            "medianRideBestWatts": 213
           },
           "bestChangePercent": -1.2,
           "direction": "stable",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 141,
+      "averageRideHeartRateBpm": 140,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -612,8 +612,8 @@
       ]
     },
     "workoutCompliance": {
-      "scheduledRideDays": 12,
-      "scheduledRideDaysWithRide": 12,
+      "scheduledRideDays": 13,
+      "scheduledRideDaysWithRide": 13,
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
@@ -830,6 +830,19 @@
             "id": "ride_5f91f50c7ecb666a5e3f",
             "name": "Zwift - Intensive Aerobic x 4",
             "durationSeconds": 5427
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-04",
+          "week": "Threshold + Repeatability · Week 5",
+          "title": "Aerobic durability + 30 sec snap",
+          "prescription": "About 60 min: 12 min easy warm-up; 4×30 sec at 350–400 W with 4:30 very easy at 115–145 W after each; 23 min steady Z2 at 145–170 W; 5 min cool-down. The 30 sec efforts should be crisp, not all-out. This preserves snap while keeping the day aerobic.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_6f0a7d7bfb4e05d882d6",
+            "name": "Zwift - Molten Momentum in Watopia",
+            "durationSeconds": 3081
           },
           "targetAssessment": null
         }

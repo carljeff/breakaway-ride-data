@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-03T15:12:24.449Z",
+  "generatedAt": "2026-11-04T14:15:03.375Z",
   "rides": [
+    {
+      "id": "ride_6f0a7d7bfb4e05d882d6",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T13:15:30Z",
+      "startTimeLocal": "2026-11-04T08:15:30Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Molten Momentum in Watopia",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3081,
+      "elapsedSeconds": 3081,
+      "distanceMeters": 24487,
+      "elevationGainMeters": 215,
+      "power": {
+        "averageWatts": 137,
+        "maxWatts": 374,
+        "normalizedWatts": 148,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 129,
+        "maxBpm": 163
+      },
+      "cadence": {
+        "averageRpm": 95,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_ae399c22fd5c9167da03",
+        "name": "Molten Momentum"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6f0a7d7bfb4e05d882d6"
+    },
     {
       "id": "ride_5f91f50c7ecb666a5e3f",
       "date": "2026-11-03",
@@ -4527,7 +4562,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 127,
+  "count": 128,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

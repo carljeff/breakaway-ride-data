@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-04T14:14:56.003Z",
+    "generatedAt": "2026-11-05T14:32:52.537Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-04T13:15:30Z",
+    "asOfRideDate": "2026-11-05T13:03:56Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_92603a01a46021dd7637",
+          "date": "2026-11-05",
+          "name": "Zwift - Colorado River Sunrise in Video",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_6f0a7d7bfb4e05d882d6",
           "date": "2026-11-04",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_85ee4ecb3342b664ab67",
-          "date": "2026-10-08",
-          "name": "Zwift - Pre-Race With Spin-Ups",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,16 +403,16 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 551,
             "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 10,
-            "bestWatts": 433,
-            "medianRideBestWatts": 309
+            "rideCount": 9,
+            "bestWatts": 351,
+            "medianRideBestWatts": 289
           },
-          "bestChangePercent": 27.3,
+          "bestChangePercent": 57,
           "direction": "improving",
           "quality": "good"
         },
@@ -421,14 +421,14 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 309,
-            "medianRideBestWatts": 238
+            "medianRideBestWatts": 230
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 288,
-            "medianRideBestWatts": 237
+            "medianRideBestWatts": 235
           },
           "bestChangePercent": 7.3,
           "direction": "improving",
@@ -439,14 +439,14 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 257,
-            "medianRideBestWatts": 212
+            "medianRideBestWatts": 200
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 260,
-            "medianRideBestWatts": 213
+            "medianRideBestWatts": 226
           },
           "bestChangePercent": -1.2,
           "direction": "stable",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 140,
+      "averageRideHeartRateBpm": 139,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {

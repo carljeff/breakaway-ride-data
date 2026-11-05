@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-04T14:15:03.375Z",
+  "generatedAt": "2026-11-05T14:32:56.140Z",
   "rides": [
+    {
+      "id": "ride_92603a01a46021dd7637",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T13:03:56Z",
+      "startTimeLocal": "2026-11-05T08:03:56Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Colorado River Sunrise in Video",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3641,
+      "elapsedSeconds": 3641,
+      "distanceMeters": 28030,
+      "elevationGainMeters": 276,
+      "power": {
+        "averageWatts": 125,
+        "maxWatts": 149,
+        "normalizedWatts": 128,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 122,
+        "maxBpm": 140
+      },
+      "cadence": {
+        "averageRpm": 87,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_150683514259786414ba",
+        "name": "Colorado River Sunrise in Video"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_92603a01a46021dd7637"
+    },
     {
       "id": "ride_6f0a7d7bfb4e05d882d6",
       "date": "2026-11-04",
@@ -4562,7 +4597,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 128,
+  "count": 129,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

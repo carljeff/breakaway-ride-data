@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-11-06",
+  "results": {
+    "ride_a8a64eeb31e45b76f5cc": [{
+      "kind": "official_elapsed",
+      "source": "Jeff supplied confirmed Zwift Stage 5 results in the November 6 implementation request; original screenshot not independently inspected",
+      "verifiedAt": "2026-11-06",
+      "officialDurationSeconds": 2179,
+      "position": 18,
+      "gapToWinnerSeconds": 70.65,
+      "averagePowerWatts": 242,
+      "powerDurationWatts": {"15s": 340, "5m": 279, "20m": 255},
+      "notes": "Official elapsed/result values only. Neither start nor finish is aligned to the recorded stream. Do not assume recording starts at official race start."
+    }]
+  }
+}

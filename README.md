@@ -9,3 +9,9 @@ Privacy-filtered cycling data synchronized from Breakaway for ChatGPT analysis. 
 - `data/training-plan.json`: planning source of truth
 
 See [Phase 1 proactive coaching](docs/phase-1-proactive-coaching.md) for analysis scope and safety guardrails.
+
+## Race-specific analysis
+
+See [race analysis architecture, API and validation](docs/race-analysis.md). `lib/race-analysis.ts` is the dependency-free pure analyzer; `data/race-results.json` stores sourced result/boundary evidence separately from production logic. The live Site integration is reviewable in `integrations/site-race-analysis.patch`. Existing public latest/recent recording metrics remain unchanged. Owner-only detailed analysis is available through Breakaway; raw streams are not published here.
+
+Run the public race suite with Node 22.13+: `node --experimental-strip-types --test tests/race-analysis.test.ts`.

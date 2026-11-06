@@ -1,0 +1,99 @@
+diff --git a/app/mcp/route.ts b/app/mcp/route.ts
+index c493515..1bb7b63 100644
+--- a/app/mcp/route.ts
++++ b/app/mcp/route.ts
+@@ -10,0 +11,2 @@ import {analyzeRecentRides} from "@/lib/recent-ride-analysis";
++import {racePayload} from "@/lib/race-payload";
++import type {RaceEvidence} from "@/lib/race-analysis";
+@@ -33,0 +36 @@ const tools=[
++ {name:"get_race_analysis",description:"Read race-specific official results and separately calculated stream metrics. Reports uncertain boundaries rather than treating cooldown as racing. Compact by default; detailed=true includes elapsed physiology/terrain timeline. Never infers drafting, attacks or group position as fact. No plan/FTP writes.",inputSchema:{type:"object",properties:{rideId:{type:"string",pattern:"^ride_[a-f0-9]{20}$"},detailed:{type:"boolean",default:false},verifiedBoundary:{type:"object",properties:{startElapsedSeconds:{type:"number",minimum:0},finishElapsedSeconds:{type:"number",minimum:0},source:{type:"string",minLength:1},verifiedAt:{type:"string"}},required:["startElapsedSeconds","finishElapsedSeconds","source","verifiedAt"],additionalProperties:false}},required:["rideId"],additionalProperties:false},annotations:{readOnlyHint:true}},
+@@ -57,0 +61,11 @@ export async function POST(request:Request){
++  if(body.params?.name==="get_race_analysis"){
++   const args=body.params.arguments as {rideId?:string;detailed?:boolean;verifiedBoundary?:Omit<RaceEvidence,"kind">}|undefined;
++   if(!args?.rideId||!/^ride_[a-f0-9]{20}$/.test(args.rideId))return rpcError(body.id,-32602,"Valid rideId required");
++   const b=args.verifiedBoundary;
++   if(b&&(!Number.isFinite(b.startElapsedSeconds)||!Number.isFinite(b.finishElapsedSeconds)||b.finishElapsedSeconds!<=b.startElapsedSeconds!||!b.source?.trim()||Number.isNaN(Date.parse(b.verifiedAt))))return rpcError(body.id,-32602,"Verified boundary requires valid offsets, source and verification date");
++   const plan=await readTrainingPlan()??defaultTrainingPlan;let data=await readRideIntervals(args.rideId,plan.block.ftp.currentWatts,{includeRaceTimeline:args.detailed===true,verifiedBoundary:b?{...b,kind:"manual_verified"}:undefined});
++   if(!data)return rpcError(body.id,-32602,"Ride not found");
++   const historical=[...(plan.block.ftp.history??[])].filter(h=>h.date<=data!.ride.date).sort((a,b)=>b.date.localeCompare(a.date))[0];
++   if(historical&&historical.watts!==data.ftpUsedWatts)data=await readRideIntervals(args.rideId,historical.watts,{includeRaceTimeline:args.detailed===true,verifiedBoundary:b?{...b,kind:"manual_verified"}:undefined});
++   return result(body.id,content({ride:data!.ride,raceAnalysis:data!.raceAnalysis?racePayload(data!.raceAnalysis,args.detailed===true):null,privacy:data!.privacy}));
++  }
+diff --git a/components/interval-view.tsx b/components/interval-view.tsx
+index b7bac5b..663b74c 100644
+--- a/components/interval-view.tsx
++++ b/components/interval-view.tsx
+@@ -4 +4,3 @@ import type {analyzeIntervals} from "@/lib/interval-analysis";
+-type Analysis=ReturnType<typeof analyzeIntervals>&{ride:{name:string;date:string}};
++import type {analyzeRace} from "@/lib/race-analysis";
++import {RaceSummary} from "@/components/race-summary";
++type Analysis=ReturnType<typeof analyzeIntervals>&{ride:{name:string;date:string};raceAnalysis?:ReturnType<typeof analyzeRace>|null};
+@@ -11 +13 @@ export function IntervalView(){
+- return <section className="card interval-view"><p className="eyebrow">READ-ONLY COACHING · INTERVALS</p><h2>Workout execution</h2><label>Ride <select value={selected} onChange={e=>setSelected(e.target.value)} aria-label="Select ride for interval analysis">{rides.map(r=><option key={r.id} value={r.id}>{r.date} · {r.name}</option>)}</select></label>{loading&&<p role="status">Reading detailed Strava streams…</p>}{error&&<p role="alert">{error}</p>}{data&&<><p>{data.intervalDetection.confidence} confidence · {data.intervalDetection.source.replaceAll("_"," ")} · FTP {data.ftpUsedWatts} W</p><svg viewBox="0 0 800 265" role="img" aria-label="Elapsed ride time: orange power in watts, blue heart rate in beats per minute; shaded work intervals"><text x="40" y="20">Power 0–{Math.round(pmax)} W · HR 0–200 bpm</text>{data.workoutIntervals.map(i=><rect key={i.intervalNumber} x={x(i.elapsedStartSeconds)} y="35" width={720*i.durationSeconds/end} height="200" fill="#ff6846" opacity=".12"/>)}{[0,.5,1].map(n=><text key={n} x={x(n*end)} y="255" textAnchor="middle">{time(n*end)}</text>)}{timeline.slice(1).map((v,i)=>{const a=timeline[i];return <g key={i}>{a.powerWatts!==null&&v.powerWatts!==null&&<line x1={x(a.elapsedSeconds)} y1={yP(a.powerWatts)} x2={x(v.elapsedSeconds)} y2={yP(v.powerWatts)} stroke="#ff6846" strokeWidth="1.5"/>}{a.heartRateBpm!==null&&v.heartRateBpm!==null&&<line x1={x(a.elapsedSeconds)} y1={yH(a.heartRateBpm)} x2={x(v.elapsedSeconds)} y2={yH(v.heartRateBpm)} stroke="#56a9d8" strokeWidth="1.5"/>}</g>})}</svg><p>{data.summary.executionAssessment.replaceAll("_"," ")} · First-to-last power {fmt(data.summary.firstToLastPowerChangePercent)}% · HR {fmt(data.summary.firstToLastHeartRateChangeBpm)} bpm</p><div className="interval-table"><table><thead><tr>{["Effort","Start / duration","Avg / NP / max W","FTP %","HR avg / max","HR start → end","Cadence","Recovery / W","Recovery HR → end"].map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{data.workoutIntervals.map(i=><tr key={i.intervalNumber}><td>{i.intervalNumber} · {i.confidence}</td><td>{time(i.elapsedStartSeconds)} / {time(i.durationSeconds)}</td><td>{fmt(i.power.averageWatts)} / {fmt(i.power.normalizedWatts)} / {fmt(i.power.maxWatts)}</td><td>{fmt(i.powerRelativeToFtpPercent)}</td><td>{fmt(i.heartRate.averageBpm)} / {fmt(i.heartRate.maxBpm)}</td><td>{fmt(i.heartRate.startBpm)} → {fmt(i.heartRate.endBpm)}</td><td>{fmt(i.cadence.averageRpm)}</td><td>{i.recoveryAfter?`${time(i.recoveryAfter.durationSeconds)} / ${fmt(i.recoveryAfter.power.averageWatts)}`:"—"}</td><td>{fmt(i.recoveryAfter?.heartRate.startBpm)} → {fmt(i.recoveryAfter?.heartRate.endBpm)}</td></tr>)}</tbody></table></div>{data.dataQuality.warnings.map(w=><p key={w} className="ftp-note">{w}</p>)}<small>Power coverage {fmt(data.dataQuality.powerCoveragePercent)}% · HR coverage {fmt(data.dataQuality.heartRateCoveragePercent)}%. Shaded regions are work; intervening periods include recovery. Last recovery may include cooldown. No automatic plan or FTP changes.</small></>}</section>
++ return <section className="card interval-view"><p className="eyebrow">READ-ONLY COACHING · INTERVALS</p><h2>Workout execution</h2><label>Ride <select value={selected} onChange={e=>setSelected(e.target.value)} aria-label="Select ride for interval analysis">{rides.map(r=><option key={r.id} value={r.id}>{r.date} · {r.name}</option>)}</select></label>{loading&&<p role="status">Reading detailed Strava streams…</p>}{error&&<p role="alert">{error}</p>}{data&&<>{data.raceAnalysis&&<RaceSummary data={data.raceAnalysis}/>}<p>{data.intervalDetection.confidence} confidence · {data.intervalDetection.source.replaceAll("_"," ")} · FTP {data.ftpUsedWatts} W</p><svg viewBox="0 0 800 265" role="img" aria-label="Elapsed ride time: orange power in watts, blue heart rate in beats per minute; shaded work intervals"><text x="40" y="20">Power 0–{Math.round(pmax)} W · HR 0–200 bpm</text>{data.workoutIntervals.map(i=><rect key={i.intervalNumber} x={x(i.elapsedStartSeconds)} y="35" width={720*i.durationSeconds/end} height="200" fill="#ff6846" opacity=".12"/>)}{[0,.5,1].map(n=><text key={n} x={x(n*end)} y="255" textAnchor="middle">{time(n*end)}</text>)}{timeline.slice(1).map((v,i)=>{const a=timeline[i];return <g key={i}>{a.powerWatts!==null&&v.powerWatts!==null&&<line x1={x(a.elapsedSeconds)} y1={yP(a.powerWatts)} x2={x(v.elapsedSeconds)} y2={yP(v.powerWatts)} stroke="#ff6846" strokeWidth="1.5"/>}{a.heartRateBpm!==null&&v.heartRateBpm!==null&&<line x1={x(a.elapsedSeconds)} y1={yH(a.heartRateBpm)} x2={x(v.elapsedSeconds)} y2={yH(v.heartRateBpm)} stroke="#56a9d8" strokeWidth="1.5"/>}</g>})}</svg><p>{data.summary.executionAssessment.replaceAll("_"," ")} · First-to-last power {fmt(data.summary.firstToLastPowerChangePercent)}% · HR {fmt(data.summary.firstToLastHeartRateChangeBpm)} bpm</p><div className="interval-table"><table><thead><tr>{["Effort","Start / duration","Avg / NP / max W","FTP %","HR avg / max","HR start → end","Cadence","Recovery / W","Recovery HR → end"].map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{data.workoutIntervals.map(i=><tr key={i.intervalNumber}><td>{i.intervalNumber} · {i.confidence}</td><td>{time(i.elapsedStartSeconds)} / {time(i.durationSeconds)}</td><td>{fmt(i.power.averageWatts)} / {fmt(i.power.normalizedWatts)} / {fmt(i.power.maxWatts)}</td><td>{fmt(i.powerRelativeToFtpPercent)}</td><td>{fmt(i.heartRate.averageBpm)} / {fmt(i.heartRate.maxBpm)}</td><td>{fmt(i.heartRate.startBpm)} → {fmt(i.heartRate.endBpm)}</td><td>{fmt(i.cadence.averageRpm)}</td><td>{i.recoveryAfter?`${time(i.recoveryAfter.durationSeconds)} / ${fmt(i.recoveryAfter.power.averageWatts)}`:"—"}</td><td>{fmt(i.recoveryAfter?.heartRate.startBpm)} → {fmt(i.recoveryAfter?.heartRate.endBpm)}</td></tr>)}</tbody></table></div>{data.dataQuality.warnings.map(w=><p key={w} className="ftp-note">{w}</p>)}<small>Power coverage {fmt(data.dataQuality.powerCoveragePercent)}% · HR coverage {fmt(data.dataQuality.heartRateCoveragePercent)}%. Shaded regions are work; intervening periods include recovery. Last recovery may include cooldown. No automatic plan or FTP changes.</small></>}</section>
+diff --git a/components/race-summary.tsx b/components/race-summary.tsx
+new file mode 100644
+index 0000000..4560d87
+--- /dev/null
++++ b/components/race-summary.tsx
+@@ -0,0 +1,8 @@
++"use client";
++import type {analyzeRace} from "@/lib/race-analysis";
++type Analysis=ReturnType<typeof analyzeRace>;
++export function RaceSummary({data}:{data:Analysis}){
++ const fmt=(s:number|null|undefined)=>s==null?"Unknown":`${Math.floor(s/60)}:${String(Math.round(s%60)).padStart(2,"0")}`;
++ const official=data.officialResult,metrics=data.raceMetrics??data.candidateRaceMetrics,t=data.timeline??[],end=data.recordedActivityDurationSeconds,x=(s:number)=>30+740*s/end,y=(p:number)=>200-p/Math.max(450,...t.map(v=>v.powerWatts??0))*160,b=data.boundary;
++ return <section className="card race-summary"><p className="eyebrow">RACE-SPECIFIC · READ ONLY</p><h2>Race result, not recording duration</h2><p>Official time: <b>{fmt(official?.officialDurationSeconds)}</b> · Recorded activity: {fmt(end)}{official?.position?` · Position ${official.position}`:""}{official?.gapToWinnerSeconds!=null?` · Gap +${official.gapToWinnerSeconds.toFixed(2)} sec`:""}</p><p>Official average: <b>{official?.averagePowerWatts??"—"} W</b> · {b.status==="verified"?"Race-only":"Provisional stream window"}: {metrics?.power.averageWatts??"—"} W average / {metrics?.power.normalizedWatts??"—"} W normalized</p><p>Boundary: {b.status} · {b.confidence} confidence. {b.source}</p>{t.length>0&&<svg viewBox="0 0 800 230" role="img" aria-label="Recorded power timeline; green verified race or amber uncertain candidate; gray post-window recording"><rect x="30" y="30" width="740" height="175" fill="#9aa59f" opacity=".15"/>{(b.finishElapsedSeconds!==null||b.candidate)&&<rect x={x(b.startElapsedSeconds??b.candidate?.startElapsedSeconds??0)} y="30" width={740*((b.finishElapsedSeconds??b.candidate?.finishElapsedSeconds??0)-(b.startElapsedSeconds??0))/end} height="175" fill={b.status==="verified"?"#44a878":"#eab44e"} opacity=".25"/>}{t.slice(1).map((v,i)=>v.powerWatts!==null&&t[i].powerWatts!==null?<line key={i} x1={x(t[i].elapsedSeconds)} y1={y(t[i].powerWatts!)} x2={x(v.elapsedSeconds)} y2={y(v.powerWatts)} stroke="#ff6846"/>:null)}{[0,.5,1].map(n=><text key={n} x={x(n*end)} y="225" textAnchor="middle">{fmt(n*end)}</text>)}</svg>}<p>{data.events.climbs.length} detected climbs · {data.events.accelerations.length} measured accelerations. Group dynamics and tactical intent are unknown.</p>{official&&<p><small>Official source: {official.source}</small></p>}<div className="power-stats">{Object.entries(metrics?.powerDurationWatts??{}).map(([duration,power])=><span key={duration}><small>{duration}</small><b>{power??"—"} W</b></span>)}</div>{data.dataQuality.warnings.map(w=><p key={w}><small>{w}</small></p>)}</section>
++}
+diff --git a/lib/race-evidence.ts b/lib/race-evidence.ts
+new file mode 100644
+index 0000000..d637204
+--- /dev/null
++++ b/lib/race-evidence.ts
+@@ -0,0 +1,11 @@
++import bundled from "./race-results.json";
++import type {RaceEvidence} from "./race-analysis";
++export async function raceEvidence(rideId:string):Promise<RaceEvidence[]>{
++ // Data registry, not per-activity production detection logic. No credentials required.
++ let registry:unknown=bundled;
++ try{const r=await fetch("https://raw.githubusercontent.com/carljeff/breakaway-ride-data/main/data/race-results.json",{cache:"no-store"});if(r.ok)registry=await r.json()}catch{}
++ const rows=(registry as {results?:Record<string,unknown>})?.results?.[rideId];
++ if(!Array.isArray(rows))return[];
++ const kinds=new Set(["official_timestamps","validated_metadata","route_distance","manual_verified","official_elapsed"]);
++ return rows.filter(v=>v&&typeof v==="object"&&kinds.has(v.kind)&&typeof v.source==="string"&&v.source.trim()&&typeof v.verifiedAt==="string"&&!Number.isNaN(Date.parse(v.verifiedAt)));
++}
+diff --git a/lib/race-payload.ts b/lib/race-payload.ts
+new file mode 100644
+index 0000000..e2636f9
+--- /dev/null
++++ b/lib/race-payload.ts
+@@ -0,0 +1,7 @@
++import type {analyzeRace} from "./race-analysis";
++type Analysis=ReturnType<typeof analyzeRace>;
++export function racePayload(a:Analysis,details=false){
++ if(details)return a;
++ const compact=(event:Analysis["events"]["accelerations"][number])=>({kind:event.kind,elapsedStartSeconds:event.elapsedStartSeconds,elapsedEndSeconds:event.elapsedEndSeconds,startDistanceMeters:event.startDistanceMeters,endDistanceMeters:event.endDistanceMeters,durationSeconds:event.durationSeconds,power:event.power,heartRate:event.heartRate,cadence:event.cadence,confidence:event.confidence});
++ return{...a,timeline:undefined,events:{climbs:a.events.climbs.map(compact),accelerations:a.events.accelerations.map(compact),sustainedEfforts:a.events.sustainedEfforts.map(compact)},repeatability:{...a.repeatability,efforts:undefined}};
++}
+diff --git a/lib/ride-data.ts b/lib/ride-data.ts
+index bd98fbb..26a5d16 100644
+--- a/lib/ride-data.ts
++++ b/lib/ride-data.ts
+@@ -3,0 +4,3 @@ import {analyzeIntervals} from "@/lib/interval-analysis";
++import {analyzeRace} from "@/lib/race-analysis";
++import type {RaceEvidence} from "@/lib/race-analysis";
++import {raceEvidence} from "@/lib/race-evidence";
+@@ -8 +11 @@ type Ride={id:string;name:string;sport_type:string;start_date:string;moving_time
+-type Streams={time:number[];watts:number[];distance:number[];altitude:number[];grade:number[];heartrate:number[];cadence:number[]};
++type Streams={time:number[];watts:number[];distance:number[];altitude:number[];grade:number[];heartrate:number[];cadence:number[];speed?:number[]};
+@@ -21 +24 @@ async function routeIdentity(ride:Ride){let raw:{map?:{summary_polyline?:string}
+-async function fetchStreams(id:string,accessToken:string){try{const keys="time,watts,distance,altitude,grade_smooth,heartrate,cadence",r=await fetch(`https://www.strava.com/api/v3/activities/${id}/streams?keys=${keys}&key_by_type=true`,{headers:{Authorization:`Bearer ${accessToken}`}});if(!r.ok)return empty();const body=await r.json() as Record<string,{data?:unknown[]}>,values=(k:string)=>(body[k]?.data??[]).map(num);return{time:values("time"),watts:values("watts"),distance:values("distance"),altitude:values("altitude"),grade:values("grade_smooth"),heartrate:values("heartrate"),cadence:values("cadence")}}catch{return empty()}}
++async function fetchStreams(id:string,accessToken:string){try{const keys="time,watts,distance,altitude,grade_smooth,heartrate,cadence,velocity_smooth",r=await fetch(`https://www.strava.com/api/v3/activities/${id}/streams?keys=${keys}&key_by_type=true`,{headers:{Authorization:`Bearer ${accessToken}`}});if(!r.ok)return empty();const body=await r.json() as Record<string,{data?:unknown[]}>,values=(k:string)=>(body[k]?.data??[]).map(num);return{time:values("time"),watts:values("watts"),distance:values("distance"),altitude:values("altitude"),grade:values("grade_smooth"),heartrate:values("heartrate"),cadence:values("cadence"),speed:values("velocity_smooth")}}catch{return empty()}}
+@@ -48 +51 @@ export async function intervalRideList(){const rows=await env.DB!.prepare("SELEC
+-export async function readRideIntervals(rideId:string,ftp:number){
++export async function readRideIntervals(rideId:string,ftp:number,options:{includeRaceTimeline?:boolean;verifiedBoundary?:RaceEvidence}={}){
+@@ -58 +61,3 @@ export async function readRideIntervals(rideId:string,ftp:number){
+- return{ride:{id:rideId,date:ride.start_date.slice(0,10),name:ride.name,durationSeconds:ride.elapsed_time,power:{averageWatts:ride.average_watts,normalizedWatts:ride.weighted_watts??normalizedPower(resample(s))},heartRate:{averageBpm:ride.average_heartrate,maxBpm:ride.max_heartrate}},...analyzeIntervals(s,ftp,{structured,laps:boundaries}),privacy:{gpsCoordinatesIncluded:false,routeTraceIncluded:false,credentialsIncluded:false,publicRelayIncluded:false}};
++ const evidence=await raceEvidence(rideId),isRace=/\brace\s*:/i.test(ride.name),raw=JSON.parse(ride.raw_json) as Record<string,unknown>;
++ const raceAnalysis=isRace?analyzeRace(s,{isRace,ftp,activityStartTime:ride.start_date,evidence:[...(options.verifiedBoundary?[options.verifiedBoundary]:[]),...evidence],includeTimeline:options.includeRaceTimeline??true}):null;
++ return{ride:{id:rideId,date:ride.start_date.slice(0,10),name:ride.name,durationSeconds:ride.elapsed_time,power:{averageWatts:ride.average_watts,normalizedWatts:ride.weighted_watts??normalizedPower(resample(s))},heartRate:{averageBpm:ride.average_heartrate,maxBpm:ride.max_heartrate}},...analyzeIntervals(s,ftp,{structured,laps:boundaries}),raceAnalysis,sourceMetadata:{raceClassificationSource:isRace?"activity name":"not classified as race",stravaWorkoutType:raw.workout_type??null,recordedStartTime:ride.start_date,recordedElapsedSeconds:ride.elapsed_time,recordedLapCount:laps.length,explicitRaceBoundaryFound:false,note:"Strava activity/lap durations are recording boundaries, not validated race results. No connected Zwift result or FIT ingestion exists."},privacy:{gpsCoordinatesIncluded:false,routeTraceIncluded:false,credentialsIncluded:false,publicRelayIncluded:false}};

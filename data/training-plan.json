@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-06T14:11:39.227Z",
+  "updatedAt": "2026-11-06T15:00:45.595Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -19,9 +19,9 @@
   "block": {
     "name": "Threshold + Repeatability",
     "startDate": "2026-10-05",
-    "endDate": "2026-11-08",
-    "approximateWeeks": 5,
-    "focus": "Raise sustainable threshold while retaining short-power repeatability and Friday race craft.",
+    "endDate": "2026-11-29",
+    "approximateWeeks": 8,
+    "focus": "Spring 2027 road-race durability and repeatable threshold attacks; Monday sweet spot, Tuesday over-threshold surges, Wednesday endurance, Friday training race.",
     "goals": [
       "Raise sustainable threshold.",
       "Improve repeatability after accumulated fatigue.",
@@ -60,9 +60,9 @@
       ]
     },
     "targets": {
-      "weeklyRides": 3,
-      "qualitySessions": 2,
-      "additionalRide": "Weekly Road to Sky / Alpe du Zwift endurance ascent toward 25x badge, ideally Monday, at 155–175 W (FTP 241 W), allow 75–100+ min as needed; keep aerobic and adjust/skip if fatigue compromises key quality workouts. Count completed ascents, starting from at least 5 earned; do not assume exact current count.",
+      "weeklyRides": 4,
+      "qualitySessions": 3,
+      "additionalRide": "Wednesday planned 60-minute endurance at 145–170 W. Road to Sky/Alpe badge attempts are optional substitutes for an endurance day, not additional hard volume.",
       "recoveryPolicy": "Recovery and easy days should respond to fatigue rather than rigidly requiring training every day."
     },
     "thresholdProgression": [
@@ -489,6 +489,183 @@
             "day": "FRI",
             "title": "Zwift race simulation",
             "detail": "About 60 min total: 10 min progressive warm-up at 130–190 W with 3×10 sec openers; choose a useful 45–50 min race; 5 min easy cool-down. Race craft: stay economical, close dangerous gaps early, and make one committed 1–2 min move only when it can change position or selection. For the finish, launch earlier than instinct—the go-zone opens near 0.5 mi. If no suitable race or fatigue is abnormal, ride 60 min efficiently attached to an upper-B RoboPacer.",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          }
+        ]
+      },
+      {
+        "startDate": "2026-11-09",
+        "endDate": "2026-11-15",
+        "label": "Durability + Attacks · Trial Week 1",
+        "emphasis": "Build spring road-race durability and repeatable threshold surges; Friday is a useful hard training race, not an A-priority event. Protect illness recovery and adjust load to execution.",
+        "rideTarget": 4,
+        "qualitySessions": 3,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Long sweet spot · durability",
+            "detail": "65–80 min total: warm up 10–15 min; 2×20 min at 220–225 W, 5 min easy between; cool down. Keep controlled and smooth; no maximal finish.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold with attacks",
+            "detail": "55–65 min total: warm up 12–15 min; 3×8 min blocks: repeat 2 min at 235–245 W followed by 20 sec at 325–335 W three times per block, then easy to finish each block as needed; 5 min easy between blocks; cool down. Keep recoveries controlled; reduce volume if Monday fatigue prevents good quality.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Aerobic endurance",
+            "detail": "60 min steady endurance, 145–170 W, conversational, no added attacks. Shorten or ease off if fatigue is excessive.",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Recovery",
+            "detail": "Rest by default, or 20–30 min very easy spin if beneficial. No heavy lower-body strength.",
+            "kind": "recovery",
+            "rideExpected": false
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race · training stimulus",
+            "detail": "Race hard when recovered, treating the race as training for Fat & Skinny Tire Fest rather than a weekly A-event. No routine taper required; choose a less intense alternative if illness or fatigue is abnormal.",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          }
+        ]
+      },
+      {
+        "startDate": "2026-11-16",
+        "endDate": "2026-11-22",
+        "label": "Durability + Attacks · Trial Week 2",
+        "emphasis": "Build spring road-race durability and repeatable threshold surges; Friday is a useful hard training race, not an A-priority event. Protect illness recovery and adjust load to execution.",
+        "rideTarget": 4,
+        "qualitySessions": 3,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Long sweet spot · durability",
+            "detail": "65–80 min total: warm up 10–15 min; 2×22 min at 223–228 W, 5 min easy between; cool down. Keep controlled and smooth; no maximal finish.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold with attacks",
+            "detail": "55–65 min total: warm up 12–15 min; 3×8 min blocks: repeat 2 min at 235–245 W followed by 20 sec at 330–340 W three times per block, then easy to finish each block as needed; 5 min easy between blocks; cool down. Keep recoveries controlled; reduce volume if Monday fatigue prevents good quality.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Aerobic endurance",
+            "detail": "60 min steady endurance, 145–170 W, conversational, no added attacks. Shorten or ease off if fatigue is excessive.",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Recovery",
+            "detail": "Rest by default, or 20–30 min very easy spin if beneficial. No heavy lower-body strength.",
+            "kind": "recovery",
+            "rideExpected": false
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race · training stimulus",
+            "detail": "Race hard when recovered, treating the race as training for Fat & Skinny Tire Fest rather than a weekly A-event. No routine taper required; choose a less intense alternative if illness or fatigue is abnormal.",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          },
+          {
+            "day": "SUN",
+            "title": "Family day",
+            "detail": "No scheduled training",
+            "kind": "family",
+            "rideExpected": false
+          }
+        ]
+      },
+      {
+        "startDate": "2026-11-23",
+        "endDate": "2026-11-29",
+        "label": "Durability + Attacks · Trial Week 3",
+        "emphasis": "Build spring road-race durability and repeatable threshold surges; Friday is a useful hard training race, not an A-priority event. Protect illness recovery and adjust load to execution.",
+        "rideTarget": 4,
+        "qualitySessions": 3,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Long sweet spot · durability",
+            "detail": "65–80 min total: warm up 10–15 min; 2×25 min at 225–230 W, 5 min easy between; cool down. Keep controlled and smooth; no maximal finish.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold with attacks",
+            "detail": "55–65 min total: warm up 12–15 min; 3×8 min blocks: repeat 2 min at 235–245 W followed by 20 sec at 335–345 W three times per block, then easy to finish each block as needed; 5 min easy between blocks; cool down. Keep recoveries controlled; reduce volume if Monday fatigue prevents good quality.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Aerobic endurance",
+            "detail": "60 min steady endurance, 145–170 W, conversational, no added attacks. Shorten or ease off if fatigue is excessive.",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Recovery",
+            "detail": "Rest by default, or 20–30 min very easy spin if beneficial. No heavy lower-body strength.",
+            "kind": "recovery",
+            "rideExpected": false
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race · training stimulus",
+            "detail": "Race hard when recovered, treating the race as training for Fat & Skinny Tire Fest rather than a weekly A-event. No routine taper required; choose a less intense alternative if illness or fatigue is abnormal.",
             "kind": "key",
             "rideExpected": true
           },

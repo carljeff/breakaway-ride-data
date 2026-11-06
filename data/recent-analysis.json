@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-05T14:32:52.537Z",
+    "generatedAt": "2026-11-06T14:08:04.592Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-05T13:03:56Z",
+    "asOfRideDate": "2026-11-06T13:11:38Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_a8a64eeb31e45b76f5cc",
+          "date": "2026-11-06",
+          "name": "Zwift - Race: Stage 5 - Race - Tour of Watopia 2026 (B)",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_92603a01a46021dd7637",
           "date": "2026-11-05",
@@ -374,24 +392,6 @@
             "confidence": "high",
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_e146564b51b488e0351e",
-          "date": "2026-10-09",
-          "name": "Zwift - Race: Stage 1 - Race - Tour of Watopia 2026",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,16 +403,16 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 10,
             "bestWatts": 551,
             "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 9,
-            "bestWatts": 351,
-            "medianRideBestWatts": 289
+            "rideCount": 10,
+            "bestWatts": 363,
+            "medianRideBestWatts": 284
           },
-          "bestChangePercent": 57,
+          "bestChangePercent": 51.8,
           "direction": "improving",
           "quality": "good"
         },
@@ -421,16 +421,16 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 10,
             "bestWatts": 309,
-            "medianRideBestWatts": 230
+            "medianRideBestWatts": 238
           },
           "previous": {
-            "rideCount": 9,
-            "bestWatts": 288,
-            "medianRideBestWatts": 235
+            "rideCount": 10,
+            "bestWatts": 302,
+            "medianRideBestWatts": 232
           },
-          "bestChangePercent": 7.3,
+          "bestChangePercent": 2.3,
           "direction": "improving",
           "quality": "good"
         },
@@ -439,17 +439,17 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
-            "bestWatts": 257,
-            "medianRideBestWatts": 200
+            "rideCount": 10,
+            "bestWatts": 270,
+            "medianRideBestWatts": 212
           },
           "previous": {
-            "rideCount": 9,
+            "rideCount": 10,
             "bestWatts": 260,
-            "medianRideBestWatts": 226
+            "medianRideBestWatts": 213
           },
-          "bestChangePercent": -1.2,
-          "direction": "stable",
+          "bestChangePercent": 3.8,
+          "direction": "improving",
           "quality": "good"
         }
       ]
@@ -617,19 +617,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-09",
-          "week": "Threshold + Repeatability · Week 1",
-          "title": "Zwift race or Upper-B RoboPacer",
-          "prescription": "Race if HR and legs feel normal; otherwise use an upper-B RoboPacer durability ride",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_e146564b51b488e0351e",
-            "name": "Zwift - Race: Stage 1 - Race - Tour of Watopia 2026",
-            "durationSeconds": 6218
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-13",
           "week": "Threshold + Repeatability · Week 2",
@@ -843,6 +830,19 @@
             "id": "ride_6f0a7d7bfb4e05d882d6",
             "name": "Zwift - Molten Momentum in Watopia",
             "durationSeconds": 3081
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-06",
+          "week": "Threshold + Repeatability · Week 5",
+          "title": "Zwift race simulation",
+          "prescription": "About 60 min total: 10 min progressive warm-up at 130–190 W with 3×10 sec openers; choose a useful 45–50 min race; 5 min easy cool-down. Race craft: stay economical, close dangerous gaps early, and make one committed 1–2 min move only when it can change position or selection. For the finish, launch earlier than instinct—the go-zone opens near 0.5 mi. If no suitable race or fatigue is abnormal, ride 60 min efficiently attached to an upper-B RoboPacer.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_a8a64eeb31e45b76f5cc",
+            "name": "Zwift - Race: Stage 5 - Race - Tour of Watopia 2026 (B)",
+            "durationSeconds": 3029
           },
           "targetAssessment": null
         }

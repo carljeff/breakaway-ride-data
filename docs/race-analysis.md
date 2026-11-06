@@ -26,6 +26,14 @@ Climbs, above-FTP accelerations, sustained threshold efforts, summit windows and
 
 Jeff supplied official Zwift results: 36:19, 18th, +70.65 seconds; 242 W average; 255 W for 20 min, 279 W for 5 min, 340 W for 15 sec. Original screenshot was not independently inspected. The recording is 50:29, 187 W average, 225 W weighted power. Existing five-second physiology shows a sustained easy transition around 35:45, about 34 seconds before official elapsed time, with pre-transition average near 242 W. This conflict must remain visible, not be patched by manufacturing an aligned finish. Exact second-level stream validation is performed after deployment and recorded in the PR.
 
+## Live second-level validation (November 6)
+
+The owner-authorized live action returned 3029 samples with 100% power/HR coverage, two recorded laps, no Strava workout type and no explicit finish metadata. Candidate multi-stream transition: elapsed 2140 seconds (35:40), versus official 2179 seconds (36:19). Candidate metrics: 242.8 W average, 247.1 W normalized, HR 167.6 average / 174 maximum, 92.5 rpm average cadence. Best powers: 5 sec 368.4; 15 sec 341.9; 30 sec 326.4; 1 min 314.1; 2 min 294.9; 5 min 277.8; 10 min 270.5; 20 min 255.4 W. These agree closely with user-supplied official powers but do not resolve the 39-second alignment difference.
+
+Main detected climb: 450–1023 seconds, 271.1 W average, 274 W normalized, 170.2 bpm average HR, about 108 m net elevation rise and four qualifying accelerations. Another climb appears at 1380–1569 seconds. Acceleration criterion: at least 20 seconds above 110% FTP using five-second forward power smoothing. This is not a count of every attack or tactical move. Official 36:19 is displayed independently; verified raceMetrics remains null. The original screenshot is not claimed as inspected.
+
+The private Site includes a downsampled, location-free real-stream regression fixture and test; this fixture is deliberately excluded from the public GitHub PR. Public tests use synthetic streams. Neither public latest/recent nor the GitHub sync workflow receives a detailed timeline.
+
 ## Safety and tests
 
 All analysis returns `analysisMode: read_only`, `autoPlanChangesEnabled: false`; no automatic plan or FTP updates. Owner identity checks and private/no-store detail API remain enforced. Public race evidence contains only approved result/boundary metadata; no raw streams or precise location. Tests cover cooldown, combined warm-up, recording-stop finish, unknown boundaries, mid-race power drops, climbs/surges, missing sensors, ordinary rides, invalid evidence, immutability and privacy. Run `node --experimental-strip-types --test tests/race-analysis.test.ts tests/interval-analysis.test.ts tests/recent-ride-analysis.test.ts`.

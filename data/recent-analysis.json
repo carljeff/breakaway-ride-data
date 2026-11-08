@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-06T14:08:04.592Z",
+    "generatedAt": "2026-11-08T19:02:37.854Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-06T13:11:38Z",
+    "asOfRideDate": "2026-11-08T18:11:38Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_37c58bc27450e278a9c2",
+          "date": "2026-11-08",
+          "name": "Zwift - Race: Stage 5 - Race - Tour of Watopia 2026 (B)",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_a8a64eeb31e45b76f5cc",
           "date": "2026-11-06",
@@ -374,24 +392,6 @@
             "confidence": "high",
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_8da59b63a56913fe6b39",
-          "date": "2026-10-12",
-          "name": "Zwift - 65rpm Strength Ramps",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 7,
-            "source": "strava_laps",
-            "confidence": "high",
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,14 +403,14 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 551,
             "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 363,
-            "medianRideBestWatts": 284
+            "medianRideBestWatts": 289
           },
           "bestChangePercent": 51.8,
           "direction": "improving",
@@ -421,14 +421,14 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 309,
-            "medianRideBestWatts": 238
+            "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 302,
-            "medianRideBestWatts": 232
+            "medianRideBestWatts": 235
           },
           "bestChangePercent": 2.3,
           "direction": "improving",
@@ -439,14 +439,14 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 10,
+            "rideCount": 11,
             "bestWatts": 270,
-            "medianRideBestWatts": 212
+            "medianRideBestWatts": 223
           },
           "previous": {
-            "rideCount": 10,
+            "rideCount": 9,
             "bestWatts": 260,
-            "medianRideBestWatts": 213
+            "medianRideBestWatts": 226
           },
           "bestChangePercent": 3.8,
           "direction": "improving",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 139,
+      "averageRideHeartRateBpm": 141,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -568,36 +568,6 @@
           "recoveryHeartRateCoverage": {
             "available": 0,
             "total": 4,
-            "percent": 0
-          },
-          "dataQuality": {
-            "intervalBoundarySource": "strava_laps",
-            "boundaryConfidence": "high",
-            "classification": "derived from power",
-            "targetsAvailable": false,
-            "comparisonConfidence": "medium",
-            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
-          }
-        },
-        {
-          "rideId": "ride_8da59b63a56913fe6b39",
-          "date": "2026-10-12",
-          "name": "Zwift - 65rpm Strength Ramps",
-          "comparison": {
-            "firstIntervalNumber": 5,
-            "lastIntervalNumber": 7,
-            "durationSeconds": 900,
-            "firstAverageWatts": 177,
-            "lastAverageWatts": 175,
-            "powerChangePercent": -1.1,
-            "firstAverageHeartRateBpm": 133,
-            "lastAverageHeartRateBpm": 138,
-            "heartRateChangeBpm": 5,
-            "heartRateDriftPercent": 3.8
-          },
-          "recoveryHeartRateCoverage": {
-            "available": 0,
-            "total": 7,
             "percent": 0
           },
           "dataQuality": {

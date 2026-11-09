@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-08T19:02:37.854Z",
+    "generatedAt": "2026-11-09T14:41:52.375Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-08T18:11:38Z",
+    "asOfRideDate": "2026-11-09T13:09:00Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_6928a6f9e66968774731",
+          "date": "2026-11-09",
+          "name": "Zwift - Double Sweet Anchor",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_37c58bc27450e278a9c2",
           "date": "2026-11-08",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_0427c71edd72e5a42f54",
-          "date": "2026-10-13",
-          "name": "Zwift - 2x15 FTP Intervals",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 4,
-            "source": "strava_laps",
-            "confidence": "high",
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -405,7 +405,7 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 551,
-            "medianRideBestWatts": 245
+            "medianRideBestWatts": 266
           },
           "previous": {
             "rideCount": 9,
@@ -428,7 +428,7 @@
           "previous": {
             "rideCount": 9,
             "bestWatts": 302,
-            "medianRideBestWatts": 235
+            "medianRideBestWatts": 230
           },
           "bestChangePercent": 2.3,
           "direction": "improving",
@@ -441,12 +441,12 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 270,
-            "medianRideBestWatts": 223
+            "medianRideBestWatts": 224
           },
           "previous": {
             "rideCount": 9,
             "bestWatts": 260,
-            "medianRideBestWatts": 226
+            "medianRideBestWatts": 223
           },
           "bestChangePercent": 3.8,
           "direction": "improving",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 141,
+      "averageRideHeartRateBpm": 140,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -548,36 +548,6 @@
             "comparisonConfidence": "medium",
             "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
           }
-        },
-        {
-          "rideId": "ride_0427c71edd72e5a42f54",
-          "date": "2026-10-13",
-          "name": "Zwift - 2x15 FTP Intervals",
-          "comparison": {
-            "firstIntervalNumber": 1,
-            "lastIntervalNumber": 3,
-            "durationSeconds": 900,
-            "firstAverageWatts": 225,
-            "lastAverageWatts": 217,
-            "powerChangePercent": -3.6,
-            "firstAverageHeartRateBpm": 151,
-            "lastAverageHeartRateBpm": 160,
-            "heartRateChangeBpm": 9,
-            "heartRateDriftPercent": 6
-          },
-          "recoveryHeartRateCoverage": {
-            "available": 0,
-            "total": 4,
-            "percent": 0
-          },
-          "dataQuality": {
-            "intervalBoundarySource": "strava_laps",
-            "boundaryConfidence": "high",
-            "classification": "derived from power",
-            "targetsAvailable": false,
-            "comparisonConfidence": "medium",
-            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
-          }
         }
       ]
     },
@@ -587,41 +557,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-13",
-          "week": "Threshold + Repeatability · Week 2",
-          "title": "Threshold progression",
-          "prescription": "2×15 min at 90–95% FTP",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_0427c71edd72e5a42f54",
-            "name": "Zwift - 2x15 FTP Intervals",
-            "durationSeconds": 3753
-          },
-          "targetAssessment": {
-            "status": "met",
-            "prescription": {
-              "intervalCount": 2,
-              "intervalMinutes": 15,
-              "minPercent": 90,
-              "maxPercent": 95,
-              "ftpWatts": 235,
-              "targetWatts": {
-                "min": 212,
-                "max": 223
-              },
-              "targetSeconds": 1800
-            },
-            "matchingIntervals": [
-              1,
-              3
-            ],
-            "completedTargetSeconds": 1800,
-            "completionPercent": 100,
-            "confidence": "medium",
-            "note": "Targets were reconstructed from the plan; interval classification was not treated as authoritative."
-          }
-        },
         {
           "date": "2026-10-14",
           "week": "Threshold + Repeatability · Week 2",
@@ -813,6 +748,19 @@
             "id": "ride_a8a64eeb31e45b76f5cc",
             "name": "Zwift - Race: Stage 5 - Race - Tour of Watopia 2026 (B)",
             "durationSeconds": 3029
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-09",
+          "week": "Durability + Attacks · Trial Week 1",
+          "title": "Long sweet spot · durability",
+          "prescription": "65–80 min total: warm up 10–15 min; 2×20 min at 220–225 W, 5 min easy between; cool down. Keep controlled and smooth; no maximal finish.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_6928a6f9e66968774731",
+            "name": "Zwift - Double Sweet Anchor",
+            "durationSeconds": 5356
           },
           "targetAssessment": null
         }

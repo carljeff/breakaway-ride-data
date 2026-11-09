@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-08T19:02:40.807Z",
+  "generatedAt": "2026-11-09T14:41:55.699Z",
   "rides": [
+    {
+      "id": "ride_6928a6f9e66968774731",
+      "date": "2026-11-09",
+      "startTime": "2026-11-09T13:09:00Z",
+      "startTimeLocal": "2026-11-09T08:09:00Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Double Sweet Anchor",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5356,
+      "elapsedSeconds": 5377,
+      "distanceMeters": 32472,
+      "elevationGainMeters": 1064,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 344,
+        "normalizedWatts": 193,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 137,
+        "maxBpm": 163
+      },
+      "cadence": {
+        "averageRpm": 86,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_afb690718ed3b3503ead",
+        "name": "Double Sweet Anchor"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6928a6f9e66968774731"
+    },
     {
       "id": "ride_37c58bc27450e278a9c2",
       "date": "2026-11-08",
@@ -4667,7 +4702,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 131,
+  "count": 132,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

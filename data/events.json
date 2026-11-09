@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-02T15:20:59.461Z",
+  "updatedAt": "2026-11-09T15:27:34.860Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -50,7 +50,7 @@
         {
           "name": "Kosciusko County Velo",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         },
         {
           "name": "Kosciusko County Velo · preliminary schedule",
@@ -58,7 +58,7 @@
           "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "A-event",
         "Indiana",
@@ -78,36 +78,41 @@
     {
       "id": "major-taylor-racing-league-2027",
       "name": "Major Taylor Racing League 2027",
-      "startDate": "2027-06-04",
-      "endDate": "2027-08-27",
-      "dateLabel": "Selected Thursdays · June 4–August 27, 2027",
+      "startDate": null,
+      "endDate": null,
+      "dateLabel": "2027 schedule not verified",
       "city": "Indianapolis",
       "state": "IN",
       "distanceFromIndianapolisMiles": 6,
       "type": "Track",
       "categories": [
-        "Men Cat 4/Novice",
-        "Masters 35+ Open on selected nights",
-        "Men Cat 3",
-        "Women Cat 4/Novice",
-        "Open track categories vary by night"
+        "Men Cat 4/Novice (historical; 2027 TBD)",
+        "Masters 35+ Open on selected nights (historical; 2027 TBD)",
+        "Men Cat 3 (historical; 2027 TBD)",
+        "Women Cat 4/Novice (historical; 2027 TBD)",
+        "Open track categories vary by night (historical; 2027 TBD)"
       ],
-      "status": "registration-open",
-      "registrationUrl": "https://www.bikereg.com/75318?orc=1",
+      "status": "watching",
+      "registrationUrl": null,
       "officialUrl": "https://indycycloplex.com/track",
       "sources": [
         {
           "name": "BikeReg · Major Taylor Race League",
           "url": "https://www.bikereg.com/75318?orc=1",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         },
         {
           "name": "Indy Cycloplex · Track",
           "url": "https://indycycloplex.com/track",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "name": "BikeReg · 2026 event overview",
+          "url": "https://www.bikereg.com/major-taylor-race-league?nc=1",
+          "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "Major Taylor Velodrome",
         "Local",
@@ -117,54 +122,8 @@
         "Masters"
       ],
       "relevanceScore": 96,
-      "notes": "Live 2027 BikeReg options list Thursday race nights including June 4, 11, 18 and 25; July 16, 23 and 30; and August 6, 13, 20 and 27. Categories vary by night, so verify the selected date before registering.",
+      "notes": "Local track option. BikeReg event 75318 is the 2026 edition; future fee tiers do not establish 2027 dates or registration. Track 101 or equivalent required.",
       "historicalBasis": null
-    },
-    {
-      "id": "parkside-throwdown-2027",
-      "name": "Indy Cycloplex Parkside Throwdown",
-      "startDate": "2027-07-18",
-      "endDate": null,
-      "dateLabel": "July 18, 2027",
-      "city": "Indianapolis",
-      "state": "IN",
-      "distanceFromIndianapolisMiles": 6,
-      "type": "Circuit",
-      "categories": [
-        "2027 categories not yet published",
-        "Masters 40+ historically",
-        "Cat 4 historically"
-      ],
-      "status": "announced",
-      "registrationUrl": null,
-      "officialUrl": "https://www.momentumindy.org/parkside-throwdown",
-      "sources": [
-        {
-          "name": "Momentum Indy · 2027 schedule",
-          "url": "https://www.momentumindy.org/schedule",
-          "checkedAt": "2026-11-02"
-        },
-        {
-          "name": "Momentum Indy · Parkside Throwdown",
-          "url": "https://www.momentumindy.org/parkside-throwdown",
-          "checkedAt": "2026-11-02"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-02",
-      "relevanceTags": [
-        "Local",
-        "Circuit",
-        "Masters 40+",
-        "Cat 4",
-        "Momentum Indy",
-        "Punchy course"
-      ],
-      "relevanceScore": 93,
-      "notes": "Momentum Indy is announced for July 16–18, 2027, with Parkside on Sunday. The organizer describes a fast, punchy park-style circuit with a climb and descent; 2027 categories and registration are still pending.",
-      "historicalBasis": {
-        "year": 2026,
-        "details": "The Parkside circuit used the Indy Cycloplex grounds and included Masters/Cat racing; 2027 fields are not yet confirmed."
-      }
     },
     {
       "id": "inky-regional-road-championship-2027",
@@ -195,7 +154,7 @@
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         },
         {
           "name": "Kentucky ORRS",
@@ -203,7 +162,7 @@
           "checkedAt": "2026-11-02"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "Regional championship",
         "Road race",
@@ -240,10 +199,10 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "Road race",
         "State championship",
@@ -279,20 +238,20 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         },
         {
           "name": "2026 organizer page",
           "url": "https://runscore.runsignup.com/Race/IL/Belvidere/BooneCountyRoadRace",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         },
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "Road race",
         "Cat 4",
@@ -334,10 +293,10 @@
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-02",
+      "lastVerifiedAt": "2026-11-09",
       "relevanceTags": [
         "Road race",
         "Masters",
@@ -350,6 +309,52 @@
         "year": 2026,
         "details": "The 2026 event offered Masters 35+ and Cat 4/5 road-race fields."
       }
+    },
+    {
+      "id": "battle-of-bluelicks-2027",
+      "name": "Battle of Bluelicks",
+      "type": "Road",
+      "status": "watching",
+      "startDate": null,
+      "endDate": null,
+      "dateLabel": "2027 edition not announced",
+      "city": "Ewing / Mount Olivet",
+      "state": "KY",
+      "distanceFromIndianapolisMiles": 180,
+      "officialUrl": "https://racepenguin.com/events/battle-of-bluelicks/",
+      "registrationUrl": null,
+      "categories": [
+        "2027 fields TBD"
+      ],
+      "lastVerifiedAt": "2026-11-09",
+      "relevanceScore": 85,
+      "relevanceTags": [
+        "Spring tune-up",
+        "Road race",
+        "Kentucky ORRS"
+      ],
+      "notes": "Potential spring tune-up if it returns; verify fields and dates before travel.",
+      "historicalBasis": {
+        "year": 2026,
+        "details": "March 21–22 two-day road race in Mount Olivet and Ewing."
+      },
+      "sources": [
+        {
+          "name": "RacePenguin · 2026 event",
+          "url": "https://racepenguin.com/events/battle-of-bluelicks/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "name": "BikeReg · past edition",
+          "url": "https://www.bikereg.com/bluelicks",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "name": "INKY Cycling",
+          "url": "https://www.inkycycling.com/races-2026.html",
+          "checkedAt": "2026-11-09"
+        }
+      ]
     }
   ]
 }

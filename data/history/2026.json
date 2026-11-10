@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-09T14:41:55.699Z",
+  "generatedAt": "2026-11-10T14:28:25.312Z",
   "rides": [
+    {
+      "id": "ride_5f4c5110e7db78adaaa5",
+      "date": "2026-11-10",
+      "startTime": "2026-11-10T13:26:50Z",
+      "startTimeLocal": "2026-11-10T08:26:50Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - FTP w/ Bursts",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3385,
+      "elapsedSeconds": 3385,
+      "distanceMeters": 26330,
+      "elevationGainMeters": 468,
+      "power": {
+        "averageWatts": 186,
+        "maxWatts": 343,
+        "normalizedWatts": 214,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 145,
+        "maxBpm": 168
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_babfe29cd001864c79c5",
+        "name": "FTP w/ Bursts"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_5f4c5110e7db78adaaa5"
+    },
     {
       "id": "ride_6928a6f9e66968774731",
       "date": "2026-11-09",
@@ -4702,7 +4737,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 132,
+  "count": 133,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

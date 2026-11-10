@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-09T15:27:33.756Z",
+  "updatedAt": "2026-11-10T14:29:22.939Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -29,7 +29,7 @@
       "Rebuild 5–30 second snap."
     ],
     "ftp": {
-      "currentWatts": 243,
+      "currentWatts": 246,
       "baselineWatts": 235,
       "baselineDate": "2026-10-05",
       "springTargetWatts": {
@@ -56,6 +56,11 @@
           "date": "2026-11-06",
           "watts": 243,
           "source": "Zwift FTP estimate after Tour of Watopia Stage 5"
+        },
+        {
+          "date": "2026-11-10",
+          "watts": 246,
+          "source": "Zwift FTP increase reported by rider after FTP w/ Bursts"
         }
       ]
     },

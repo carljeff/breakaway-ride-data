@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-09T14:41:52.375Z",
+    "generatedAt": "2026-11-10T14:28:21.779Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-09T13:09:00Z",
+    "asOfRideDate": "2026-11-10T13:26:50Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_5f4c5110e7db78adaaa5",
+          "date": "2026-11-10",
+          "name": "Zwift - FTP w/ Bursts",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 13,
+            "source": "strava_laps",
+            "confidence": "high",
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_6928a6f9e66968774731",
           "date": "2026-11-09",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_5ab954eb29fbad9aa31b",
-          "date": "2026-10-14",
-          "name": "Zwift - Pacer Group Ride with Betty",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -405,12 +405,12 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 551,
-            "medianRideBestWatts": 266
+            "medianRideBestWatts": 281
           },
           "previous": {
             "rideCount": 9,
             "bestWatts": 363,
-            "medianRideBestWatts": 289
+            "medianRideBestWatts": 273
           },
           "bestChangePercent": 51.8,
           "direction": "improving",
@@ -441,7 +441,7 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 270,
-            "medianRideBestWatts": 224
+            "medianRideBestWatts": 235
           },
           "previous": {
             "rideCount": 9,
@@ -459,6 +459,36 @@
       "averageRideHeartRateBpm": 140,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
+        {
+          "rideId": "ride_5f4c5110e7db78adaaa5",
+          "date": "2026-11-10",
+          "name": "Zwift - FTP w/ Bursts",
+          "comparison": {
+            "firstIntervalNumber": 4,
+            "lastIntervalNumber": 9,
+            "durationSeconds": 120,
+            "firstAverageWatts": 261,
+            "lastAverageWatts": 261,
+            "powerChangePercent": 0,
+            "firstAverageHeartRateBpm": 158,
+            "lastAverageHeartRateBpm": 166,
+            "heartRateChangeBpm": 8,
+            "heartRateDriftPercent": 5.1
+          },
+          "recoveryHeartRateCoverage": {
+            "available": 2,
+            "total": 13,
+            "percent": 15
+          },
+          "dataQuality": {
+            "intervalBoundarySource": "strava_laps",
+            "boundaryConfidence": "high",
+            "classification": "derived from power",
+            "targetsAvailable": false,
+            "comparisonConfidence": "medium",
+            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
+          }
+        },
         {
           "rideId": "ride_5aa55e6cf2de9385c344",
           "date": "2026-10-28",
@@ -557,19 +587,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-14",
-          "week": "Threshold + Repeatability · Week 2",
-          "title": "Endurance + strength",
-          "prescription": "60–75 min easy · 15 min upper/core",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_5ab954eb29fbad9aa31b",
-            "name": "Zwift - Pacer Group Ride with Betty",
-            "durationSeconds": 10227
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-15",
           "week": "Threshold + Repeatability · Week 2",
@@ -761,6 +778,19 @@
             "id": "ride_6928a6f9e66968774731",
             "name": "Zwift - Double Sweet Anchor",
             "durationSeconds": 5356
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-10",
+          "week": "Durability + Attacks · Trial Week 1",
+          "title": "Threshold with attacks",
+          "prescription": "55–65 min total: warm up 12–15 min; 3×8 min blocks: repeat 2 min at 235–245 W followed by 20 sec at 325–335 W three times per block, then easy to finish each block as needed; 5 min easy between blocks; cool down. Keep recoveries controlled; reduce volume if Monday fatigue prevents good quality.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_5f4c5110e7db78adaaa5",
+            "name": "Zwift - FTP w/ Bursts",
+            "durationSeconds": 3385
           },
           "targetAssessment": null
         }

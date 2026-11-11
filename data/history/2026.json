@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-10T14:28:25.312Z",
+  "generatedAt": "2026-11-11T14:16:40.083Z",
   "rides": [
+    {
+      "id": "ride_3713644ee698ccc6994e",
+      "date": "2026-11-11",
+      "startTime": "2026-11-11T13:17:35Z",
+      "startTimeLocal": "2026-11-11T08:17:35Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Cadence Pyramid",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2917,
+      "elapsedSeconds": 2917,
+      "distanceMeters": 25853,
+      "elevationGainMeters": 174,
+      "power": {
+        "averageWatts": 149,
+        "maxWatts": 178,
+        "normalizedWatts": 154,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 127,
+        "maxBpm": 141
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_4c5e1f1e26e8d9bdf31f",
+        "name": "Cadence Pyramid"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_3713644ee698ccc6994e"
+    },
     {
       "id": "ride_5f4c5110e7db78adaaa5",
       "date": "2026-11-10",
@@ -4737,7 +4772,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 133,
+  "count": 134,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

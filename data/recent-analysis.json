@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-10T14:28:21.779Z",
+    "generatedAt": "2026-11-11T14:16:36.778Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-10T13:26:50Z",
+    "asOfRideDate": "2026-11-11T13:17:35Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_3713644ee698ccc6994e",
+          "date": "2026-11-11",
+          "name": "Zwift - Cadence Pyramid",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 24,
+            "source": "strava_laps",
+            "confidence": "high",
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_5f4c5110e7db78adaaa5",
           "date": "2026-11-10",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_b63bbcc76b0eab2c640a",
-          "date": "2026-10-15",
-          "name": "Zwift - Climb Portal: Côte des Forche at 100% Elevation in France",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -428,7 +428,7 @@
           "previous": {
             "rideCount": 9,
             "bestWatts": 302,
-            "medianRideBestWatts": 230
+            "medianRideBestWatts": 245
           },
           "bestChangePercent": 2.3,
           "direction": "improving",
@@ -441,12 +441,12 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 270,
-            "medianRideBestWatts": 235
+            "medianRideBestWatts": 224
           },
           "previous": {
             "rideCount": 9,
             "bestWatts": 260,
-            "medianRideBestWatts": 223
+            "medianRideBestWatts": 226
           },
           "bestChangePercent": 3.8,
           "direction": "improving",
@@ -456,9 +456,39 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 140,
+      "averageRideHeartRateBpm": 141,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
+        {
+          "rideId": "ride_3713644ee698ccc6994e",
+          "date": "2026-11-11",
+          "name": "Zwift - Cadence Pyramid",
+          "comparison": {
+            "firstIntervalNumber": 4,
+            "lastIntervalNumber": 21,
+            "durationSeconds": 60,
+            "firstAverageWatts": 170,
+            "lastAverageWatts": 170,
+            "powerChangePercent": 0,
+            "firstAverageHeartRateBpm": 127,
+            "lastAverageHeartRateBpm": 137,
+            "heartRateChangeBpm": 10,
+            "heartRateDriftPercent": 7.9
+          },
+          "recoveryHeartRateCoverage": {
+            "available": 0,
+            "total": 24,
+            "percent": 0
+          },
+          "dataQuality": {
+            "intervalBoundarySource": "strava_laps",
+            "boundaryConfidence": "high",
+            "classification": "derived from power",
+            "targetsAvailable": false,
+            "comparisonConfidence": "medium",
+            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
+          }
+        },
         {
           "rideId": "ride_5f4c5110e7db78adaaa5",
           "date": "2026-11-10",
@@ -587,19 +617,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-15",
-          "week": "Threshold + Repeatability · Week 2",
-          "title": "Race openers",
-          "prescription": "35 min · keep it light",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_b63bbcc76b0eab2c640a",
-            "name": "Zwift - Climb Portal: Côte des Forche at 100% Elevation in France",
-            "durationSeconds": 3720
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-16",
           "week": "Threshold + Repeatability · Week 2",
@@ -791,6 +808,19 @@
             "id": "ride_5f4c5110e7db78adaaa5",
             "name": "Zwift - FTP w/ Bursts",
             "durationSeconds": 3385
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-11",
+          "week": "Durability + Attacks · Trial Week 1",
+          "title": "Aerobic endurance",
+          "prescription": "60 min steady endurance, 145–170 W, conversational, no added attacks. Shorten or ease off if fatigue is excessive.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_3713644ee698ccc6994e",
+            "name": "Zwift - Cadence Pyramid",
+            "durationSeconds": 2917
           },
           "targetAssessment": null
         }

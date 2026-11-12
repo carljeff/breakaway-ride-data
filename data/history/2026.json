@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-11T14:16:40.083Z",
+  "generatedAt": "2026-11-12T16:39:25.227Z",
   "rides": [
+    {
+      "id": "ride_6cb7cf83f4e6d38db457",
+      "date": "2026-11-12",
+      "startTime": "2026-11-12T12:47:54Z",
+      "startTimeLocal": "2026-11-12T07:47:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - 30 Second Leg Activators",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3273,
+      "elapsedSeconds": 3273,
+      "distanceMeters": 22804,
+      "elevationGainMeters": 269,
+      "power": {
+        "averageWatts": 118,
+        "maxWatts": 181,
+        "normalizedWatts": 123,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 115,
+        "maxBpm": 131
+      },
+      "cadence": {
+        "averageRpm": 84,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_5456f4aab4a08032b803",
+        "name": "30 Second Leg Activators"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6cb7cf83f4e6d38db457"
+    },
     {
       "id": "ride_3713644ee698ccc6994e",
       "date": "2026-11-11",
@@ -4772,7 +4807,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 134,
+  "count": 135,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

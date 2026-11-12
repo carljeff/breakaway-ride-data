@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-11T14:16:36.778Z",
+    "generatedAt": "2026-11-12T16:39:15.917Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-11T13:17:35Z",
+    "asOfRideDate": "2026-11-12T12:47:54Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -33,6 +33,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_6cb7cf83f4e6d38db457",
+          "date": "2026-11-12",
+          "name": "Zwift - 30 Second Leg Activators",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_3713644ee698ccc6994e",
           "date": "2026-11-11",
@@ -374,24 +392,6 @@
             "confidence": "high",
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_8db40aec2bffc01ef038",
-          "date": "2026-10-16",
-          "name": "Zwift - Race: Stage 2 - Race - Tour of Watopia 2026 (B)",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -404,16 +404,16 @@
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
             "rideCount": 11,
-            "bestWatts": 551,
-            "medianRideBestWatts": 281
+            "bestWatts": 363,
+            "medianRideBestWatts": 266
           },
           "previous": {
             "rideCount": 9,
-            "bestWatts": 363,
+            "bestWatts": 551,
             "medianRideBestWatts": 273
           },
-          "bestChangePercent": 51.8,
-          "direction": "improving",
+          "bestChangePercent": -34.1,
+          "direction": "declining",
           "quality": "good"
         },
         {
@@ -423,7 +423,7 @@
           "recent": {
             "rideCount": 11,
             "bestWatts": 309,
-            "medianRideBestWatts": 245
+            "medianRideBestWatts": 236
           },
           "previous": {
             "rideCount": 9,
@@ -445,10 +445,10 @@
           },
           "previous": {
             "rideCount": 9,
-            "bestWatts": 260,
-            "medianRideBestWatts": 226
+            "bestWatts": 249,
+            "medianRideBestWatts": 223
           },
-          "bestChangePercent": 3.8,
+          "bestChangePercent": 8.4,
           "direction": "improving",
           "quality": "good"
         }
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 141,
+      "averageRideHeartRateBpm": 139,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -612,24 +612,11 @@
       ]
     },
     "workoutCompliance": {
-      "scheduledRideDays": 13,
-      "scheduledRideDaysWithRide": 13,
+      "scheduledRideDays": 12,
+      "scheduledRideDaysWithRide": 12,
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-16",
-          "week": "Threshold + Repeatability · Week 2",
-          "title": "Zwift race or RoboPacer",
-          "prescription": "45–70 min race · upper-B RoboPacer fallback",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_8db40aec2bffc01ef038",
-            "name": "Zwift - Race: Stage 2 - Race - Tour of Watopia 2026 (B)",
-            "durationSeconds": 3594
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-20",
           "week": "Threshold + Repeatability · Week 3",

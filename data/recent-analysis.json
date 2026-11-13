@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-12T16:39:15.917Z",
+    "generatedAt": "2026-11-13T14:06:25.654Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-12T12:47:54Z",
+    "asOfRideDate": "2026-11-13T13:11:37Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -25,14 +25,50 @@
       "coverage": {
         "powerSummaryPercent": 100,
         "heartRatePercent": 100,
-        "keyPowerDurationsPercent": 100,
+        "keyPowerDurationsPercent": 95,
         "structuredIntervalDetectionPercent": 100
       },
       "warnings": [
+        "1 ride(s) lack at least one 30-second, 2-minute, or 10-minute power value.",
         "Workout-step targets are not supplied by Strava; target compliance is reconstructed from the training prescription and labeled accordingly.",
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_db3c657e5ce8929cbc63",
+          "date": "2026-11-13",
+          "name": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (B)",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
+        {
+          "rideId": "ride_48049897c7d839bbc69f",
+          "date": "2026-11-13",
+          "name": "Zwift - Pacer Group Ride with Maria",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_6cb7cf83f4e6d38db457",
           "date": "2026-11-12",
@@ -356,42 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_ef75b799100e05459f4c",
-          "date": "2026-10-21",
-          "name": "Zwift - Climb Portal: Cote de Pike at 100% Elevation in France",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
-        },
-        {
-          "rideId": "ride_ffa41d5dbfd60b3d4a50",
-          "date": "2026-10-20",
-          "name": "Zwift - XX SST 2 x 20min",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 44,
-            "source": "strava_laps",
-            "confidence": "high",
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,16 +403,16 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
-            "bestWatts": 363,
-            "medianRideBestWatts": 266
+            "rideCount": 12,
+            "bestWatts": 388,
+            "medianRideBestWatts": 256
           },
           "previous": {
-            "rideCount": 9,
+            "rideCount": 8,
             "bestWatts": 551,
-            "medianRideBestWatts": 273
+            "medianRideBestWatts": 287
           },
-          "bestChangePercent": -34.1,
+          "bestChangePercent": -29.6,
           "direction": "declining",
           "quality": "good"
         },
@@ -421,17 +421,17 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
-            "bestWatts": 309,
-            "medianRideBestWatts": 236
+            "rideCount": 12,
+            "bestWatts": 295,
+            "medianRideBestWatts": 231
           },
           "previous": {
-            "rideCount": 9,
-            "bestWatts": 302,
-            "medianRideBestWatts": 245
+            "rideCount": 8,
+            "bestWatts": 309,
+            "medianRideBestWatts": 265
           },
-          "bestChangePercent": 2.3,
-          "direction": "improving",
+          "bestChangePercent": -4.5,
+          "direction": "declining",
           "quality": "good"
         },
         {
@@ -444,11 +444,11 @@
             "medianRideBestWatts": 224
           },
           "previous": {
-            "rideCount": 9,
-            "bestWatts": 249,
-            "medianRideBestWatts": 223
+            "rideCount": 8,
+            "bestWatts": 257,
+            "medianRideBestWatts": 209
           },
-          "bestChangePercent": 8.4,
+          "bestChangePercent": 5.1,
           "direction": "improving",
           "quality": "good"
         }
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 139,
+      "averageRideHeartRateBpm": 140,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -578,36 +578,6 @@
             "comparisonConfidence": "medium",
             "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
           }
-        },
-        {
-          "rideId": "ride_ffa41d5dbfd60b3d4a50",
-          "date": "2026-10-20",
-          "name": "Zwift - XX SST 2 x 20min",
-          "comparison": {
-            "firstIntervalNumber": 19,
-            "lastIntervalNumber": 38,
-            "durationSeconds": 30,
-            "firstAverageWatts": 236,
-            "lastAverageWatts": 235,
-            "powerChangePercent": -0.4,
-            "firstAverageHeartRateBpm": 158,
-            "lastAverageHeartRateBpm": 166,
-            "heartRateChangeBpm": 8,
-            "heartRateDriftPercent": 5.1
-          },
-          "recoveryHeartRateCoverage": {
-            "available": 4,
-            "total": 44,
-            "percent": 9
-          },
-          "dataQuality": {
-            "intervalBoundarySource": "strava_laps",
-            "boundaryConfidence": "high",
-            "classification": "derived from power",
-            "targetsAvailable": false,
-            "comparisonConfidence": "medium",
-            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
-          }
         }
       ]
     },
@@ -617,38 +587,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-20",
-          "week": "Threshold + Repeatability · Week 3",
-          "title": "Threshold progression · 2×20",
-          "prescription": "60 min · 10 min progressive warm-up; 2×20 min at 214–221 W (91–94% FTP) with 5 min easy at 115–140 W; 5 min cool-down. Hold even power and finish capable of one more interval.",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_ffa41d5dbfd60b3d4a50",
-            "name": "Zwift - XX SST 2 x 20min",
-            "durationSeconds": 5552
-          },
-          "targetAssessment": {
-            "status": "not_assessable",
-            "prescription": {
-              "intervalCount": 2,
-              "intervalMinutes": 20,
-              "minPercent": 91,
-              "maxPercent": 94,
-              "ftpWatts": 235,
-              "targetWatts": {
-                "min": 214,
-                "max": 221
-              },
-              "targetSeconds": 2400
-            },
-            "matchingIntervals": [],
-            "completedTargetSeconds": 0,
-            "completionPercent": null,
-            "confidence": "limited",
-            "note": "The available interval boundaries do not match the prescribed interval duration, so compliance was not inferred."
-          }
-        },
         {
           "date": "2026-10-21",
           "week": "Threshold + Repeatability · Week 3",
@@ -808,6 +746,19 @@
             "id": "ride_3713644ee698ccc6994e",
             "name": "Zwift - Cadence Pyramid",
             "durationSeconds": 2917
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-13",
+          "week": "Durability + Attacks · Trial Week 1",
+          "title": "Zwift race · training stimulus",
+          "prescription": "Race hard when recovered, treating the race as training for Fat & Skinny Tire Fest rather than a weekly A-event. No routine taper required; choose a less intense alternative if illness or fatigue is abnormal.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_db3c657e5ce8929cbc63",
+            "name": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (B)",
+            "durationSeconds": 2908
           },
           "targetAssessment": null
         }

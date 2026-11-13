@@ -1,8 +1,78 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-12T16:39:25.227Z",
+  "generatedAt": "2026-11-13T14:19:04.725Z",
   "rides": [
+    {
+      "id": "ride_db3c657e5ce8929cbc63",
+      "date": "2026-11-13",
+      "startTime": "2026-11-13T13:11:37Z",
+      "startTimeLocal": "2026-11-13T08:11:37Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (B)",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 2908,
+      "elapsedSeconds": 2935,
+      "distanceMeters": 29249,
+      "elevationGainMeters": 50,
+      "power": {
+        "averageWatts": 179,
+        "maxWatts": 516,
+        "normalizedWatts": 208,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 153,
+        "maxBpm": 178
+      },
+      "cadence": {
+        "averageRpm": 89,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_bbda9d6796a0dc95023a",
+        "name": "Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (B)"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_db3c657e5ce8929cbc63"
+    },
+    {
+      "id": "ride_48049897c7d839bbc69f",
+      "date": "2026-11-13",
+      "startTime": "2026-11-13T12:54:54Z",
+      "startTimeLocal": "2026-11-13T07:54:54Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride with Maria",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 589,
+      "elapsedSeconds": 589,
+      "distanceMeters": 5785,
+      "elevationGainMeters": 21,
+      "power": {
+        "averageWatts": 139,
+        "maxWatts": 294,
+        "normalizedWatts": 140,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 129,
+        "maxBpm": 143
+      },
+      "cadence": {
+        "averageRpm": 100,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b172125d91177f902da0",
+        "name": "Pacer Group Ride with Maria"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_48049897c7d839bbc69f"
+    },
     {
       "id": "ride_6cb7cf83f4e6d38db457",
       "date": "2026-11-12",
@@ -4807,7 +4877,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 135,
+  "count": 137,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

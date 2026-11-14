@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-13T14:19:04.725Z",
+  "generatedAt": "2026-11-14T13:40:39.795Z",
   "rides": [
+    {
+      "id": "ride_d365a0c17e2bdf2a9371",
+      "date": "2026-11-14",
+      "startTime": "2026-11-14T12:30:12Z",
+      "startTimeLocal": "2026-11-14T07:30:12Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - INEOS Grenadiers Virtual Training Camp | The Cafe Ride",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1821,
+      "elapsedSeconds": 1821,
+      "distanceMeters": 17963,
+      "elevationGainMeters": 47,
+      "power": {
+        "averageWatts": 166,
+        "maxWatts": 227,
+        "normalizedWatts": 171,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 130,
+        "maxBpm": 143
+      },
+      "cadence": {
+        "averageRpm": 79,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_b4fadbdfc0c81e8ad1bc",
+        "name": "INEOS Grenadiers Virtual Training Camp | The Cafe Ride"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_d365a0c17e2bdf2a9371"
+    },
     {
       "id": "ride_db3c657e5ce8929cbc63",
       "date": "2026-11-13",
@@ -4877,7 +4912,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 137,
+  "count": 138,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

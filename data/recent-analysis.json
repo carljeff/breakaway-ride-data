@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-13T14:06:25.654Z",
+    "generatedAt": "2026-11-14T13:40:36.194Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-13T13:11:37Z",
+    "asOfRideDate": "2026-11-14T12:30:12Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -34,6 +34,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_d365a0c17e2bdf2a9371",
+          "date": "2026-11-14",
+          "name": "Zwift - INEOS Grenadiers Virtual Training Camp | The Cafe Ride",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_db3c657e5ce8929cbc63",
           "date": "2026-11-13",
@@ -374,24 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_21ee54667bcb4f0da5d1",
-          "date": "2026-10-21",
-          "name": "Coastal Crown Loop in Watopia",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -403,14 +403,14 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 12,
+            "rideCount": 13,
             "bestWatts": 388,
-            "medianRideBestWatts": 256
+            "medianRideBestWatts": 245
           },
           "previous": {
-            "rideCount": 8,
+            "rideCount": 7,
             "bestWatts": 551,
-            "medianRideBestWatts": 287
+            "medianRideBestWatts": 245
           },
           "bestChangePercent": -29.6,
           "direction": "declining",
@@ -421,14 +421,14 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 12,
+            "rideCount": 13,
             "bestWatts": 295,
-            "medianRideBestWatts": 231
+            "medianRideBestWatts": 225
           },
           "previous": {
-            "rideCount": 8,
+            "rideCount": 7,
             "bestWatts": 309,
-            "medianRideBestWatts": 265
+            "medianRideBestWatts": 245
           },
           "bestChangePercent": -4.5,
           "direction": "declining",
@@ -439,14 +439,14 @@
           "label": "10m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 11,
+            "rideCount": 12,
             "bestWatts": 270,
-            "medianRideBestWatts": 224
+            "medianRideBestWatts": 212
           },
           "previous": {
-            "rideCount": 8,
+            "rideCount": 7,
             "bestWatts": 257,
-            "medianRideBestWatts": 209
+            "medianRideBestWatts": 223
           },
           "bestChangePercent": 5.1,
           "direction": "improving",
@@ -456,7 +456,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 140,
+      "averageRideHeartRateBpm": 139,
       "highestObservedHeartRateBpm": 184,
       "comparableIntervalResponses": [
         {
@@ -582,24 +582,11 @@
       ]
     },
     "workoutCompliance": {
-      "scheduledRideDays": 12,
-      "scheduledRideDaysWithRide": 12,
+      "scheduledRideDays": 11,
+      "scheduledRideDaysWithRide": 11,
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-21",
-          "week": "Threshold + Repeatability · Week 3",
-          "title": "Easy endurance",
-          "prescription": "60 min · 10 min easy warm-up; 40 min at 140–165 W conversational Z2; 5 min relaxed high-cadence spinning; 5 min cool-down. Optional upper-body/core later, but no heavy legs.",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_21ee54667bcb4f0da5d1",
-            "name": "Coastal Crown Loop in Watopia",
-            "durationSeconds": 3529
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-23",
           "week": "Threshold + Repeatability · Week 3",

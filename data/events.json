@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-09T15:27:34.860Z",
+  "updatedAt": "2026-11-16T15:24:55.332Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -50,15 +50,15 @@
         {
           "name": "Kosciusko County Velo",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "Kosciusko County Velo · preliminary schedule",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/fstf-weekend/schedule/",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "A-event",
         "Indiana",
@@ -104,7 +104,7 @@
         {
           "name": "Indy Cycloplex · Track",
           "url": "https://indycycloplex.com/track",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "BikeReg · 2026 event overview",
@@ -112,7 +112,7 @@
           "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "Major Taylor Velodrome",
         "Local",
@@ -149,20 +149,20 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/inkyroad",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "Kentucky ORRS",
           "url": "https://kentuckyroadracing.com/",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "Regional championship",
         "Road race",
@@ -199,10 +199,10 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "Road race",
         "State championship",
@@ -218,27 +218,28 @@
     },
     {
       "id": "boone-county-road-race-2027",
-      "name": "Boone County Road Race · IL/WI State Championship",
-      "startDate": null,
+      "name": "Boone County Road Race · MARC finale",
+      "startDate": "2027-08-29",
       "endDate": null,
-      "dateLabel": "August 2027 · exact date not published",
+      "dateLabel": "August 29, 2027",
       "city": "Belvidere",
       "state": "IL",
       "distanceFromIndianapolisMiles": 215,
       "type": "Road",
       "categories": [
-        "Cat 4 historically",
-        "Masters 40+ historically",
-        "2027 categories TBD"
+        "Preliminary Men Cat 4",
+        "Preliminary Men Cat 5",
+        "Preliminary Masters 40+ / 50+",
+        "Final field grouping pending"
       ],
-      "status": "watching",
-      "registrationUrl": null,
-      "officialUrl": "https://nicyc.com/",
+      "status": "announced",
+      "registrationUrl": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+      "officialUrl": "https://www.fastendurance.com/marc",
       "sources": [
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "2026 organizer page",
@@ -248,10 +249,20 @@
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "name": "FA.S.T Endurance · 2027 series",
+          "url": "https://www.fastendurance.com/marc",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "name": "RunSignup · 2027 series",
+          "url": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "Road race",
         "Cat 4",
@@ -260,7 +271,7 @@
         "State championship"
       ],
       "relevanceScore": 84,
-      "notes": "The 2027 regional index carries an August listing, but no exact date or registration is published. The 2026 organizer explicitly tied a possible 2027 continuation to turnout, so this remains watching.",
+      "notes": "2027 MARC finale date published. Series-pass registration opens December 1, 2026; final divisions may change. IL/WI championship designation not yet verified for 2027.",
       "historicalBasis": {
         "year": 2026,
         "details": "The 2026 IL/WI road championship offered separate Cat 4 and Masters 40+ fields on a 21.5-mile rural circuit."
@@ -293,10 +304,10 @@
         {
           "name": "USA Cycling · State and Regional Championships",
           "url": "https://usacycling.org/state-and-regional-championships",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceTags": [
         "Road race",
         "Masters",
@@ -326,7 +337,7 @@
       "categories": [
         "2027 fields TBD"
       ],
-      "lastVerifiedAt": "2026-11-09",
+      "lastVerifiedAt": "2026-11-16",
       "relevanceScore": 85,
       "relevanceTags": [
         "Spring tune-up",
@@ -342,17 +353,99 @@
         {
           "name": "RacePenguin · 2026 event",
           "url": "https://racepenguin.com/events/battle-of-bluelicks/",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "BikeReg · past edition",
           "url": "https://www.bikereg.com/bluelicks",
-          "checkedAt": "2026-11-09"
+          "checkedAt": "2026-11-16"
         },
         {
           "name": "INKY Cycling",
           "url": "https://www.inkycycling.com/races-2026.html",
           "checkedAt": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "elk-country-road-race-2027",
+      "name": "Elk Country Road Race",
+      "startDate": "2027-06-13",
+      "endDate": null,
+      "dateLabel": "2027-06-13",
+      "type": "Road",
+      "city": "Elkhorn",
+      "state": "WI",
+      "distanceFromIndianapolisMiles": 300,
+      "status": "announced",
+      "registrationUrl": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+      "officialUrl": "https://www.fastendurance.com/marc",
+      "categories": [
+        "Preliminary Men Cat 4",
+        "Preliminary Men Cat 5",
+        "Preliminary Masters 40+ / 50+",
+        "Final field grouping pending"
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "relevanceScore": 79,
+      "relevanceTags": [
+        "MARC",
+        "Road race",
+        "Cat 4",
+        "Masters 40+"
+      ],
+      "notes": "Longer travel, but a genuine road race with terrain variety. Series-pass registration opens December 1, 2026.",
+      "sources": [
+        {
+          "name": "FA.S.T Endurance · 2027 series",
+          "url": "https://www.fastendurance.com/marc",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "name": "RunSignup · 2027 series",
+          "url": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "marc-round-two-2027",
+      "name": "MARC · Power Through the Valley",
+      "startDate": "2027-07-18",
+      "endDate": null,
+      "dateLabel": "2027-07-18",
+      "type": "Road",
+      "city": "Stillman Valley (registration listing; organizer venue TBD)",
+      "state": "IL",
+      "distanceFromIndianapolisMiles": 230,
+      "status": "announced",
+      "registrationUrl": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+      "officialUrl": "https://www.fastendurance.com/marc",
+      "categories": [
+        "Preliminary Men Cat 4",
+        "Preliminary Men Cat 5",
+        "Preliminary Masters 40+ / 50+",
+        "Final field grouping pending"
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "relevanceScore": 78,
+      "relevanceTags": [
+        "MARC",
+        "Road race",
+        "Cat 4",
+        "Masters 40+"
+      ],
+      "notes": "Registration page names Stillman Valley; organizer still says venue to be announced. Confirm location before travel. Series-pass registration opens December 1, 2026.",
+      "sources": [
+        {
+          "name": "FA.S.T Endurance · 2027 series",
+          "url": "https://www.fastendurance.com/marc",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "name": "RunSignup · 2027 series",
+          "url": "https://runsignup.com/Race/IL/GardenPrairie/MARC",
+          "checkedAt": "2026-11-16"
         }
       ]
     }

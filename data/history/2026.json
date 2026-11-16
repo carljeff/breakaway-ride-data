@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-16T12:39:59.422Z",
+  "generatedAt": "2026-11-16T14:55:59.453Z",
   "rides": [
+    {
+      "id": "ride_64ad39b22827d8cf4e55",
+      "date": "2026-11-16",
+      "startTime": "2026-11-16T13:11:02Z",
+      "startTimeLocal": "2026-11-16T08:11:02Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Novanta",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 5475,
+      "elapsedSeconds": 5475,
+      "distanceMeters": 32301,
+      "elevationGainMeters": 1074,
+      "power": {
+        "averageWatts": 164,
+        "maxWatts": 305,
+        "normalizedWatts": 197,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 137,
+        "maxBpm": 164
+      },
+      "cadence": {
+        "averageRpm": 78,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3a7a42cefb814fd6e3eb",
+        "name": "Novanta"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_64ad39b22827d8cf4e55"
+    },
     {
       "id": "ride_88ece88a53e699b52cbe",
       "date": "2026-11-15",
@@ -4947,7 +4982,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 139,
+  "count": 140,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

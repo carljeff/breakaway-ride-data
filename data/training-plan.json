@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-10T14:29:22.939Z",
+  "updatedAt": "2026-11-16T15:24:57.431Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -635,56 +635,56 @@
         "startDate": "2026-11-23",
         "endDate": "2026-11-29",
         "label": "Durability + Attacks · Trial Week 3",
-        "emphasis": "Build spring road-race durability and repeatable threshold surges; Friday is a useful hard training race, not an A-priority event. Protect illness recovery and adjust load to execution.",
-        "rideTarget": 4,
-        "qualitySessions": 3,
+        "emphasis": "Threshold + Repeatability consolidation: maintain sustainable power, keep short efforts controlled, and reduce extra volume after frequent riding.",
+        "rideTarget": 3,
+        "qualitySessions": 2,
         "workouts": [
           {
             "day": "MON",
-            "title": "Long sweet spot · durability",
-            "detail": "65–80 min total: warm up 10–15 min; 2×25 min at 225–230 W, 5 min easy between; cool down. Keep controlled and smooth; no maximal finish.",
-            "kind": "hard",
-            "rideExpected": true
+            "title": "Rest / mobility",
+            "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
+            "kind": "recovery",
+            "rideExpected": false
           },
           {
             "day": "TUE",
-            "title": "Threshold with attacks",
-            "detail": "55–65 min total: warm up 12–15 min; 3×8 min blocks: repeat 2 min at 235–245 W followed by 20 sec at 335–345 W three times per block, then easy to finish each block as needed; 5 min easy between blocks; cool down. Keep recoveries controlled; reduce volume if Monday fatigue prevents good quality.",
+            "title": "Threshold durability · 2×15",
+            "detail": "60 min: 12 min progressive warm-up at 125–180 W; 2×15 min at 229–239 W (93–97% of FTP 246 W), 5 min at 120–145 W between; 13 min cooldown at 105–135 W. Hold steady; use 224–229 W if recovery is poor.",
             "kind": "hard",
             "rideExpected": true
           },
           {
             "day": "WED",
-            "title": "Aerobic endurance",
-            "detail": "60 min steady endurance, 145–170 W, conversational, no added attacks. Shorten or ease off if fatigue is excessive.",
+            "title": "Aerobic repeatability · controlled surges",
+            "detail": "60 min: 12 min at 125–155 W; 4×(2 min at 210–225 W, 30 sec at 300–325 W, 3:30 at 120–140 W); 16 min at 145–165 W; 8 min cooldown at 105–130 W. Keep submaximal. Replace the repeat set with easy endurance if Tuesday fatigue persists.",
             "kind": "steady",
             "rideExpected": true
           },
           {
             "day": "THU",
-            "title": "Recovery",
-            "detail": "Rest by default, or 20–30 min very easy spin if beneficial. No heavy lower-body strength.",
+            "title": "Rest / mobility",
+            "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
             "kind": "recovery",
             "rideExpected": false
           },
           {
             "day": "FRI",
-            "title": "Zwift race · training stimulus",
-            "detail": "Race hard when recovered, treating the race as training for Fat & Skinny Tire Fest rather than a weekly A-event. No routine taper required; choose a less intense alternative if illness or fatigue is abnormal.",
+            "title": "Zwift race simulation",
+            "detail": "60 min: 12 min progressive warm-up at 130–185 W including 3×10 sec at 280–320 W with 50 sec easy; ~40 min useful race; 8 min cooldown at 105–130 W. No fixed race watts: protect position, close gaps early, select moves, and launch earlier than instinct. If unwell or unusually fatigued, replace racing with 60 min easy endurance.",
             "kind": "key",
             "rideExpected": true
           },
           {
             "day": "SAT",
             "title": "Family day",
-            "detail": "No scheduled training",
+            "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
             "kind": "family",
             "rideExpected": false
           },
           {
             "day": "SUN",
             "title": "Family day",
-            "detail": "No scheduled training",
+            "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
             "kind": "family",
             "rideExpected": false
           }

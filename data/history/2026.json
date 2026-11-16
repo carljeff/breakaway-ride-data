@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-14T13:40:39.795Z",
+  "generatedAt": "2026-11-16T12:39:59.422Z",
   "rides": [
+    {
+      "id": "ride_88ece88a53e699b52cbe",
+      "date": "2026-11-15",
+      "startTime": "2026-11-15T12:28:37Z",
+      "startTimeLocal": "2026-11-15T07:28:37Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Recovery Day",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 1700,
+      "elapsedSeconds": 1700,
+      "distanceMeters": 10248,
+      "elevationGainMeters": 61,
+      "power": {
+        "averageWatts": 58,
+        "maxWatts": 270,
+        "normalizedWatts": 69,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 84,
+        "maxBpm": 118
+      },
+      "cadence": {
+        "averageRpm": 77,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_287b9a65835c02d2a151",
+        "name": "Recovery Day"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_88ece88a53e699b52cbe"
+    },
     {
       "id": "ride_d365a0c17e2bdf2a9371",
       "date": "2026-11-14",
@@ -4912,7 +4947,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 138,
+  "count": 139,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

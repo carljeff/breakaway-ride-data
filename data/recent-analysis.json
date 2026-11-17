@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-16T14:55:54.459Z",
+    "generatedAt": "2026-11-17T14:58:03.836Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-16T13:11:02Z",
+    "asOfRideDate": "2026-11-17T13:14:20Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -35,6 +35,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_6117c722a6803454a38e",
+          "date": "2026-11-17",
+          "name": "Zwift - SST 3x10",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 6,
+            "source": "power_stream_inference",
+            "confidence": "medium",
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_64ad39b22827d8cf4e55",
           "date": "2026-11-16",
@@ -375,24 +393,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_6e31c5e9173604e75960",
-          "date": "2026-10-26",
-          "name": "Zwift - Sweet Spot Ramps - 30min",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 6,
-            "source": "strava_laps",
-            "confidence": "high",
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -406,12 +406,12 @@
           "recent": {
             "rideCount": 14,
             "bestWatts": 388,
-            "medianRideBestWatts": 256
+            "medianRideBestWatts": 248
           },
           "previous": {
             "rideCount": 6,
             "bestWatts": 551,
-            "medianRideBestWatts": 238
+            "medianRideBestWatts": 245
           },
           "bestChangePercent": -29.6,
           "direction": "declining",
@@ -424,12 +424,12 @@
           "recent": {
             "rideCount": 14,
             "bestWatts": 295,
-            "medianRideBestWatts": 231
+            "medianRideBestWatts": 228
           },
           "previous": {
             "rideCount": 6,
             "bestWatts": 309,
-            "medianRideBestWatts": 238
+            "medianRideBestWatts": 245
           },
           "bestChangePercent": -4.5,
           "direction": "declining",
@@ -447,7 +447,7 @@
           "previous": {
             "rideCount": 6,
             "bestWatts": 257,
-            "medianRideBestWatts": 212
+            "medianRideBestWatts": 218
           },
           "bestChangePercent": 5.1,
           "direction": "improving",
@@ -460,6 +460,36 @@
       "averageRideHeartRateBpm": 135,
       "highestObservedHeartRateBpm": 178,
       "comparableIntervalResponses": [
+        {
+          "rideId": "ride_6117c722a6803454a38e",
+          "date": "2026-11-17",
+          "name": "Zwift - SST 3x10",
+          "comparison": {
+            "firstIntervalNumber": 4,
+            "lastIntervalNumber": 6,
+            "durationSeconds": 605,
+            "firstAverageWatts": 228,
+            "lastAverageWatts": 226,
+            "powerChangePercent": -0.9,
+            "firstAverageHeartRateBpm": 152,
+            "lastAverageHeartRateBpm": 160,
+            "heartRateChangeBpm": 8,
+            "heartRateDriftPercent": 5.3
+          },
+          "recoveryHeartRateCoverage": {
+            "available": 0,
+            "total": 6,
+            "percent": 0
+          },
+          "dataQuality": {
+            "intervalBoundarySource": "power_stream_inference",
+            "boundaryConfidence": "medium",
+            "classification": "derived from power",
+            "targetsAvailable": false,
+            "comparisonConfidence": "limited",
+            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
+          }
+        },
         {
           "rideId": "ride_3713644ee698ccc6994e",
           "date": "2026-11-11",
@@ -549,36 +579,6 @@
             "comparisonConfidence": "medium",
             "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
           }
-        },
-        {
-          "rideId": "ride_6e31c5e9173604e75960",
-          "date": "2026-10-26",
-          "name": "Zwift - Sweet Spot Ramps - 30min",
-          "comparison": {
-            "firstIntervalNumber": 4,
-            "lastIntervalNumber": 6,
-            "durationSeconds": 600,
-            "firstAverageWatts": 213,
-            "lastAverageWatts": 214,
-            "powerChangePercent": 0.5,
-            "firstAverageHeartRateBpm": 148,
-            "lastAverageHeartRateBpm": 151,
-            "heartRateChangeBpm": 3,
-            "heartRateDriftPercent": 2
-          },
-          "recoveryHeartRateCoverage": {
-            "available": 1,
-            "total": 6,
-            "percent": 17
-          },
-          "dataQuality": {
-            "intervalBoundarySource": "strava_laps",
-            "boundaryConfidence": "high",
-            "classification": "derived from power",
-            "targetsAvailable": false,
-            "comparisonConfidence": "medium",
-            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
-          }
         }
       ]
     },
@@ -588,19 +588,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-26",
-          "week": "Threshold + Repeatability · Week 4",
-          "title": "Sweet Spot Ramps · completed",
-          "prescription": "71 min completed · 188 W normalized power · 223 W for 10 min. Controlled sweet-spot work that felt easy with reserve, so it counts as this week's first ride without adding extra volume.",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_6e31c5e9173604e75960",
-            "name": "Zwift - Sweet Spot Ramps - 30min",
-            "durationSeconds": 4275
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-10-28",
           "week": "Threshold + Repeatability · Week 4",
@@ -734,6 +721,19 @@
             "id": "ride_db3c657e5ce8929cbc63",
             "name": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (B)",
             "durationSeconds": 2908
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-17",
+          "week": "Durability + Attacks · Trial Week 2",
+          "title": "Threshold durability",
+          "prescription": "60 min: 12 min at 125–180 W; 3×10 min at 226–236 W, 4 min at 120–145 W between; 10 min at 110–135 W. Start low and hold even power.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_6117c722a6803454a38e",
+            "name": "Zwift - SST 3x10",
+            "durationSeconds": 3054
           },
           "targetAssessment": null
         }

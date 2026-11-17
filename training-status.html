@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Breakaway | Training Status</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:dark;background:#0b1720;color:#eaf2f4}*{box-sizing:border-box}body{margin:0;padding:24px;max-width:1100px;margin:auto}a{color:#8bd8db}header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}h1{font-size:clamp(1.7rem,4vw,2.5rem);margin:8px 0}h2{font-size:1.1rem}p{line-height:1.5;color:#b6c9d0}.muted,small{color:#9fb3bd}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:22px 0}.card,.panel{border:1px solid #2a424d;background:#142630;border-radius:15px;padding:20px}.metric{font-size:2rem;font-weight:700}.status{font-size:1.55rem;font-weight:700;color:#9be3d0}.panel{margin:16px 0}svg{width:100%;height:auto;display:block}button{background:#244650;color:#eaf2f4;border:1px solid #46646d;padding:9px 14px;border-radius:9px;cursor:pointer}button[aria-pressed=true]{background:#327d79}button:focus-visible{outline:3px solid #9be3d0}#error{color:#ffb6a9}table{width:100%;border-collapse:collapse}td,th{padding:9px;text-align:left;border-bottom:1px solid #29414b}th{color:#a6c1ca}footer{margin:28px 0;color:#9fb3bd;font-size:.86rem} .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem}.line{display:inline-block;width:20px;height:3px;vertical-align:middle;margin-right:5px}.green{background:#6bd6b4}.orange{background:#ffbf78}.zero{background:#8fa3af}
+</style></head><body>
+<header><div><small>BREAKAWAY / PERFORMANCE</small><h1>Training status</h1></div><a href="./">Ride data home</a></header>
+<p>Long-term training load, fatigue and performance signals. Calculated from privacy-filtered Strava ride history; not Garmin Training Status or a medical measure.</p>
+<div id="error" role="alert"></div>
+<section class="cards" aria-label="Current metrics">
+<div class="card"><small>Estimated status</small><div id="status" class="status">Loading…</div><p id="reason"></p></div>
+<div class="card"><small>42-day fitness (CTL)</small><div id="ctl" class="metric">—</div><small>Estimated stress points/day</small></div>
+<div class="card"><small>7-day fatigue (ATL)</small><div id="atl" class="metric">—</div><small>Estimated stress points/day</small></div>
+<div class="card"><small>Form (CTL − ATL)</small><div id="form" class="metric">—</div><small>Not a direct readiness measurement</small></div>
+</section>
+<section class="panel"><header><h2>Fitness and fatigue history</h2><div id="range"><button data-days="42" aria-pressed="false">6 weeks</button> <button data-days="90" aria-pressed="false">3 months</button> <button data-days="365" aria-pressed="true">12 months</button></div></header><div class="legend"><span><i class="line green"></i>Fitness (42d)</span><span><i class="line orange"></i>Fatigue (7d)</span><span><i class="line zero"></i>Form = difference</span></div><svg id="chart" viewBox="0 0 900 340" role="img" aria-label="Training fitness and fatigue over time"></svg><p id="coverage"></p></section>
+<section class="panel"><h2>Recent training weeks</h2><div style="overflow-x:auto"><table><thead><tr><th>Week starting</th><th>Rides</th><th>Estimated stress</th><th>Coverage</th></tr></thead><tbody id="weeks"></tbody></table></div></section>
+<section class="panel"><h2>How this works</h2><p>For rides with normalized power and duration, estimated TSS = hours × (normalized power / FTP)² × 100. Uses dated FTP observations where available. These are <strong>estimates</strong>, not recorded TSS: normalized power from a full ride may include cooldowns and can misrepresent intervals or races. Missing power or FTP stays missing, not zero.</p><p>Fitness and fatigue are exponentially weighted daily stress estimates with 42- and 7-day time constants. Form is their difference. Classification is deliberately conservative: missing history, changing FTP, or incomplete coverage can produce an <strong>Insufficient data</strong> label. Improving and peaking require performance validation and are not inferred from load alone. Possible excessive load is a caution, not a diagnosis of overtraining.</p><p id="updated"></p></section>
+<footer>Read-only dashboard. No training-plan, FTP, or source data changes. Ride dates are interpreted in the Breakaway local date.</footer>
+<script>
+(async()=>{
+const $=id=>document.getElementById(id), day=86400000;
+const dateKey=d=>d.toISOString().slice(0,10);
+const today=new Date();today.setUTCHours(0,0,0,0);
+const start=new Date(today.getTime()-455*day);
+try{
+ const [index,plan]=await Promise.all([fetch('data/history/index.json').then(r=>{if(!r.ok)throw Error('History index unavailable');return r.json()}),fetch('data/training-plan.json').then(r=>r.json())]);
+ const fileList=index.files||[];
+ const years=[...new Set(fileList.map(f=>f.year))].filter(y=>y>=start.getUTCFullYear()&&y<=today.getUTCFullYear());
+ const results=await Promise.all(years.map(y=>fetch(fileList.find(f=>f.year===y).url).then(r=>{if(!r.ok)throw Error('Missing year '+y);return r.json()})));
+ const rides=results.flatMap(x=>x.rides||[]);
+ const ftpInfo=plan.plan?.block?.ftp||plan.block?.ftp||{};
+ const ftpHistory=(ftpInfo.history||[]).filter(x=>Number.isFinite(x.watts)&&x.date).sort((a,b)=>a.date.localeCompare(b.date));
+ const ftpAt=d=>{const known=ftpHistory.filter(x=>x.date<=d);return known.length?known[known.length-1].watts:null};
+ const daily=new Map(), totals=new Map();
+ for(const r of rides){if(!r.date||r.date<dateKey(start)||r.date>dateKey(today))continue;
+ const d=r.date, p=r.power?.normalizedWatts, ftp=ftpAt(d), hrs=r.durationSeconds/3600;
+ const valid=Number.isFinite(p)&&p>0&&Number.isFinite(hrs)&&hrs>0&&hrs<24&&ftp>0;
+ const row=daily.get(d)||{stress:0,rides:0,valid:0};row.rides++;
+ if(valid){row.valid++;row.stress+=hrs*Math.pow(p/ftp,2)*100;}daily.set(d,row);
+ }
+ let ctl=0,atl=0,observed=0,missing=0,points=[];
+ for(let ms=start.getTime();ms<=today.getTime();ms+=day){
+ const date=dateKey(new Date(ms)),row=daily.get(date)||{stress:0,rides:0,valid:0};
+ observed+=row.valid;missing+=row.rides-row.valid;
+ ctl+=(row.stress-ctl)*(1-Math.exp(-1/42));atl+=(row.stress-atl)*(1-Math.exp(-1/7));
+ points.push({date,ctl,atl,form:ctl-atl,rides:row.rides,valid:row.valid,stress:row.stress});
+ }
+ const recent=points.slice(-42),recentRides=recent.reduce((s,p)=>s+p.rides,0),recentValid=recent.reduce((s,p)=>s+p.valid,0);
+ const historyDays=points.findIndex(p=>p.rides>0);const effectiveDays=historyDays<0?0:points.length-historyDays;
+ const current=points.at(-1),prev=points.at(-29);
+ const enough=effectiveDays>=84&&recentRides>=8&&recentValid/recentRides>=.85;
+ let status='Insufficient data',reason='At least 12 weeks of history and reliable power coverage are needed for a load-based assessment.';
+ if(enough){const ratio=current.ctl>1?current.atl/current.ctl:0;
+ if(ratio>1.5&&current.atl>20){status='Elevated fatigue';reason='Recent load is substantially above your longer-term baseline. Check recovery and performance before adding intensity.';}
+ else if(current.ctl<prev.ctl*.88){status='Reduced training load';reason='Estimated long-term load is declining. This may be recovery or detraining; performance data is needed to distinguish them.';}
+ else if(current.form>5&&current.ctl>prev.ctl*.95){status='Recovering';reason='Short-term load is below long-term load. This can support freshness, but does not prove a peak.';}
+ else {status='Maintaining / building';reason='Training load is relatively stable or building without an extreme short-term spike. Performance improvement is not yet verified.';}
+ }
+ $('status').textContent=status;$('reason').textContent=reason;
+ $('ctl').textContent=current.ctl.toFixed(1);$('atl').textContent=current.atl.toFixed(1);$('form').textContent=(current.form>0?'+':'')+current.form.toFixed(1);
+ $('coverage').textContent='History loaded: '+rides.length+' rides; '+observed+' with estimated stress, '+missing+' missing required inputs. Last 42 days: '+recentValid+'/'+recentRides+' rides usable.';
+ $('updated').textContent='History index generated: '+(index.generatedAt||'unknown')+'. FTP observations available: '+ftpHistory.length+'.';
+ function render(n){const subset=points.slice(-n),svg=$('chart');const W=900,H=340,L=48,R=15,T=22,B=38;const max=Math.max(10,...subset.map(p=>Math.max(p.ctl,p.atl)))*1.12;
+ const x=i=>L+i*(W-L-R)/Math.max(1,subset.length-1),y=v=>H-B-v/max*(H-T-B);
+ const path=k=>subset.map((p,i)=>(i?'L':'M')+x(i).toFixed(1)+','+y(p[k]).toFixed(1)).join(' ');
+ let markup='';for(let i=0;i<=4;i++){const v=max*i/4,yy=y(v);markup+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+yy+'" y2="'+yy+'" stroke="#304751"/><text x="4" y="'+(yy+4)+'" fill="#9fb3bd" font-size="13">'+v.toFixed(0)+'</text>';}
+ markup+='<path d="'+path('ctl')+'" stroke="#6bd6b4" stroke-width="3" fill="none"/><path d="'+path('atl')+'" stroke="#ffbf78" stroke-width="3" fill="none"/>';
+ for(let i=0;i<4;i++){const idx=Math.round(i*(subset.length-1)/3);markup+='<text x="'+x(idx)+'" y="'+(H-8)+'" text-anchor="middle" fill="#9fb3bd" font-size="13">'+subset[idx].date.slice(5)+'</text>';}
+ svg.innerHTML=markup;svg.setAttribute('aria-label','Fitness '+current.ctl.toFixed(1)+' and fatigue '+current.atl.toFixed(1)+' over '+n+' days');
+ document.querySelectorAll('#range button').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.days===n)));
+ }
+ document.querySelectorAll('#range button').forEach(b=>b.addEventListener('click',()=>render(+b.dataset.days)));render(365);
+ const weeks=[];for(let end=points.length;end>0&&weeks.length<12;end-=7){const a=points.slice(Math.max(0,end-7),end);weeks.push({date:a[0].date,rides:a.reduce((s,p)=>s+p.rides,0),valid:a.reduce((s,p)=>s+p.valid,0),stress:a.reduce((s,p)=>s+p.stress,0)});}
+ $('weeks').innerHTML=weeks.map(w=>'<tr><td>'+w.date+'</td><td>'+w.rides+'</td><td>'+Math.round(w.stress)+'</td><td>'+w.valid+'/'+w.rides+'</td></tr>').join('');
+}catch(e){$('error').textContent='Could not load training history: '+e.message; $('status').textContent='Unavailable';}
+})();
+</script></body></html>

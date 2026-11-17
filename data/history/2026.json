@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-16T14:55:59.453Z",
+  "generatedAt": "2026-11-17T15:28:21.055Z",
   "rides": [
+    {
+      "id": "ride_6117c722a6803454a38e",
+      "date": "2026-11-17",
+      "startTime": "2026-11-17T13:14:20Z",
+      "startTimeLocal": "2026-11-17T08:14:20Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - SST 3x10",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3054,
+      "elapsedSeconds": 3054,
+      "distanceMeters": 32473,
+      "elevationGainMeters": 51,
+      "power": {
+        "averageWatts": 193,
+        "maxWatts": 242,
+        "normalizedWatts": 204,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 144,
+        "maxBpm": 164
+      },
+      "cadence": {
+        "averageRpm": 81,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_aec2fa8b7d32b7c3816f",
+        "name": "SST 3x10"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_6117c722a6803454a38e"
+    },
     {
       "id": "ride_64ad39b22827d8cf4e55",
       "date": "2026-11-16",
@@ -4982,7 +5017,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 140,
+  "count": 141,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

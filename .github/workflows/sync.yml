@@ -59,3 +59,21 @@ jobs:
           git add data/latest.json data/recent.json data/pebble-calories.json
           git diff --cached --quiet || git commit -m "Update Breakaway ride data"
           git push
+
+      - name: Trigger private Garmin collection
+        if: github.event_name == 'schedule' && steps.eastern.outputs.is_ten == 'true'
+        continue-on-error: true
+        env:
+          GARMIN_SYNC_SECRET: ${{ secrets.GARMIN_SYNC_SECRET }}
+        run: |
+          if [ -z "$GARMIN_SYNC_SECRET" ]; then
+            echo "::warning::Garmin sync is not configured."
+            exit 0
+          fi
+          if ! curl --fail --silent --show-error --max-time 120 \
+            --request POST --header "Authorization: Bearer $GARMIN_SYNC_SECRET" \
+            --output /dev/null \
+            "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/profile/garmin"; then
+            echo "::warning::Private Garmin collection did not complete."
+            exit 1
+          fi

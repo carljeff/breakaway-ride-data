@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-18T13:47:04.667Z",
+    "generatedAt": "2026-11-19T14:19:28.823Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-18T13:13:34Z",
+    "asOfRideDate": "2026-11-19T13:14:07Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -26,7 +26,7 @@
         "powerSummaryPercent": 100,
         "heartRatePercent": 100,
         "keyPowerDurationsPercent": 95,
-        "structuredIntervalDetectionPercent": 80
+        "structuredIntervalDetectionPercent": 75
       },
       "warnings": [
         "1 ride(s) lack at least one 30-second, 2-minute, or 10-minute power value.",
@@ -35,6 +35,24 @@
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_656eb47108766e1b9da6",
+          "date": "2026-11-19",
+          "name": "Zwift - Watts the Limit in New York",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_76faf6147b1ea794ae0b",
           "date": "2026-11-18",
@@ -375,24 +393,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_5aa55e6cf2de9385c344",
-          "date": "2026-10-28",
-          "name": "Zwift - 5 x 6 Threshold",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 10,
-            "source": "strava_laps",
-            "confidence": "high",
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -405,15 +405,15 @@
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
             "rideCount": 14,
-            "bestWatts": 519,
-            "medianRideBestWatts": 256
+            "bestWatts": 538,
+            "medianRideBestWatts": 284
           },
           "previous": {
             "rideCount": 6,
             "bestWatts": 551,
             "medianRideBestWatts": 256
           },
-          "bestChangePercent": -5.8,
+          "bestChangePercent": -2.4,
           "direction": "declining",
           "quality": "good"
         },
@@ -424,12 +424,12 @@
           "recent": {
             "rideCount": 14,
             "bestWatts": 295,
-            "medianRideBestWatts": 233
+            "medianRideBestWatts": 236
           },
           "previous": {
             "rideCount": 6,
             "bestWatts": 309,
-            "medianRideBestWatts": 245
+            "medianRideBestWatts": 235
           },
           "bestChangePercent": -4.5,
           "direction": "declining",
@@ -447,7 +447,7 @@
           "previous": {
             "rideCount": 6,
             "bestWatts": 257,
-            "medianRideBestWatts": 218
+            "medianRideBestWatts": 189
           },
           "bestChangePercent": 5.1,
           "direction": "improving",
@@ -457,7 +457,7 @@
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 136,
+      "averageRideHeartRateBpm": 134,
       "highestObservedHeartRateBpm": 178,
       "comparableIntervalResponses": [
         {
@@ -549,77 +549,15 @@
             "comparisonConfidence": "medium",
             "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
           }
-        },
-        {
-          "rideId": "ride_5aa55e6cf2de9385c344",
-          "date": "2026-10-28",
-          "name": "Zwift - 5 x 6 Threshold",
-          "comparison": {
-            "firstIntervalNumber": 2,
-            "lastIntervalNumber": 10,
-            "durationSeconds": 180,
-            "firstAverageWatts": 244,
-            "lastAverageWatts": 244,
-            "powerChangePercent": 0,
-            "firstAverageHeartRateBpm": 155,
-            "lastAverageHeartRateBpm": 167,
-            "heartRateChangeBpm": 12,
-            "heartRateDriftPercent": 7.7
-          },
-          "recoveryHeartRateCoverage": {
-            "available": 0,
-            "total": 10,
-            "percent": 0
-          },
-          "dataQuality": {
-            "intervalBoundarySource": "strava_laps",
-            "boundaryConfidence": "high",
-            "classification": "derived from power",
-            "targetsAvailable": false,
-            "comparisonConfidence": "medium",
-            "note": "Interval measurements are compared only when duration and power are similar. Classification remains derived unless workout targets are reported by the source."
-          }
         }
       ]
     },
     "workoutCompliance": {
-      "scheduledRideDays": 11,
-      "scheduledRideDaysWithRide": 11,
+      "scheduledRideDays": 10,
+      "scheduledRideDaysWithRide": 10,
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-28",
-          "week": "Threshold + Repeatability · Week 4",
-          "title": "Road to Sky · near-threshold climbing",
-          "prescription": "About 65–75 min: 10 min progressive warm-up at 130–175 W; 3×10 min at 223–228 W (95–97% FTP), with 4 min easy at 120–145 W; continue toward the Alpe summit at 165–190 W, then 5 min easy. If the badge attempt runs longer, prioritize steady completion over forcing extra intensity.",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_5aa55e6cf2de9385c344",
-            "name": "Zwift - 5 x 6 Threshold",
-            "durationSeconds": 5019
-          },
-          "targetAssessment": {
-            "status": "not_assessable",
-            "prescription": {
-              "intervalCount": 3,
-              "intervalMinutes": 10,
-              "minPercent": 95,
-              "maxPercent": 97,
-              "ftpWatts": 235,
-              "targetWatts": {
-                "min": 223,
-                "max": 228
-              },
-              "targetSeconds": 1800
-            },
-            "matchingIntervals": [],
-            "completedTargetSeconds": 0,
-            "completionPercent": null,
-            "confidence": "limited",
-            "note": "The available interval boundaries do not match the prescribed interval duration, so compliance was not inferred."
-          }
-        },
         {
           "date": "2026-10-30",
           "week": "Threshold + Repeatability · Week 4",

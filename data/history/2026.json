@@ -1,8 +1,43 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-18T13:47:08.843Z",
+  "generatedAt": "2026-11-19T14:19:32.395Z",
   "rides": [
+    {
+      "id": "ride_656eb47108766e1b9da6",
+      "date": "2026-11-19",
+      "startTime": "2026-11-19T13:14:07Z",
+      "startTimeLocal": "2026-11-19T08:14:07Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Watts the Limit in New York",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3516,
+      "elapsedSeconds": 3516,
+      "distanceMeters": 32552,
+      "elevationGainMeters": 209,
+      "power": {
+        "averageWatts": 141,
+        "maxWatts": 868,
+        "normalizedWatts": 176,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 128,
+        "maxBpm": 171
+      },
+      "cadence": {
+        "averageRpm": 82,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_7259d213b7db887ba637",
+        "name": "Watts the Limit"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_656eb47108766e1b9da6"
+    },
     {
       "id": "ride_76faf6147b1ea794ae0b",
       "date": "2026-11-18",
@@ -5052,7 +5087,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 142,
+  "count": 143,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

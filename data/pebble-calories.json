@@ -1,15 +1,22 @@
 {
   "schemaVersion": 1,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "workouts": [
     {
-      "id": "ride_656eb47108766e1b9da6",
-      "start": "2026-11-19T13:14:07.000Z",
-      "end": "2026-11-19T14:12:43.000Z",
-      "calories": 496,
+      "id": "ride_78bdffdcb5d7c33555e4",
+      "start": "2026-11-20T12:58:15.000Z",
+      "end": "2026-11-20T13:04:45.000Z",
+      "calories": 43,
+      "source": "power_estimate"
+    },
+    {
+      "id": "ride_3e2a92e6c79605008dcc",
+      "start": "2026-11-20T13:11:15.000Z",
+      "end": "2026-11-20T14:04:34.000Z",
+      "calories": 566,
       "source": "power_estimate"
     }
   ],
-  "cyclingCalories": 496,
+  "cyclingCalories": 609,
   "accuracyNote": "power_estimate calories are approximations, not Apple Health active energy"
 }

@@ -1,8 +1,78 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "generatedAt": "2026-11-19T14:19:32.395Z",
+  "generatedAt": "2026-11-20T14:09:50.143Z",
   "rides": [
+    {
+      "id": "ride_3e2a92e6c79605008dcc",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T13:11:15Z",
+      "startTimeLocal": "2026-11-20T08:11:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 3199,
+      "elapsedSeconds": 3199,
+      "distanceMeters": 29078,
+      "elevationGainMeters": 267,
+      "power": {
+        "averageWatts": 177,
+        "maxWatts": 548,
+        "normalizedWatts": 220,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 150,
+        "maxBpm": 174
+      },
+      "cadence": {
+        "averageRpm": 85,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_2f7952f7709fcea59d58",
+        "name": "Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_3e2a92e6c79605008dcc"
+    },
+    {
+      "id": "ride_78bdffdcb5d7c33555e4",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T12:58:15Z",
+      "startTimeLocal": "2026-11-20T07:58:15Z",
+      "timezone": "America/Indiana/Indianapolis",
+      "name": "Zwift - Pacer Group Ride with Jacques",
+      "indoor": true,
+      "sportType": "VirtualRide",
+      "source": "Zwift",
+      "durationSeconds": 390,
+      "elapsedSeconds": 390,
+      "distanceMeters": 3419,
+      "elevationGainMeters": 21,
+      "power": {
+        "averageWatts": 109,
+        "maxWatts": 328,
+        "normalizedWatts": 131,
+        "normalizedWattsSource": "Strava weighted average"
+      },
+      "heartRate": {
+        "averageBpm": 108,
+        "maxBpm": 137
+      },
+      "cadence": {
+        "averageRpm": 80,
+        "maxRpm": null
+      },
+      "route": {
+        "id": "route_3a952fbfe3cc20d312f4",
+        "name": "Pacer Group Ride with Jacques"
+      },
+      "classification": null,
+      "sourceActivityIdHash": "activity_78bdffdcb5d7c33555e4"
+    },
     {
       "id": "ride_656eb47108766e1b9da6",
       "date": "2026-11-19",
@@ -5087,7 +5157,7 @@
       "sourceActivityIdHash": "activity_4716ae18d893fcc9f239"
     }
   ],
-  "count": 143,
+  "count": 145,
   "privacy": {
     "gpsCoordinatesIncluded": false,
     "routeTraceIncluded": false,

@@ -8,10 +8,10 @@
   },
   "analysis": {
     "schemaVersion": "1.0",
-    "generatedAt": "2026-11-19T14:19:28.823Z",
+    "generatedAt": "2026-11-20T14:09:46.947Z",
     "analysisMode": "read_only",
     "autoPlanChangesEnabled": false,
-    "asOfRideDate": "2026-11-19T13:14:07Z",
+    "asOfRideDate": "2026-11-20T13:11:15Z",
     "guardrails": {
       "phase": "Phase 1",
       "automaticWorkoutAdjustments": false,
@@ -25,16 +25,51 @@
       "coverage": {
         "powerSummaryPercent": 100,
         "heartRatePercent": 100,
-        "keyPowerDurationsPercent": 95,
+        "keyPowerDurationsPercent": 90,
         "structuredIntervalDetectionPercent": 75
       },
       "warnings": [
-        "1 ride(s) lack at least one 30-second, 2-minute, or 10-minute power value.",
+        "2 ride(s) lack at least one 30-second, 2-minute, or 10-minute power value.",
         "1 structured-looking ride(s) had no reliable interval boundaries; none were fabricated.",
         "Workout-step targets are not supplied by Strava; target compliance is reconstructed from the training prescription and labeled accordingly.",
         "The training-plan file is mutable; schedule matching compares rides with its current contents and is not an immutable record of what was prescribed at ride time."
       ],
       "rides": [
+        {
+          "rideId": "ride_3e2a92e6c79605008dcc",
+          "date": "2026-11-20",
+          "name": "Zwift - Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m",
+            "10m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
+        {
+          "rideId": "ride_78bdffdcb5d7c33555e4",
+          "date": "2026-11-20",
+          "name": "Zwift - Pacer Group Ride with Jacques",
+          "powerSummary": true,
+          "heartRate": true,
+          "powerTrendDurations": [
+            "30s",
+            "2m"
+          ],
+          "intervals": {
+            "count": 0,
+            "source": "none",
+            "confidence": null,
+            "targetsAvailable": false
+          }
+        },
         {
           "rideId": "ride_656eb47108766e1b9da6",
           "date": "2026-11-19",
@@ -357,42 +392,6 @@
             "confidence": null,
             "targetsAvailable": false
           }
-        },
-        {
-          "rideId": "ride_21239b137113a0682baf",
-          "date": "2026-10-30",
-          "name": "Zwift - Race: Stage 4 - Race - Tour of Watopia 2026 (B)",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
-        },
-        {
-          "rideId": "ride_23130e32b4183d81ac81",
-          "date": "2026-10-29",
-          "name": "Morning Ride",
-          "powerSummary": true,
-          "heartRate": true,
-          "powerTrendDurations": [
-            "30s",
-            "2m",
-            "10m"
-          ],
-          "intervals": {
-            "count": 0,
-            "source": "none",
-            "confidence": null,
-            "targetsAvailable": false
-          }
         }
       ]
     },
@@ -404,17 +403,17 @@
           "label": "30s",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 14,
+            "rideCount": 15,
             "bestWatts": 538,
-            "medianRideBestWatts": 284
+            "medianRideBestWatts": 281
           },
           "previous": {
-            "rideCount": 6,
-            "bestWatts": 551,
-            "medianRideBestWatts": 256
+            "rideCount": 5,
+            "bestWatts": 326,
+            "medianRideBestWatts": 245
           },
-          "bestChangePercent": -2.4,
-          "direction": "declining",
+          "bestChangePercent": 65,
+          "direction": "improving",
           "quality": "good"
         },
         {
@@ -422,17 +421,17 @@
           "label": "2m",
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
-            "rideCount": 14,
-            "bestWatts": 295,
+            "rideCount": 15,
+            "bestWatts": 290,
             "medianRideBestWatts": 236
           },
           "previous": {
-            "rideCount": 6,
-            "bestWatts": 309,
-            "medianRideBestWatts": 235
+            "rideCount": 5,
+            "bestWatts": 295,
+            "medianRideBestWatts": 225
           },
-          "bestChangePercent": -4.5,
-          "direction": "declining",
+          "bestChangePercent": -1.7,
+          "direction": "stable",
           "quality": "good"
         },
         {
@@ -441,23 +440,23 @@
           "comparison": "most recent 14 days vs preceding 14 days",
           "recent": {
             "rideCount": 13,
-            "bestWatts": 270,
+            "bestWatts": 262,
             "medianRideBestWatts": 224
           },
           "previous": {
-            "rideCount": 6,
-            "bestWatts": 257,
-            "medianRideBestWatts": 189
+            "rideCount": 5,
+            "bestWatts": 270,
+            "medianRideBestWatts": 200
           },
-          "bestChangePercent": 5.1,
-          "direction": "improving",
+          "bestChangePercent": -3,
+          "direction": "declining",
           "quality": "good"
         }
       ]
     },
     "heartRate": {
       "ridesWithHeartRate": 20,
-      "averageRideHeartRateBpm": 134,
+      "averageRideHeartRateBpm": 133,
       "highestObservedHeartRateBpm": 178,
       "comparableIntervalResponses": [
         {
@@ -558,19 +557,6 @@
       "scheduleRidePresencePercent": 100,
       "interpretation": "A ride on a planned date confirms ride presence, not necessarily prescription compliance. Target compliance is reported separately only when assessable.",
       "sessions": [
-        {
-          "date": "2026-10-30",
-          "week": "Threshold + Repeatability · Week 4",
-          "title": "Zwift race simulation · under training load",
-          "prescription": "About 60 min: 10 min progressive warm-up with 3×10 sec high-cadence openers; 45–55 min race; 5 min cool-down. Stay economical, make one committed move, and launch earlier than instinct—the go-zone opens near 0.5 mi. Upper-B RoboPacer for 60 min is the fallback.",
-          "status": "ride_recorded",
-          "matchedRide": {
-            "id": "ride_21239b137113a0682baf",
-            "name": "Zwift - Race: Stage 4 - Race - Tour of Watopia 2026 (B)",
-            "durationSeconds": 3565
-          },
-          "targetAssessment": null
-        },
         {
           "date": "2026-11-03",
           "week": "Threshold + Repeatability · Week 5",
@@ -685,6 +671,19 @@
             "id": "ride_76faf6147b1ea794ae0b",
             "name": "Zwift - Pacer Group Ride with Jacques",
             "durationSeconds": 1521
+          },
+          "targetAssessment": null
+        },
+        {
+          "date": "2026-11-20",
+          "week": "Durability + Attacks · Trial Week 2",
+          "title": "Zwift race simulation",
+          "prescription": "About 60 min: 12 min at 130–180 W including 3×10 sec at 280–320 W separated by 50 sec easy; choose ~40 min race; 8 min at 105–130 W. Draft when possible; use 2 min at 265–290 W or 30 sec at 320–360 W only when tactically useful. No mandatory extra efforts.",
+          "status": "ride_recorded",
+          "matchedRide": {
+            "id": "ride_3e2a92e6c79605008dcc",
+            "name": "Zwift - Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)",
+            "durationSeconds": 3199
           },
           "targetAssessment": null
         }

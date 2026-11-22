@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: sync-breakaway-rides
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -21,26 +21,82 @@ jobs:
     steps:
       - name: Check Eastern time
         id: eastern
+        env:
+          EVENT_CRON: ${{ github.event.schedule }}
         run: |
-          if [ "$(TZ=America/New_York date +%H)" = "10" ]; then
+          offset="$(TZ=America/Indiana/Indianapolis date +%z)"
+          if [[ "$offset:$EVENT_CRON" == "-0400:0 14 * * *" || "$offset:$EVENT_CRON" == "-0500:0 15 * * *" ]]; then
             echo "is_ten=true" >> "$GITHUB_OUTPUT"
           else
             echo "is_ten=false" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/checkout@v4
         if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
+      - name: Import Strava activities into Breakaway
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
+        env:
+          BREAKAWAY_SCHEDULER_SECRET: ${{ secrets.GARMIN_SYNC_SECRET }}
+        run: |
+          set -euo pipefail
+          if [ -z "$BREAKAWAY_SCHEDULER_SECRET" ]; then
+            echo "::error::Breakaway scheduler secret is not configured."
+            exit 1
+          fi
+          status="$(curl --silent --show-error --max-time 120 --output /dev/null --write-out '%{http_code}' \
+            --request POST --header "Authorization: Bearer $BREAKAWAY_SCHEDULER_SECRET" \
+            "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/strava/sync")"
+          if [ "$status" != 200 ]; then
+            echo "::error::Breakaway Strava import returned HTTP $status."
+            exit 1
+          fi
       - name: Fetch privacy-filtered ride data
         if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
         run: |
           mkdir -p data
-          curl --fail --silent --show-error --retry 3 \
+          curl --fail --silent --show-error --retry 3 --header 'Cache-Control: no-cache' \
             "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/chat/rides/latest" \
             --output data/latest.json
-          curl --fail --silent --show-error --retry 3 \
+          curl --fail --silent --show-error --retry 3 --header 'Cache-Control: no-cache' \
             "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/chat/rides/recent?limit=20" \
             --output data/recent.json
           jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/latest.json >/dev/null
           jq -e '.privacy.gpsCoordinatesIncluded == false and .privacy.routeTraceIncluded == false and .privacy.credentialsIncluded == false' data/recent.json >/dev/null
+      - name: Refresh history and analysis
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
+        run: |
+          set -euo pipefail
+          base="https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/chat/rides"
+          mkdir -p data/history
+          tmp="$(mktemp -d)"
+          trap 'rm -rf "$tmp"' EXIT
+          fetch_safe() {
+            curl --fail --silent --show-error --max-time 120 --retry 2 --header 'Cache-Control: no-cache' "${base}$1" --output "$2"
+            jq -e '.privacy | .gpsCoordinatesIncluded == false and .routeTraceIncluded == false and .credentialsIncluded == false' "$2" >/dev/null
+          }
+          fetch_safe '/history/index' "$tmp/index.json"
+          expected="$(jq -r '.ride.id // empty' data/latest.json)"
+          if [ -n "$expected" ]; then
+            expected_date="$(jq -r '.ride.startTime[0:10]' data/latest.json)"
+            jq -e --arg day "$expected_date" '.latestRideDate == $day' "$tmp/index.json" >/dev/null
+            jq -e --arg id "$expected" '.rides[0].id == $id' data/recent.json >/dev/null
+          fi
+          jq -e '(.availableYears | type == "array") and (.totalActivities >= 0)' "$tmp/index.json" >/dev/null
+          while read -r year; do
+            [[ "$year" =~ ^[0-9]{4}$ ]]
+            fetch_safe "/history/$year" "$tmp/$year.json"
+            jq -e --argjson year "$year" '.year == $year and .count == (.rides|length) and ([.rides[].id]|length == (unique|length))' "$tmp/$year.json" >/dev/null
+            destination="data/history/$year.json"
+            if ! diff -q <(jq -S 'del(.generatedAt)' "$tmp/$year.json") <(jq -S 'del(.generatedAt)' "$destination" 2>/dev/null) >/dev/null; then
+              mv "$tmp/$year.json" "$destination"
+            fi
+          done < <(jq -r '.availableYears[]' "$tmp/index.json")
+          if [ -n "$expected" ]; then
+            jq -e --arg id "$expected" '.rides[0].id == $id' "data/history/${expected_date:0:4}.json" >/dev/null
+          fi
+          fetch_safe '/analysis?limit=20&windowDays=14' data/recent-analysis.json
+          jq -e '.analysis.analysisMode == "read_only" and .analysis.autoPlanChangesEnabled == false' data/recent-analysis.json >/dev/null
+          fetch_safe '/climbing-stats' data/climbing-stats.json
+          mv "$tmp/index.json" data/history/index.json
       - name: Test Pebble calorie feed generator
         if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
         run: |
@@ -56,9 +112,28 @@ jobs:
         run: |
           git config user.name "breakaway-data-bot"
           git config user.email "breakaway-data-bot@users.noreply.github.com"
-          git add data/latest.json data/recent.json data/pebble-calories.json
+          git add data/latest.json data/recent.json data/pebble-calories.json data/history data/recent-analysis.json data/climbing-stats.json
           git diff --cached --quiet || git commit -m "Update Breakaway ride data"
           git push
+
+      - name: Record relay publication
+        if: github.event_name == 'workflow_dispatch' || steps.eastern.outputs.is_ten == 'true'
+        continue-on-error: true
+        env:
+          BREAKAWAY_SCHEDULER_SECRET: ${{ secrets.GARMIN_SYNC_SECRET }}
+        run: |
+          set -euo pipefail
+          if [ -z "$BREAKAWAY_SCHEDULER_SECRET" ]; then
+            echo "::error::Breakaway scheduler secret is not configured."
+            exit 1
+          fi
+          status="$(curl --silent --show-error --max-time 120 --output /dev/null --write-out '%{http_code}' \
+            --request POST --header "Authorization: Bearer $BREAKAWAY_SCHEDULER_SECRET" \
+            "https://jeffs-cycling-progress.carl-jeff.chatgpt.site/api/strava/sync?published=1")"
+          if [ "$status" != 200 ]; then
+            echo "::error::Breakaway relay acknowledgement returned HTTP $status."
+            exit 1
+          fi
 
       - name: Trigger private Garmin collection
         if: github.event_name == 'schedule' && steps.eastern.outputs.is_ten == 'true'

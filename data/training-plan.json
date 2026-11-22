@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-16T15:24:57.431Z",
+  "updatedAt": "2026-11-22T20:34:03.204Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -635,16 +635,16 @@
         "startDate": "2026-11-23",
         "endDate": "2026-11-29",
         "label": "Durability + Attacks · Trial Week 3",
-        "emphasis": "Threshold + Repeatability consolidation: maintain sustainable power, keep short efforts controlled, and reduce extra volume after frequent riding.",
-        "rideTarget": 3,
+        "emphasis": "Four-ride week: controlled Monday sweet spot, Tuesday threshold durability, Wednesday aerobic repeatability, Friday Zwift race. Keep Monday submaximal to protect Tuesday quality.",
+        "rideTarget": 4,
         "qualitySessions": 2,
         "workouts": [
           {
             "day": "MON",
-            "title": "Rest / mobility",
-            "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
-            "kind": "recovery",
-            "rideExpected": false
+            "title": "Controlled sweet spot · aerobic durability",
+            "detail": "55–60 min: 12 min progressive warm-up at 120–165 W; 2×12 min at 209–221 W (85–90% of FTP 246 W), with 5 min easy at 120–140 W between; finish with easy endurance/cooldown. Keep submaximal; substitute 45–60 min easy Z2 if fatigued to protect Tuesday.",
+            "kind": "steady",
+            "rideExpected": true
           },
           {
             "day": "TUE",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-23T03:01:45.582Z",
+  "updatedAt": "2026-11-23T15:11:13.701Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -701,6 +701,65 @@
             "day": "SUN",
             "title": "Family day",
             "detail": "No ride. No heavy lower-body work Thursday; optional upper/core only.",
+            "kind": "family",
+            "rideExpected": false
+          }
+        ]
+      },
+      {
+        "startDate": "2026-11-30",
+        "endDate": "2026-12-06",
+        "label": "Threshold + Repeatability · Consolidation / lighter week",
+        "emphasis": "Three weekday rides; absorb recent load before progressing. FTP 246 W. No physiological readiness score verified.",
+        "rideTarget": 3,
+        "qualitySessions": 2,
+        "workouts": [
+          {
+            "day": "MON",
+            "title": "Rest / optional upper-core",
+            "detail": "No ride. Optional light upper-body/core; avoid leg soreness.",
+            "kind": "recovery",
+            "rideExpected": false
+          },
+          {
+            "day": "TUE",
+            "title": "Threshold consolidation · 2×12",
+            "detail": "60 min: 12 min warm-up at 120–180 W; 2×12 min at 226–234 W (92–95% FTP), 5 min recovery at 115–140 W; 14 min Z2 at 145–165 W; 5 min cooldown at 100–125 W. Controlled rather than maximal after the recent frequency and long climbing rides.",
+            "kind": "hard",
+            "rideExpected": true
+          },
+          {
+            "day": "WED",
+            "title": "Aerobic repeatability",
+            "detail": "60 min: 12 min warm-up at 120–155 W; 3×(2 min at 246–258 W, 30 sec at 320–345 W, 5:30 recovery at 115–140 W); 19 min Z2 at 145–165 W; 5 min cooldown at 100–125 W. Submaximal repeatability; if Tuesday lingers replace repetitions with easy Z2. Move this ride to Monday only if recovered, keeping Thursday ride-free.",
+            "kind": "steady",
+            "rideExpected": true
+          },
+          {
+            "day": "THU",
+            "title": "Rest",
+            "detail": "No ride or heavy legs. Mobility or upper/core only.",
+            "kind": "recovery",
+            "rideExpected": false
+          },
+          {
+            "day": "FRI",
+            "title": "Zwift race simulation",
+            "detail": "About 60 min: 12 min warm-up at 125–185 W including 3×10 sec at 280–320 W with 50 sec easy; choose ~40 min race; 8 min cooldown at 100–130 W. No fixed race-power targets. Protect draft, close gaps early, choose moves, launch earlier than instinct near 0.5 mi remaining. If unusually fatigued, substitute easy endurance rather than force racing.",
+            "kind": "key",
+            "rideExpected": true
+          },
+          {
+            "day": "SAT",
+            "title": "Family / travel day",
+            "detail": "No ride.",
+            "kind": "family",
+            "rideExpected": false
+          },
+          {
+            "day": "SUN",
+            "title": "Family / travel day",
+            "detail": "No ride.",
             "kind": "family",
             "rideExpected": false
           }

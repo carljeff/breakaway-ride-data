@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-16T15:24:55.332Z",
+  "updatedAt": "2026-11-23T15:11:16.212Z",
   "homeBase": "Indianapolis, IN",
   "preferences": {
     "includedTypes": [
@@ -50,7 +50,7 @@
         {
           "name": "Kosciusko County Velo",
           "url": "https://kcvcycling.org/events/fat-skinny-tire-fest/",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "Kosciusko County Velo · preliminary schedule",
@@ -58,7 +58,7 @@
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceTags": [
         "A-event",
         "Indiana",
@@ -104,7 +104,7 @@
         {
           "name": "Indy Cycloplex · Track",
           "url": "https://indycycloplex.com/track",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "BikeReg · 2026 event overview",
@@ -112,7 +112,7 @@
           "checkedAt": "2026-11-09"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceTags": [
         "Major Taylor Velodrome",
         "Local",
@@ -149,7 +149,7 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/inkyroad",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "USA Cycling · State and Regional Championships",
@@ -172,7 +172,7 @@
         "INKY"
       ],
       "relevanceScore": 88,
-      "notes": "A strong category fit if it returns. Current official and registration pages still describe the 2026 edition; no 2027 date or registration is published.",
+      "notes": "A strong category fit if it returns. Current official and registration pages still describe the 2026 edition; no 2027 date or registration is published. Rechecked November 23: accessible evidence did not establish a 2027 edition; retain watching.",
       "historicalBasis": {
         "year": 2026,
         "details": "The Ewing championship offered Cat 4, Cat 5, Masters 40+, and 35+ 4/5 fields."
@@ -199,10 +199,10 @@
         {
           "name": "Northern Illinois Cycling Index",
           "url": "https://nicyc.com/",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceTags": [
         "Road race",
         "State championship",
@@ -254,7 +254,7 @@
         {
           "name": "FA.S.T Endurance · 2027 series",
           "url": "https://www.fastendurance.com/marc",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "RunSignup · 2027 series",
@@ -262,7 +262,7 @@
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceTags": [
         "Road race",
         "Cat 4",
@@ -299,7 +299,7 @@
         {
           "name": "BikeReg",
           "url": "https://www.bikereg.com/ohio-state-road-race-championship",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "USA Cycling · State and Regional Championships",
@@ -315,7 +315,7 @@
         "Midwest"
       ],
       "relevanceScore": 75,
-      "notes": "A farther but useful pure road race if it returns. Current pages remain tied to the 2026 event; no 2027 date or registration is published.",
+      "notes": "A farther but useful pure road race if it returns. Current pages remain tied to the 2026 event; no 2027 date or registration is published. Rechecked November 23: accessible evidence did not establish a 2027 edition; retain watching.",
       "historicalBasis": {
         "year": 2026,
         "details": "The 2026 event offered Masters 35+ and Cat 4/5 road-race fields."
@@ -337,7 +337,7 @@
       "categories": [
         "2027 fields TBD"
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceScore": 85,
       "relevanceTags": [
         "Spring tune-up",
@@ -353,7 +353,7 @@
         {
           "name": "RacePenguin · 2026 event",
           "url": "https://racepenguin.com/events/battle-of-bluelicks/",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "BikeReg · past edition",
@@ -386,7 +386,7 @@
         "Preliminary Masters 40+ / 50+",
         "Final field grouping pending"
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceScore": 79,
       "relevanceTags": [
         "MARC",
@@ -399,7 +399,7 @@
         {
           "name": "FA.S.T Endurance · 2027 series",
           "url": "https://www.fastendurance.com/marc",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "RunSignup · 2027 series",
@@ -427,7 +427,7 @@
         "Preliminary Masters 40+ / 50+",
         "Final field grouping pending"
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-23",
       "relevanceScore": 78,
       "relevanceTags": [
         "MARC",
@@ -440,7 +440,7 @@
         {
           "name": "FA.S.T Endurance · 2027 series",
           "url": "https://www.fastendurance.com/marc",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-23"
         },
         {
           "name": "RunSignup · 2027 series",

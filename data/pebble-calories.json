@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "date": "2026-11-22",
-  "workouts": [],
-  "cyclingCalories": 0,
+  "date": "2026-11-23",
+  "workouts": [
+    {
+      "id": "ride_29ca46bd22b288ad3348",
+      "start": "2026-11-23T13:06:31.000Z",
+      "end": "2026-11-23T14:32:38.000Z",
+      "calories": 858,
+      "source": "power_estimate"
+    }
+  ],
+  "cyclingCalories": 858,
   "accuracyNote": "power_estimate calories are approximations, not Apple Health active energy"
 }

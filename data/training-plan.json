@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "updatedAt": "2026-11-22T20:34:03.204Z",
+  "updatedAt": "2026-11-23T03:01:45.582Z",
   "timezone": "America/Indiana/Indianapolis",
   "season": {
     "goal": "Fat & Skinny Tire Fest 2027",
@@ -644,7 +644,23 @@
             "title": "Controlled sweet spot · aerobic durability",
             "detail": "55–60 min: 12 min progressive warm-up at 120–165 W; 2×12 min at 209–221 W (85–90% of FTP 246 W), with 5 min easy at 120–140 W between; finish with easy endurance/cooldown. Keep submaximal; substitute 45–60 min easy Z2 if fatigued to protect Tuesday.",
             "kind": "steady",
-            "rideExpected": true
+            "rideExpected": true,
+            "zwiftWorkout": {
+              "name": "Sweet Spot Ramps - 30min",
+              "source": "What's on Zwift",
+              "sourceUrl": "https://whatsonzwift.com/workouts/zwift-racing-plan/week-0-prep-2-sweet-spot-ramps-30min",
+              "durationMinutes": 55,
+              "description": "Three progressive 10-minute sweet-spot ramps with 5-minute recoveries; use Zwift workout intensity approximately 95% to keep Monday controlled ahead of Tuesday threshold.",
+              "matchQuality": "acceptable",
+              "matchReason": "Provides 30 minutes of progressive sweet-spot work within approximately 55 minutes, but differs from prescribed 2×12 min at 85–90% FTP and reaches higher intensity; lower workout intensity to approximately 95% and avoid overreaching.",
+              "mainSet": "3×10 min progressive ramps (~85–95% FTP at full intensity), 5 min recovery; use ~95% workout intensity",
+              "targetFtpPercent": {
+                "min": 81,
+                "max": 90
+              },
+              "stressPoints": 61,
+              "notes": "The prescribed Monday 2×12 min at 85–90% FTP remains the authority. This is an alternative Zwift workout; reduce intensity or choose easy endurance if fatigued."
+            }
           },
           {
             "day": "TUE",
